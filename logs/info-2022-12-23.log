@@ -1,0 +1,45 @@
+[2022-12-23 10:45:02,364] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-23 10:45:02,364] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-23 10:45:02,366] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-23 10:48:19,368] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-23 10:48:19,368] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-23 10:48:19,368] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-23 10:49:06,357] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-23 10:49:06,357] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-23 10:49:06,357] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-23 10:49:47,692] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-23 10:49:47,692] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-23 10:49:47,708] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-23 10:52:24,309] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-23 10:52:24,310] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-23 10:52:24,311] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-23 11:21:23,620] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-23 11:21:23,621] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-23 11:21:23,623] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-23 19:28:36,024] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-23 19:28:36,024] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-23 19:28:36,024] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-23 19:28:45,247] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-23 19:28:45,247] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-23 19:28:45,247] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-23 19:30:37,283] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-23 19:30:37,283] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-23 19:30:37,283] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-23 19:34:02,572] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-23 19:34:02,573] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-23 19:34:02,575] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-23 19:38:44,317] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-23 19:40:36,003] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-23 19:40:36,003] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-23 19:40:36,003] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-23 20:00:14,194] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-23 20:01:10,160] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-23 20:05:45,212] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-23 20:06:40,488] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-23 20:08:58,977] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-23 20:11:13,865] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-23 20:11:17,938] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-23 20:12:14,486] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-23 20:13:23,079] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-23 20:19:36,945] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-23 20:21:25,090] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True

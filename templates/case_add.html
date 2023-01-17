@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block title %}case{% endblock %}
+{% block content %}
+<form action="/cases/" method="post">
+  {%csrf_token%}
+  <p>用例名: <input type="text" name="name" /></p>
+  <p>路径: <input type="text" name="url" /></p>
+    <p>请求方法: <input type="text" name="method" /></p>
+    <p>查询参数: <input type="text" name="url_params" /></p>
+    <p>请求body: <input type="text" name="body_params" /></p>
+    <p>上传文件: <input type="text" name="file" /></p>
+    <p>返回码: <input type="text" name="code" /></p>
+    <p>返回整体值（不变）: <input type="text" name="unchange" /></p>
+    <p>返回某一参数（非0非空参数）: <input type="text" name="change" /></p>
+    <p>用例描述: <input type="text" name="information" /></p>
+  <input type="submit" value="提交" />
+</form>
+{% endblock %}

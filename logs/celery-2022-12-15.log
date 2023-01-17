@@ -1,0 +1,126 @@
+[2022-12-15 11:12:11,388] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-15 11:12:23,805] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-15 11:12:23,805] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-15 11:12:23,805] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-15 11:55:23,644] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [29.74, 127.0.0.1:50309]
+[2022-12-15 11:55:24,927] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /cases/
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\backends\base\base.py", line 282, in ensure_connection
+    self.connect()
+  File "D:\pythonList\web_python310\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\backends\base\base.py", line 263, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "D:\pythonList\web_python310\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\backends\mysql\base.py", line 247, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\connections.py", line 353, in __init__
+    self.connect()
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\connections.py", line 633, in connect
+    self._request_authentication()
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\connections.py", line 907, in _request_authentication
+    auth_packet = self._read_packet()
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "D:\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "D:\Python310\lib\concurrent\futures\thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py", line 452, in get
+    page = self.paginate_queryset(queryset)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\generics.py", line 171, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\pagination.py", line 204, in paginate_queryset
+    self.page = paginator.page(page_number)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\paginator.py", line 75, in page
+    number = self.validate_number(number)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\paginator.py", line 53, in validate_number
+    if number > self.num_pages:
+  File "D:\pythonList\web_python310\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\paginator.py", line 102, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "D:\pythonList\web_python310\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\paginator.py", line 96, in count
+    return c()
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\query.py", line 621, in count
+    return self.query.get_count(using=self.db)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\sql\query.py", line 559, in get_count
+    return obj.get_aggregation(using, ["__count"])["__count"]
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\sql\query.py", line 544, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\sql\compiler.py", line 1396, in execute_sql
+    cursor = self.connection.cursor()
+  File "D:\pythonList\web_python310\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\backends\base\base.py", line 323, in cursor
+    return self._cursor()
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\backends\base\base.py", line 299, in _cursor
+    self.ensure_connection()
+  File "D:\pythonList\web_python310\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\backends\base\base.py", line 281, in ensure_connection
+    with self.wrap_database_errors:
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\backends\base\base.py", line 282, in ensure_connection
+    self.connect()
+  File "D:\pythonList\web_python310\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\backends\base\base.py", line 263, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "D:\pythonList\web_python310\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\backends\mysql\base.py", line 247, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\connections.py", line 353, in __init__
+    self.connect()
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\connections.py", line 633, in connect
+    self._request_authentication()
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\connections.py", line 907, in _request_authentication
+    auth_packet = self._read_packet()
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+django.db.utils.OperationalError: (2013, 'Lost connection to MySQL server during query')
+[2022-12-15 11:55:26,846] [runserver.py:160] [runserver:log_action] [ERROR]- HTTP GET /cases/ 500 [79.13, 127.0.0.1:50291]
+[2022-12-15 11:56:53,398] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.18, 127.0.0.1:50360]
+[2022-12-15 11:56:53,466] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.24, 127.0.0.1:50361]
+[2022-12-15 12:04:15,576] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.21, 127.0.0.1:50644]
+[2022-12-15 12:04:15,717] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.29, 127.0.0.1:50647]
+[2022-12-15 13:10:27,867] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.45, 127.0.0.1:53291]
+[2022-12-15 13:10:28,156] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.64, 127.0.0.1:53292]
+[2022-12-15 13:33:22,790] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.41, 127.0.0.1:54347]
+[2022-12-15 13:33:23,043] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.66, 127.0.0.1:54348]

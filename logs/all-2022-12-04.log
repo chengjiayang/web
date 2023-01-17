@@ -1,0 +1,405 @@
+[2022-12-04 11:29:55,659] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-04 11:30:38,575] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\myweb\settings.py changed, reloading.
+[2022-12-04 11:30:41,430] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-04 11:30:42,274] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-04 11:30:42,274] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-04 11:30:42,274] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-04 11:30:51,553] [log.py:222] [log:log_response] [WARNING]- Not Found: /
+[2022-12-04 11:30:51,553] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET / 404 [0.48, 127.0.0.1:51310]
+[2022-12-04 11:30:59,339] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin 301 [0.00, 127.0.0.1:51310]
+[2022-12-04 11:31:02,929] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/ 302 [0.08, 127.0.0.1:51310]
+[2022-12-04 11:31:03,584] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/login/?next=/admin/ 200 [0.64, 127.0.0.1:51310]
+[2022-12-04 11:31:03,883] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/admin/css/base.css 200 [0.28, 127.0.0.1:51310]
+[2022-12-04 11:31:03,898] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/admin/css/login.css 200 [0.30, 127.0.0.1:51311]
+[2022-12-04 11:31:03,914] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/admin/css/responsive.css 200 [0.31, 127.0.0.1:51326]
+[2022-12-04 11:31:03,945] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/admin/css/fonts.css 200 [0.00, 127.0.0.1:51326]
+[2022-12-04 11:31:04,086] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/admin/fonts/Roboto-Bold-webfont.woff 200 [0.08, 127.0.0.1:51326]
+[2022-12-04 11:31:04,195] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/admin/fonts/Roboto-Regular-webfont.woff 200 [0.19, 127.0.0.1:51310]
+[2022-12-04 11:31:04,242] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/admin/fonts/Roboto-Light-webfont.woff 200 [0.23, 127.0.0.1:51311]
+[2022-12-04 11:31:04,460] [log.py:222] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-12-04 11:31:04,460] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /favicon.ico 404 [0.02, 127.0.0.1:51311]
+[2022-12-04 11:31:13,454] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\backends\mysql\base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'test.auth_user' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\contrib\admin\sites.py", line 407, in login
+    return LoginView.as_view(**defaults)(request)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\decorators\debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\contrib\auth\views.py", line 63, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\generic\edit.py", line 141, in post
+    if form.is_valid():
+  File "D:\pythonList\web_python310\lib\site-packages\django\forms\forms.py", line 180, in is_valid
+    return self.is_bound and not self.errors
+  File "D:\pythonList\web_python310\lib\site-packages\django\forms\forms.py", line 175, in errors
+    self.full_clean()
+  File "D:\pythonList\web_python310\lib\site-packages\django\forms\forms.py", line 377, in full_clean
+    self._clean_form()
+  File "D:\pythonList\web_python310\lib\site-packages\django\forms\forms.py", line 404, in _clean_form
+    cleaned_data = self.clean()
+  File "D:\pythonList\web_python310\lib\site-packages\django\contrib\auth\forms.py", line 205, in clean
+    self.user_cache = authenticate(self.request, username=username, password=password)
+  File "D:\pythonList\web_python310\lib\site-packages\django\contrib\auth\__init__.py", line 72, in authenticate
+    user = backend.authenticate(request, **credentials)
+  File "D:\pythonList\web_python310\lib\site-packages\django\contrib\auth\backends.py", line 46, in authenticate
+    user = UserModel._default_manager.get_by_natural_key(username)
+  File "D:\pythonList\web_python310\lib\site-packages\django\contrib\auth\base_user.py", line 44, in get_by_natural_key
+    return self.get(**{self.model.USERNAME_FIELD: username})
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\query.py", line 411, in get
+    num = len(clone)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\query.py", line 258, in __len__
+    self._fetch_all()
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\sql\compiler.py", line 1137, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\backends\utils.py", line 81, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\backends\mysql\base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.ProgrammingError: (1146, "Table 'test.auth_user' doesn't exist")
+[2022-12-04 11:31:13,470] [runserver.py:160] [runserver:log_action] [ERROR]- HTTP POST /admin/login/?next=/admin/ 500 [0.60, 127.0.0.1:51310]
+[2022-12-04 11:31:43,329] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/login/?next=/admin/ 200 [0.03, 127.0.0.1:51310]
+[2022-12-04 11:31:43,470] [log.py:222] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-12-04 11:31:43,470] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /favicon.ico 404 [0.02, 127.0.0.1:51310]
+[2022-12-04 11:31:44,456] [log.py:222] [log:log_response] [WARNING]- Not Found: /
+[2022-12-04 11:31:44,456] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET / 404 [0.02, 127.0.0.1:51326]
+[2022-12-04 11:49:46,597] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-04 11:49:47,886] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-04 11:49:47,902] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-04 11:49:47,902] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-04 13:05:52,343] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-04 13:05:52,873] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-04 13:05:52,889] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-04 13:05:52,905] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-04 13:06:01,955] [log.py:222] [log:log_response] [WARNING]- Not Found: /
+[2022-12-04 13:06:01,963] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET / 404 [1.05, 127.0.0.1:54497]
+[2022-12-04 13:06:12,247] [log.py:222] [log:log_response] [WARNING]- Not Found: /
+[2022-12-04 13:06:12,248] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET / 404 [0.01, 127.0.0.1:54503]
+[2022-12-04 13:06:19,479] [log.py:222] [log:log_response] [WARNING]- Not Found: /
+[2022-12-04 13:06:19,482] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET / 404 [0.01, 127.0.0.1:54513]
+[2022-12-04 13:06:23,442] [log.py:222] [log:log_response] [WARNING]- Not Found: /jquery.min.js
+[2022-12-04 13:06:23,444] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /jquery.min.js 404 [0.01, 127.0.0.1:54515]
+[2022-12-04 13:06:23,578] [log.py:222] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-12-04 13:06:23,579] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /favicon.ico 404 [0.01, 127.0.0.1:54515]
+[2022-12-04 13:06:25,964] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin 301 [0.02, 127.0.0.1:54515]
+[2022-12-04 13:06:26,154] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/ 302 [0.19, 127.0.0.1:54515]
+[2022-12-04 13:06:27,403] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/login/?next=/admin/ 200 [1.23, 127.0.0.1:54515]
+[2022-12-04 13:06:27,710] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/admin/css/base.css 200 [0.27, 127.0.0.1:54515]
+[2022-12-04 13:06:27,759] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/admin/css/login.css 200 [0.32, 127.0.0.1:54516]
+[2022-12-04 13:06:27,833] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/admin/css/responsive.css 200 [0.39, 127.0.0.1:54517]
+[2022-12-04 13:06:27,840] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/admin/css/fonts.css 200 [0.09, 127.0.0.1:54520]
+[2022-12-04 13:06:27,853] [log.py:222] [log:log_response] [WARNING]- Not Found: /admin/login/jquery.min.js
+[2022-12-04 13:06:27,859] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /admin/login/jquery.min.js 404 [0.21, 127.0.0.1:54519]
+[2022-12-04 13:06:28,095] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/admin/fonts/Roboto-Regular-webfont.woff 200 [0.17, 127.0.0.1:54519]
+[2022-12-04 13:06:28,113] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/admin/fonts/Roboto-Light-webfont.woff 200 [0.18, 127.0.0.1:54517]
+[2022-12-04 13:06:33,579] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /admin/login/?next=/admin/ 200 [0.47, 127.0.0.1:54523]
+[2022-12-04 13:06:33,689] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/admin/fonts/Roboto-Bold-webfont.woff 200 [0.04, 127.0.0.1:54523]
+[2022-12-04 13:06:33,786] [log.py:222] [log:log_response] [WARNING]- Not Found: /admin/login/jquery.min.js
+[2022-12-04 13:06:33,789] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /admin/login/jquery.min.js 404 [0.01, 127.0.0.1:54523]
+[2022-12-04 13:06:38,394] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /admin/login/?next=/admin/ 200 [0.38, 127.0.0.1:54526]
+[2022-12-04 13:06:38,455] [log.py:222] [log:log_response] [WARNING]- Not Found: /admin/login/jquery.min.js
+[2022-12-04 13:06:38,457] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /admin/login/jquery.min.js 404 [0.02, 127.0.0.1:54526]
+[2022-12-04 13:13:40,408] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-04 13:13:40,876] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-04 13:13:40,876] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-04 13:13:40,876] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-04 13:13:48,201] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /admin/login/?next=/admin/ 200 [1.06, 127.0.0.1:54764]
+[2022-12-04 13:13:48,307] [log.py:222] [log:log_response] [WARNING]- Not Found: /admin/login/jquery.min.js
+[2022-12-04 13:13:48,309] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /admin/login/jquery.min.js 404 [0.04, 127.0.0.1:54764]
+[2022-12-04 13:13:59,074] [runserver.py:153] [runserver:log_action] [INFO]- HTTP POST /admin/login/?next=/admin/ 302 [0.42, 127.0.0.1:54770]
+[2022-12-04 13:13:59,197] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/ 200 [0.12, 127.0.0.1:54770]
+[2022-12-04 13:13:59,303] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/admin/css/dashboard.css 200 [0.06, 127.0.0.1:54770]
+[2022-12-04 13:13:59,422] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/admin/img/icon-addlink.svg 200 [0.11, 127.0.0.1:54770]
+[2022-12-04 13:13:59,428] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/admin/img/icon-changelink.svg 200 [0.12, 127.0.0.1:54775]
+[2022-12-04 13:13:59,598] [log.py:222] [log:log_response] [WARNING]- Not Found: /admin/jquery.min.js
+[2022-12-04 13:13:59,600] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /admin/jquery.min.js 404 [0.02, 127.0.0.1:54775]
+[2022-12-04 13:14:04,082] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/ 200 [0.20, 127.0.0.1:54778]
+[2022-12-04 13:14:04,183] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/admin/css/changelists.css 200 [0.04, 127.0.0.1:54778]
+[2022-12-04 13:14:04,220] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/admin/js/core.js 200 [0.08, 127.0.0.1:54783]
+[2022-12-04 13:14:04,294] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/admin/js/vendor/jquery/jquery.js 200 [0.15, 127.0.0.1:54781]
+[2022-12-04 13:14:04,343] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/admin/js/jquery.init.js 200 [0.20, 127.0.0.1:54782]
+[2022-12-04 13:14:04,384] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/admin/js/admin/RelatedObjectLookups.js 200 [0.24, 127.0.0.1:54784]
+[2022-12-04 13:14:04,397] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/admin/js/actions.js 200 [0.21, 127.0.0.1:54778]
+[2022-12-04 13:14:04,458] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/admin/js/urlify.js 200 [0.23, 127.0.0.1:54783]
+[2022-12-04 13:14:04,466] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/admin/js/prepopulate.js 200 [0.13, 127.0.0.1:54781]
+[2022-12-04 13:14:04,524] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.38, 127.0.0.1:54779]
+[2022-12-04 13:14:04,610] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/admin/js/vendor/xregexp/xregexp.js 200 [0.26, 127.0.0.1:54782]
+[2022-12-04 13:14:04,683] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/import_export/action_formats.js 200 [0.29, 127.0.0.1:54784]
+[2022-12-04 13:14:04,835] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/admin/img/search.svg 200 [0.09, 127.0.0.1:54784]
+[2022-12-04 13:14:04,887] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/admin/img/tooltag-add.svg 200 [0.01, 127.0.0.1:54784]
+[2022-12-04 13:14:04,956] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/jquery.min.js 301 [0.00, 127.0.0.1:54784]
+[2022-12-04 13:14:04,979] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/jquery.min.js/ 302 [0.02, 127.0.0.1:54784]
+[2022-12-04 13:14:05,007] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/jquery.min.js/change/ 302 [0.02, 127.0.0.1:54784]
+[2022-12-04 13:14:05,058] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/ 200 [0.05, 127.0.0.1:54784]
+[2022-12-04 13:14:07,793] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/add/ 200 [0.33, 127.0.0.1:54784]
+[2022-12-04 13:14:07,831] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/admin/css/forms.css 200 [0.01, 127.0.0.1:54784]
+[2022-12-04 13:14:07,895] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/admin/css/vendor/select2/select2.css 200 [0.06, 127.0.0.1:54779]
+[2022-12-04 13:14:07,928] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/admin/js/vendor/select2/select2.full.js 200 [0.09, 127.0.0.1:54783]
+[2022-12-04 13:14:07,965] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/admin/js/vendor/select2/i18n/zh-CN.js 200 [0.12, 127.0.0.1:54778]
+[2022-12-04 13:14:07,981] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/admin/css/autocomplete.css 200 [0.14, 127.0.0.1:54781]
+[2022-12-04 13:14:08,016] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/admin/js/inlines.js 200 [0.17, 127.0.0.1:54784]
+[2022-12-04 13:14:08,040] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/admin/css/widgets.css 200 [0.14, 127.0.0.1:54779]
+[2022-12-04 13:14:08,053] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.22, 127.0.0.1:54782]
+[2022-12-04 13:14:08,094] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/admin/js/autocomplete.js 200 [0.16, 127.0.0.1:54783]
+[2022-12-04 13:14:08,327] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/admin/js/change_form.js 200 [0.10, 127.0.0.1:54783]
+[2022-12-04 13:14:08,333] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/admin/js/prepopulate_init.js 200 [0.10, 127.0.0.1:54782]
+[2022-12-04 13:14:09,090] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/add/jquery.min.js 301 [0.00, 127.0.0.1:54793]
+[2022-12-04 13:14:09,118] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/add/jquery.min.js/ 302 [0.02, 127.0.0.1:54793]
+[2022-12-04 13:14:09,136] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/add/jquery.min.js/change/ 302 [0.01, 127.0.0.1:54793]
+[2022-12-04 13:14:09,182] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/ 200 [0.04, 127.0.0.1:54793]
+[2022-12-04 13:17:44,257] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/ 200 [0.11, 127.0.0.1:54899]
+[2022-12-04 13:17:44,327] [log.py:222] [log:log_response] [WARNING]- Not Found: /admin/saas/jquery.min.js
+[2022-12-04 13:17:44,330] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /admin/saas/jquery.min.js 404 [0.02, 127.0.0.1:54899]
+[2022-12-04 13:17:47,685] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/configs/ 200 [0.90, 127.0.0.1:54899]
+[2022-12-04 13:17:47,749] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:54899]
+[2022-12-04 13:17:48,872] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/configs/jquery.min.js 301 [0.03, 127.0.0.1:54899]
+[2022-12-04 13:17:49,362] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/configs/jquery.min.js/ 302 [0.02, 127.0.0.1:54899]
+[2022-12-04 13:17:49,442] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/configs/jquery.min.js/change/ 302 [0.01, 127.0.0.1:54899]
+[2022-12-04 13:17:49,701] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/ 200 [0.06, 127.0.0.1:54899]
+[2022-12-04 13:17:50,810] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/ 200 [0.04, 127.0.0.1:54899]
+[2022-12-04 13:17:52,554] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/project/ 200 [0.07, 127.0.0.1:54899]
+[2022-12-04 13:17:52,928] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:54899]
+[2022-12-04 13:17:56,456] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/project/jquery.min.js 301 [0.01, 127.0.0.1:54935]
+[2022-12-04 13:17:56,798] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/project/jquery.min.js/ 302 [0.02, 127.0.0.1:54935]
+[2022-12-04 13:17:56,970] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/project/jquery.min.js/change/ 302 [0.03, 127.0.0.1:54935]
+[2022-12-04 13:17:57,035] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/ 200 [0.05, 127.0.0.1:54935]
+[2022-12-04 13:21:14,472] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/ 200 [0.22, 127.0.0.1:55067]
+[2022-12-04 13:21:14,656] [log.py:222] [log:log_response] [WARNING]- Not Found: /admin/saas/jquery.min.js
+[2022-12-04 13:21:14,658] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /admin/saas/jquery.min.js 404 [0.14, 127.0.0.1:55067]
+[2022-12-04 13:21:15,901] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/ 200 [0.18, 127.0.0.1:55071]
+[2022-12-04 13:21:15,991] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.03, 127.0.0.1:55071]
+[2022-12-04 13:21:16,222] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/jquery.min.js/ 302 [0.02, 127.0.0.1:55071]
+[2022-12-04 13:21:16,331] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/jquery.min.js/change/ 302 [0.03, 127.0.0.1:55071]
+[2022-12-04 13:21:16,386] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/ 200 [0.05, 127.0.0.1:55071]
+[2022-12-04 13:21:19,309] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/add/ 200 [0.55, 127.0.0.1:55071]
+[2022-12-04 13:21:19,369] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.03, 127.0.0.1:55071]
+[2022-12-04 13:21:19,903] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/add/jquery.min.js/ 302 [0.01, 127.0.0.1:55082]
+[2022-12-04 13:21:19,923] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/add/jquery.min.js/change/ 302 [0.02, 127.0.0.1:55082]
+[2022-12-04 13:21:19,986] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/ 200 [0.06, 127.0.0.1:55082]
+[2022-12-04 13:22:22,614] [runserver.py:153] [runserver:log_action] [INFO]- HTTP POST /admin/saas/casenew/add/ 302 [0.31, 127.0.0.1:55120]
+[2022-12-04 13:22:23,226] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/ 200 [0.60, 127.0.0.1:55120]
+[2022-12-04 13:22:23,335] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.03, 127.0.0.1:55120]
+[2022-12-04 13:22:23,524] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/admin/img/icon-yes.svg 200 [0.12, 127.0.0.1:55120]
+[2022-12-04 13:22:23,770] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/jquery.min.js/ 302 [0.02, 127.0.0.1:55120]
+[2022-12-04 13:22:23,794] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/jquery.min.js/change/ 302 [0.02, 127.0.0.1:55120]
+[2022-12-04 13:22:24,071] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/ 200 [0.22, 127.0.0.1:55120]
+[2022-12-04 13:22:30,760] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/1/change/ 200 [1.74, 127.0.0.1:55132]
+[2022-12-04 13:22:30,852] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:55132]
+[2022-12-04 13:22:31,117] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/1/change/jquery.min.js 301 [0.01, 127.0.0.1:55132]
+[2022-12-04 13:22:31,156] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/1/change/jquery.min.js/ 302 [0.03, 127.0.0.1:55132]
+[2022-12-04 13:22:31,190] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/1/change/jquery.min.js/change/ 302 [0.03, 127.0.0.1:55132]
+[2022-12-04 13:22:31,244] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/ 200 [0.05, 127.0.0.1:55132]
+[2022-12-04 13:22:39,611] [runserver.py:153] [runserver:log_action] [INFO]- HTTP POST /admin/saas/casenew/1/change/ 302 [0.21, 127.0.0.1:55144]
+[2022-12-04 13:22:39,711] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/ 200 [0.09, 127.0.0.1:55144]
+[2022-12-04 13:22:39,770] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.03, 127.0.0.1:55144]
+[2022-12-04 13:22:39,924] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/jquery.min.js/ 302 [0.02, 127.0.0.1:55144]
+[2022-12-04 13:22:39,946] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/jquery.min.js/change/ 302 [0.02, 127.0.0.1:55144]
+[2022-12-04 13:22:40,011] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/ 200 [0.06, 127.0.0.1:55144]
+[2022-12-04 13:22:45,102] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/1/change/ 200 [0.26, 127.0.0.1:55157]
+[2022-12-04 13:22:45,162] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:55157]
+[2022-12-04 13:22:45,325] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/1/change/jquery.min.js/ 302 [0.03, 127.0.0.1:55157]
+[2022-12-04 13:22:45,344] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/1/change/jquery.min.js/change/ 302 [0.01, 127.0.0.1:55157]
+[2022-12-04 13:22:45,399] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/ 200 [0.05, 127.0.0.1:55157]
+[2022-12-04 13:35:24,355] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/1/change/ 200 [5.04, 127.0.0.1:55847]
+[2022-12-04 13:35:24,503] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:55847]
+[2022-12-04 13:35:25,787] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/1/change/jquery.min.js/ 302 [0.06, 127.0.0.1:55858]
+[2022-12-04 13:35:25,841] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/1/change/jquery.min.js/change/ 302 [0.05, 127.0.0.1:55858]
+[2022-12-04 13:35:25,918] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/ 200 [0.07, 127.0.0.1:55858]
+[2022-12-04 13:38:12,071] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/ 200 [0.11, 127.0.0.1:55959]
+[2022-12-04 13:38:12,306] [log.py:222] [log:log_response] [WARNING]- Not Found: /admin/saas/jquery.min.js
+[2022-12-04 13:38:12,308] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /admin/saas/jquery.min.js 404 [0.05, 127.0.0.1:55959]
+[2022-12-04 13:38:27,055] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/ 200 [0.17, 127.0.0.1:55969]
+[2022-12-04 13:38:27,266] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.03, 127.0.0.1:55969]
+[2022-12-04 13:38:27,554] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/jquery.min.js/ 302 [0.02, 127.0.0.1:55969]
+[2022-12-04 13:38:27,584] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/jquery.min.js/change/ 302 [0.03, 127.0.0.1:55969]
+[2022-12-04 13:38:27,645] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/ 200 [0.04, 127.0.0.1:55969]
+[2022-12-04 13:38:29,465] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/add/ 200 [0.37, 127.0.0.1:55969]
+[2022-12-04 13:38:29,888] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.39, 127.0.0.1:55969]
+[2022-12-04 13:38:30,099] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/add/jquery.min.js/ 302 [0.04, 127.0.0.1:55969]
+[2022-12-04 13:38:30,118] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/add/jquery.min.js/change/ 302 [0.01, 127.0.0.1:55969]
+[2022-12-04 13:38:30,169] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/ 200 [0.05, 127.0.0.1:55969]
+[2022-12-04 13:47:46,749] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/autocomplete/ 200 [0.19, 127.0.0.1:56256]
+[2022-12-04 14:07:12,156] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/add/ 200 [7.50, 127.0.0.1:57581]
+[2022-12-04 14:07:12,441] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:57581]
+[2022-12-04 14:07:15,356] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/add/jquery.min.js/ 302 [0.02, 127.0.0.1:57581]
+[2022-12-04 14:07:15,385] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/add/jquery.min.js/change/ 302 [0.03, 127.0.0.1:57581]
+[2022-12-04 14:07:18,238] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/ 200 [2.85, 127.0.0.1:57581]
+[2022-12-04 14:07:27,291] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/ 200 [2.50, 127.0.0.1:57608]
+[2022-12-04 14:07:27,521] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:57608]
+[2022-12-04 14:07:28,073] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/jquery.min.js/ 302 [0.01, 127.0.0.1:57618]
+[2022-12-04 14:07:28,091] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/jquery.min.js/change/ 302 [0.01, 127.0.0.1:57618]
+[2022-12-04 14:07:28,142] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/ 200 [0.05, 127.0.0.1:57618]
+[2022-12-04 14:07:31,873] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/1/change/ 200 [1.61, 127.0.0.1:57618]
+[2022-12-04 14:07:31,937] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:57618]
+[2022-12-04 14:07:32,385] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/1/change/jquery.min.js/ 302 [0.02, 127.0.0.1:57618]
+[2022-12-04 14:07:32,403] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/1/change/jquery.min.js/change/ 302 [0.01, 127.0.0.1:57618]
+[2022-12-04 14:07:32,451] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/ 200 [0.04, 127.0.0.1:57618]
+[2022-12-04 14:07:56,965] [runserver.py:153] [runserver:log_action] [INFO]- HTTP POST /admin/saas/casenew/1/change/ 302 [1.51, 127.0.0.1:57640]
+[2022-12-04 14:07:57,051] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/ 200 [0.08, 127.0.0.1:57640]
+[2022-12-04 14:07:57,206] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.10, 127.0.0.1:57640]
+[2022-12-04 14:07:57,386] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/jquery.min.js/ 302 [0.02, 127.0.0.1:57640]
+[2022-12-04 14:07:57,439] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/jquery.min.js/change/ 302 [0.05, 127.0.0.1:57640]
+[2022-12-04 14:07:57,523] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/ 200 [0.08, 127.0.0.1:57640]
+[2022-12-04 14:32:00,355] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-04 14:32:02,337] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-04 14:32:02,368] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-04 14:32:02,368] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-04 14:35:29,992] [log.py:222] [log:log_response] [WARNING]- Not Found: /
+[2022-12-04 14:35:29,994] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET / 404 [1.50, 127.0.0.1:49267]
+[2022-12-04 14:35:32,164] [log.py:222] [log:log_response] [WARNING]- Not Found: /jquery.min.js
+[2022-12-04 14:35:32,166] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /jquery.min.js 404 [0.01, 127.0.0.1:49274]
+[2022-12-04 14:35:32,243] [log.py:222] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-12-04 14:35:32,246] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /favicon.ico 404 [0.02, 127.0.0.1:49274]
+[2022-12-04 14:35:40,515] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/ 200 [0.84, 127.0.0.1:49277]
+[2022-12-04 14:35:40,681] [log.py:222] [log:log_response] [WARNING]- Not Found: /admin/jquery.min.js
+[2022-12-04 14:35:40,683] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /admin/jquery.min.js 404 [0.02, 127.0.0.1:49277]
+[2022-12-04 14:35:43,454] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/ 200 [0.42, 127.0.0.1:49281]
+[2022-12-04 14:35:43,736] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.15, 127.0.0.1:49281]
+[2022-12-04 14:35:44,120] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/jquery.min.js/ 302 [0.01, 127.0.0.1:49281]
+[2022-12-04 14:35:44,136] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/jquery.min.js/change/ 302 [0.01, 127.0.0.1:49281]
+[2022-12-04 14:35:44,179] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/ 200 [0.04, 127.0.0.1:49281]
+[2022-12-04 14:35:46,216] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/add/ 200 [0.36, 127.0.0.1:49293]
+[2022-12-04 14:35:46,265] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:49293]
+[2022-12-04 14:35:46,803] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/add/jquery.min.js/ 302 [0.03, 127.0.0.1:49293]
+[2022-12-04 14:35:46,820] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/add/jquery.min.js/change/ 302 [0.01, 127.0.0.1:49293]
+[2022-12-04 14:35:46,865] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/ 200 [0.04, 127.0.0.1:49293]
+[2022-12-04 14:35:56,729] [runserver.py:153] [runserver:log_action] [INFO]- HTTP POST /admin/saas/casenew/add/ 302 [0.09, 127.0.0.1:49306]
+[2022-12-04 14:35:56,819] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/ 200 [0.09, 127.0.0.1:49306]
+[2022-12-04 14:35:56,875] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:49306]
+[2022-12-04 14:35:57,024] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/jquery.min.js/ 302 [0.02, 127.0.0.1:49306]
+[2022-12-04 14:35:57,040] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/jquery.min.js/change/ 302 [0.01, 127.0.0.1:49306]
+[2022-12-04 14:35:57,088] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/ 200 [0.04, 127.0.0.1:49306]
+[2022-12-04 15:00:18,464] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-04 15:00:26,817] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-04 15:00:26,818] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-04 15:00:26,820] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-04 15:00:28,580] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/ 302 [0.58, 127.0.0.1:50469]
+[2022-12-04 15:00:33,779] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/login/?next=/admin/saas/casenew/ 200 [5.12, 127.0.0.1:50469]
+[2022-12-04 15:00:34,072] [log.py:222] [log:log_response] [WARNING]- Not Found: /admin/login/jquery.min.js
+[2022-12-04 15:00:34,074] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /admin/login/jquery.min.js 404 [0.05, 127.0.0.1:50469]
+[2022-12-04 15:00:34,359] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/login/?next=/admin/saas/casenew/ 200 [0.04, 127.0.0.1:50469]
+[2022-12-04 15:00:34,427] [log.py:222] [log:log_response] [WARNING]- Not Found: /admin/login/jquery.min.js
+[2022-12-04 15:00:34,429] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /admin/login/jquery.min.js 404 [0.02, 127.0.0.1:50469]
+[2022-12-04 15:00:40,457] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /admin/login/?next=/admin/saas/casenew/ 200 [0.41, 127.0.0.1:50481]
+[2022-12-04 15:00:40,585] [log.py:222] [log:log_response] [WARNING]- Not Found: /admin/login/jquery.min.js
+[2022-12-04 15:00:40,586] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /admin/login/jquery.min.js 404 [0.01, 127.0.0.1:50481]
+[2022-12-04 15:00:45,828] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /admin/login/?next=/admin/saas/casenew/ 200 [0.43, 127.0.0.1:50487]
+[2022-12-04 15:00:45,891] [log.py:222] [log:log_response] [WARNING]- Not Found: /admin/login/jquery.min.js
+[2022-12-04 15:00:45,893] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /admin/login/jquery.min.js 404 [0.02, 127.0.0.1:50487]
+[2022-12-04 15:00:49,840] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /admin/login/?next=/admin/saas/casenew/ 200 [0.36, 127.0.0.1:50492]
+[2022-12-04 15:00:49,894] [log.py:222] [log:log_response] [WARNING]- Not Found: /admin/login/jquery.min.js
+[2022-12-04 15:00:49,895] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /admin/login/jquery.min.js 404 [0.02, 127.0.0.1:50492]
+[2022-12-04 15:00:54,128] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/login 301 [0.01, 127.0.0.1:50492]
+[2022-12-04 15:00:54,193] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/login/ 200 [0.03, 127.0.0.1:50492]
+[2022-12-04 15:00:54,256] [log.py:222] [log:log_response] [WARNING]- Not Found: /admin/login/jquery.min.js
+[2022-12-04 15:00:54,257] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /admin/login/jquery.min.js 404 [0.03, 127.0.0.1:50492]
+[2022-12-04 15:01:00,031] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /admin/login/ 200 [0.39, 127.0.0.1:50501]
+[2022-12-04 15:01:00,083] [log.py:222] [log:log_response] [WARNING]- Not Found: /admin/login/jquery.min.js
+[2022-12-04 15:01:00,085] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /admin/login/jquery.min.js 404 [0.02, 127.0.0.1:50501]
+[2022-12-04 15:01:45,405] [runserver.py:153] [runserver:log_action] [INFO]- HTTP POST /admin/login/ 302 [0.39, 127.0.0.1:50531]
+[2022-12-04 15:01:45,478] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/ 200 [0.07, 127.0.0.1:50531]
+[2022-12-04 15:01:45,533] [log.py:222] [log:log_response] [WARNING]- Not Found: /admin/jquery.min.js
+[2022-12-04 15:01:45,535] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /admin/jquery.min.js 404 [0.02, 127.0.0.1:50531]
+[2022-12-04 15:01:48,379] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/ 200 [0.19, 127.0.0.1:50537]
+[2022-12-04 15:01:48,620] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.14, 127.0.0.1:50537]
+[2022-12-04 15:01:48,837] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/jquery.min.js/ 302 [0.02, 127.0.0.1:50537]
+[2022-12-04 15:01:48,854] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/jquery.min.js/change/ 302 [0.01, 127.0.0.1:50537]
+[2022-12-04 15:01:48,897] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/ 200 [0.04, 127.0.0.1:50537]
+[2022-12-04 15:01:53,331] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/add/ 200 [0.30, 127.0.0.1:50537]
+[2022-12-04 15:01:53,380] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:50537]
+[2022-12-04 15:01:53,694] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/add/jquery.min.js/ 302 [0.03, 127.0.0.1:50537]
+[2022-12-04 15:01:53,722] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/add/jquery.min.js/change/ 302 [0.02, 127.0.0.1:50537]
+[2022-12-04 15:01:53,769] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/ 200 [0.04, 127.0.0.1:50537]
+[2022-12-04 15:02:05,832] [runserver.py:153] [runserver:log_action] [INFO]- HTTP POST /admin/saas/casenew/add/ 302 [0.03, 127.0.0.1:50557]
+[2022-12-04 15:02:05,948] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/ 200 [0.11, 127.0.0.1:50557]
+[2022-12-04 15:02:05,988] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:50557]
+[2022-12-04 15:02:06,192] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/jquery.min.js/ 302 [0.01, 127.0.0.1:50563]
+[2022-12-04 15:02:06,208] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/jquery.min.js/change/ 302 [0.01, 127.0.0.1:50563]
+[2022-12-04 15:02:06,252] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/ 200 [0.04, 127.0.0.1:50563]
+[2022-12-04 16:34:41,886] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/ 200 [0.11, 127.0.0.1:51475]
+[2022-12-04 16:34:43,886] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.05, 127.0.0.1:51475]
+[2022-12-04 16:34:44,283] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/jquery.min.js/ 302 [0.01, 127.0.0.1:51475]
+[2022-12-04 16:34:44,299] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/jquery.min.js/change/ 302 [0.01, 127.0.0.1:51475]
+[2022-12-04 16:34:44,370] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/ 200 [0.06, 127.0.0.1:51475]
+[2022-12-04 17:47:58,240] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/ 200 [0.09, 127.0.0.1:51849]
+[2022-12-04 17:48:01,177] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.03, 127.0.0.1:51857]
+[2022-12-04 17:48:01,489] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/jquery.min.js/ 302 [0.01, 127.0.0.1:51857]
+[2022-12-04 17:48:01,508] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/jquery.min.js/change/ 302 [0.01, 127.0.0.1:51857]
+[2022-12-04 17:48:01,553] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/ 200 [0.04, 127.0.0.1:51857]

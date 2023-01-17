@@ -1,0 +1,1293 @@
+[2023-01-06 13:11:52,057] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 13:12:59,494] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2023-01-06 13:12:59,541] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-06 13:12:59,541] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2023-01-06 13:17:07,318] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [1.36, 127.0.0.1:49804]
+[2023-01-06 13:17:07,960] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [1.91, 127.0.0.1:49805]
+[2023-01-06 13:17:28,191] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project=37 200 [0.31, 127.0.0.1:49816]
+[2023-01-06 13:17:30,714] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project=36 200 [0.08, 127.0.0.1:49824]
+[2023-01-06 13:17:35,737] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project=38 200 [0.05, 127.0.0.1:49834]
+[2023-01-06 13:48:09,106] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [1.60, 127.0.0.1:50950]
+[2023-01-06 13:48:09,277] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [1.72, 127.0.0.1:50951]
+[2023-01-06 13:49:58,527] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [7.84, 127.0.0.1:51006]
+[2023-01-06 13:49:59,050] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/css/bootstrap.min.css 200 [0.46, 127.0.0.1:51006]
+[2023-01-06 13:49:59,105] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/css/bootstrap-tweaks.css 200 [0.48, 127.0.0.1:51013]
+[2023-01-06 13:49:59,175] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/css/prettify.css 200 [0.55, 127.0.0.1:51014]
+[2023-01-06 13:49:59,181] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/css/default.css 200 [0.55, 127.0.0.1:51015]
+[2023-01-06 13:49:59,322] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/js/jquery-3.5.1.min.js 200 [0.69, 127.0.0.1:51016]
+[2023-01-06 13:49:59,363] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/js/ajax-form.js 200 [0.73, 127.0.0.1:51017]
+[2023-01-06 13:49:59,411] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/js/csrf.js 200 [0.36, 127.0.0.1:51006]
+[2023-01-06 13:49:59,449] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/js/bootstrap.min.js 200 [0.34, 127.0.0.1:51013]
+[2023-01-06 13:49:59,497] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/js/prettify-min.js 200 [0.31, 127.0.0.1:51014]
+[2023-01-06 13:49:59,633] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/js/default.js 200 [0.44, 127.0.0.1:51015]
+[2023-01-06 13:49:59,696] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/img/grid.png 200 [0.33, 127.0.0.1:51016]
+[2023-01-06 13:49:59,722] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 200 [0.03, 127.0.0.1:51015]
+[2023-01-06 13:50:00,558] [log.py:241] [log:log_response] [WARNING]- Not Found: /cases/jquery.min.js
+[2023-01-06 13:50:00,560] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /cases/jquery.min.js 404 [0.31, 127.0.0.1:51015]
+[2023-01-06 13:50:00,640] [log.py:241] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-01-06 13:50:00,640] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /favicon.ico 404 [0.03, 127.0.0.1:51015]
+[2023-01-06 13:56:51,474] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /cases/
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "D:\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "D:\Python310\lib\concurrent\futures\thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py", line 430, in post
+    relateds=datas['related']
+  File "D:\pythonList\web_python310\lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'related'
+[2023-01-06 13:56:51,505] [runserver.py:160] [runserver:log_action] [ERROR]- HTTP POST /cases/ 500 [0.51, 127.0.0.1:51203]
+[2023-01-06 13:56:52,003] [log.py:241] [log:log_response] [WARNING]- Not Found: /cases/jquery.min.js
+[2023-01-06 13:56:52,005] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /cases/jquery.min.js 404 [0.04, 127.0.0.1:51203]
+[2023-01-06 13:59:27,432] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 13:59:30,846] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2023-01-06 13:59:30,862] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-06 13:59:30,862] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2023-01-06 13:59:35,656] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.43, 127.0.0.1:51294]
+[2023-01-06 13:59:36,001] [log.py:241] [log:log_response] [WARNING]- Not Found: /cases/jquery.min.js
+[2023-01-06 13:59:36,003] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /cases/jquery.min.js 404 [0.05, 127.0.0.1:51294]
+[2023-01-06 14:01:17,590] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /cases/
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "D:\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "D:\Python310\lib\concurrent\futures\thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py", line 430, in post
+    relateds=datas['related']
+  File "D:\pythonList\web_python310\lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'related'
+[2023-01-06 14:01:17,599] [runserver.py:160] [runserver:log_action] [ERROR]- HTTP POST /cases/ 500 [0.11, 127.0.0.1:51338]
+[2023-01-06 14:01:17,780] [log.py:241] [log:log_response] [WARNING]- Not Found: /cases/jquery.min.js
+[2023-01-06 14:01:17,782] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /cases/jquery.min.js 404 [0.03, 127.0.0.1:51338]
+[2023-01-06 14:02:20,007] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\serializer.py changed, reloading.
+[2023-01-06 14:02:23,410] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 14:02:24,177] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2023-01-06 14:02:24,178] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-06 14:02:24,180] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2023-01-06 14:02:25,954] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.61, 127.0.0.1:51382]
+[2023-01-06 14:02:28,341] [log.py:241] [log:log_response] [WARNING]- Not Found: /cases/jquery.min.js
+[2023-01-06 14:02:28,345] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /cases/jquery.min.js 404 [0.04, 127.0.0.1:51382]
+[2023-01-06 14:02:53,831] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/css/bootstrap.min.css.map 200 [0.21, 127.0.0.1:51397]
+[2023-01-06 14:03:02,624] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /cases/
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "D:\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "D:\Python310\lib\concurrent\futures\thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py", line 430, in post
+    relateds=datas['related']
+  File "D:\pythonList\web_python310\lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'related'
+[2023-01-06 14:03:02,635] [runserver.py:160] [runserver:log_action] [ERROR]- HTTP POST /cases/ 500 [0.14, 127.0.0.1:51410]
+[2023-01-06 14:03:03,180] [log.py:241] [log:log_response] [WARNING]- Not Found: /cases/jquery.min.js
+[2023-01-06 14:03:03,182] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /cases/jquery.min.js 404 [0.04, 127.0.0.1:51410]
+[2023-01-06 14:03:49,438] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/css/bootstrap.min.css.map 200 [0.01, 127.0.0.1:51469]
+[2023-01-06 14:06:38,714] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.06, 127.0.0.1:51663]
+[2023-01-06 14:06:38,912] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.26, 127.0.0.1:51664]
+[2023-01-06 14:13:32,282] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\models.py changed, reloading.
+[2023-01-06 14:13:44,976] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 14:13:47,441] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2023-01-06 14:13:47,441] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-06 14:13:47,441] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2023-01-06 14:25:41,042] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 14:25:41,605] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2023-01-06 14:25:41,606] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-06 14:25:41,608] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2023-01-06 14:25:47,469] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\urls.py changed, reloading.
+[2023-01-06 14:25:51,097] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 14:25:51,958] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2023-01-06 14:25:51,959] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-06 14:25:51,961] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2023-01-06 14:26:00,289] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /files/
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\backends\mysql\base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'myweb.saas_filetest' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "D:\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "D:\Python310\lib\concurrent\futures\thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py", line 702, in get
+    page = self.paginate_queryset(queryset)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\generics.py", line 171, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\pagination.py", line 204, in paginate_queryset
+    self.page = paginator.page(page_number)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\paginator.py", line 75, in page
+    number = self.validate_number(number)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\paginator.py", line 53, in validate_number
+    if number > self.num_pages:
+  File "D:\pythonList\web_python310\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\paginator.py", line 102, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "D:\pythonList\web_python310\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\paginator.py", line 96, in count
+    return c()
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\query.py", line 621, in count
+    return self.query.get_count(using=self.db)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\sql\query.py", line 559, in get_count
+    return obj.get_aggregation(using, ["__count"])["__count"]
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\sql\query.py", line 544, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\sql\compiler.py", line 1398, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\backends\mysql\base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.ProgrammingError: (1146, "Table 'myweb.saas_filetest' doesn't exist")
+[2023-01-06 14:26:00,311] [runserver.py:160] [runserver:log_action] [ERROR]- HTTP GET /files/ 500 [4.57, 127.0.0.1:52511]
+[2023-01-06 14:26:01,874] [log.py:241] [log:log_response] [WARNING]- Not Found: /files/jquery.min.js
+[2023-01-06 14:26:01,876] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /files/jquery.min.js 404 [0.06, 127.0.0.1:52511]
+[2023-01-06 14:28:20,459] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /files/ 200 [0.32, 127.0.0.1:52578]
+[2023-01-06 14:28:21,248] [log.py:241] [log:log_response] [WARNING]- Not Found: /files/jquery.min.js
+[2023-01-06 14:28:21,250] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /files/jquery.min.js 404 [0.07, 127.0.0.1:52578]
+[2023-01-06 14:28:44,496] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/css/bootstrap.min.css.map 200 [0.24, 127.0.0.1:52594]
+[2023-01-06 14:28:47,513] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /files/ 200 [0.27, 127.0.0.1:52594]
+[2023-01-06 14:28:47,788] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/css/bootstrap.min.css.map 200 [0.02, 127.0.0.1:52594]
+[2023-01-06 14:28:47,962] [log.py:241] [log:log_response] [WARNING]- Not Found: /files/jquery.min.js
+[2023-01-06 14:28:47,964] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /files/jquery.min.js 404 [0.04, 127.0.0.1:52594]
+[2023-01-06 14:30:56,695] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /files/ 200 [0.14, 127.0.0.1:52741]
+[2023-01-06 14:30:56,971] [log.py:241] [log:log_response] [WARNING]- Not Found: /files/jquery.min.js
+[2023-01-06 14:30:56,974] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /files/jquery.min.js 404 [0.03, 127.0.0.1:52741]
+[2023-01-06 14:37:53,344] [log.py:241] [log:log_response] [WARNING]- Bad Request: /files/
+[2023-01-06 14:37:53,344] [runserver.py:157] [runserver:log_action] [WARNING]- HTTP POST /files/ 400 [0.05, 127.0.0.1:53403]
+[2023-01-06 14:57:25,349] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/css/bootstrap.min.css.map 200 [2.71, 127.0.0.1:54155]
+[2023-01-06 14:58:09,585] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [17.51, 127.0.0.1:54210]
+[2023-01-06 14:58:10,422] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [18.39, 127.0.0.1:54209]
+[2023-01-06 15:53:20,781] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [22.11, 127.0.0.1:57582]
+[2023-01-06 15:53:23,168] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [27.93, 127.0.0.1:57581]
+[2023-01-06 15:58:45,424] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.69, 127.0.0.1:57997]
+[2023-01-06 15:58:46,204] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [1.44, 127.0.0.1:57999]
+[2023-01-06 16:39:02,847] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [14.50, 127.0.0.1:60105]
+[2023-01-06 16:39:05,465] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [14.95, 127.0.0.1:60106]
+[2023-01-06 16:42:01,310] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.65, 127.0.0.1:60272]
+[2023-01-06 16:42:04,167] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [3.53, 127.0.0.1:60271]
+[2023-01-06 16:42:32,351] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.49, 127.0.0.1:60308]
+[2023-01-06 16:42:32,493] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.56, 127.0.0.1:60310]
+[2023-01-06 16:43:06,824] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.08, 127.0.0.1:60358]
+[2023-01-06 16:43:07,142] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.20, 127.0.0.1:60362]
+[2023-01-06 16:43:14,286] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /files/ 200 [3.96, 127.0.0.1:60367]
+[2023-01-06 16:43:19,183] [log.py:241] [log:log_response] [WARNING]- Not Found: /files/jquery.min.js
+[2023-01-06 16:43:19,233] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /files/jquery.min.js 404 [1.18, 127.0.0.1:60378]
+[2023-01-06 16:43:57,183] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.22, 127.0.0.1:60426]
+[2023-01-06 16:43:57,618] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.48, 127.0.0.1:60429]
+[2023-01-06 16:44:41,338] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.09, 127.0.0.1:60490]
+[2023-01-06 16:44:41,696] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.25, 127.0.0.1:60494]
+[2023-01-06 16:45:35,719] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.47, 127.0.0.1:60580]
+[2023-01-06 16:45:35,933] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.67, 127.0.0.1:60581]
+[2023-01-06 16:46:47,284] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.79, 127.0.0.1:60707]
+[2023-01-06 16:46:47,483] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.99, 127.0.0.1:60708]
+[2023-01-06 16:47:16,439] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.18, 127.0.0.1:60767]
+[2023-01-06 16:47:16,583] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.29, 127.0.0.1:60770]
+[2023-01-06 16:47:35,062] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.12, 127.0.0.1:60798]
+[2023-01-06 16:47:35,327] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.19, 127.0.0.1:60802]
+[2023-01-06 16:48:03,499] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.14, 127.0.0.1:60840]
+[2023-01-06 16:48:03,743] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.20, 127.0.0.1:60844]
+[2023-01-06 16:48:24,552] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /files/ 200 [5.61, 127.0.0.1:60868]
+[2023-01-06 16:50:31,985] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.09, 127.0.0.1:61011]
+[2023-01-06 16:50:32,219] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.12, 127.0.0.1:61014]
+[2023-01-06 16:50:38,275] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /files/ 200 [0.08, 127.0.0.1:61024]
+[2023-01-06 16:52:45,505] [log.py:241] [log:log_response] [WARNING]- Not Found: /saas/saas_program/testFile/20.png
+[2023-01-06 16:52:45,506] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /saas/saas_program/testFile/20.png 404 [0.07, 127.0.0.1:61076]
+[2023-01-06 16:52:46,041] [log.py:241] [log:log_response] [WARNING]- Not Found: /saas/saas_program/testFile/jquery.min.js
+[2023-01-06 16:52:46,042] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /saas/saas_program/testFile/jquery.min.js 404 [0.03, 127.0.0.1:61076]
+[2023-01-06 16:52:56,775] [log.py:241] [log:log_response] [WARNING]- Not Found: /files/jquery.min.js
+[2023-01-06 16:52:56,777] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /files/jquery.min.js 404 [0.03, 127.0.0.1:61083]
+[2023-01-06 16:52:57,802] [log.py:241] [log:log_response] [WARNING]- Not Found: /saas/saas_program/testFile/20_ouFpEd3.png
+[2023-01-06 16:52:57,803] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /saas/saas_program/testFile/20_ouFpEd3.png 404 [0.03, 127.0.0.1:61083]
+[2023-01-06 16:52:57,914] [log.py:241] [log:log_response] [WARNING]- Not Found: /saas/saas_program/testFile/jquery.min.js
+[2023-01-06 16:52:57,916] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /saas/saas_program/testFile/jquery.min.js 404 [0.03, 127.0.0.1:61083]
+[2023-01-06 17:10:41,544] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.09, 127.0.0.1:61363]
+[2023-01-06 17:10:41,674] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.22, 127.0.0.1:61364]
+[2023-01-06 17:12:16,795] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.02, 127.0.0.1:61406]
+[2023-01-06 17:12:17,136] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.15, 127.0.0.1:61410]
+[2023-01-06 17:14:16,946] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.10, 127.0.0.1:61449]
+[2023-01-06 17:14:16,951] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.11, 127.0.0.1:61450]
+[2023-01-06 17:14:49,698] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project=36 200 [1.20, 127.0.0.1:61462]
+[2023-01-06 17:16:19,472] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /files/ 200 [0.35, 127.0.0.1:61495]
+[2023-01-06 17:16:34,293] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.73, 127.0.0.1:61506]
+[2023-01-06 17:16:40,926] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.19, 127.0.0.1:61514]
+[2023-01-06 17:16:40,957] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.22, 127.0.0.1:61515]
+[2023-01-06 17:16:42,029] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.14, 127.0.0.1:61521]
+[2023-01-06 17:16:46,207] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/?page=2 200 [0.17, 127.0.0.1:61527]
+[2023-01-06 17:16:49,079] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.12, 127.0.0.1:61531]
+[2023-01-06 17:16:49,468] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.18, 127.0.0.1:61535]
+[2023-01-06 17:16:50,026] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/93 200 [0.24, 127.0.0.1:61541]
+[2023-01-06 17:16:50,026] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project= 200 [0.11, 127.0.0.1:61543]
+[2023-01-06 17:17:32,742] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /files/ 200 [0.14, 127.0.0.1:61562]
+[2023-01-06 17:17:32,952] [log.py:241] [log:log_response] [WARNING]- Not Found: /files/jquery.min.js
+[2023-01-06 17:17:32,954] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /files/jquery.min.js 404 [0.04, 127.0.0.1:61562]
+[2023-01-06 17:18:37,598] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.05, 127.0.0.1:61594]
+[2023-01-06 17:18:37,824] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.11, 127.0.0.1:61597]
+[2023-01-06 17:18:37,970] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/93 200 [0.07, 127.0.0.1:61601]
+[2023-01-06 17:18:38,275] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project= 200 [0.08, 127.0.0.1:61605]
+[2023-01-06 17:18:43,640] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [1.03, 127.0.0.1:61608]
+[2023-01-06 17:18:45,563] [log.py:241] [log:log_response] [WARNING]- Not Found: /cases/jquery.min.js
+[2023-01-06 17:18:45,565] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /cases/jquery.min.js 404 [0.03, 127.0.0.1:61612]
+[2023-01-06 17:18:47,901] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/?page=2 200 [0.22, 127.0.0.1:61612]
+[2023-01-06 17:18:48,154] [log.py:241] [log:log_response] [WARNING]- Not Found: /cases/jquery.min.js
+[2023-01-06 17:18:48,156] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /cases/jquery.min.js 404 [0.04, 127.0.0.1:61612]
+[2023-01-06 17:19:28,158] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /files/ 200 [0.12, 127.0.0.1:61637]
+[2023-01-06 17:19:37,466] [runserver.py:147] [runserver:log_action] [INFO]- HTTP PUT /cases/93 200 [0.07, 127.0.0.1:61651]
+[2023-01-06 17:19:41,856] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/?page=2 200 [0.26, 127.0.0.1:61654]
+[2023-01-06 17:19:42,068] [log.py:241] [log:log_response] [WARNING]- Not Found: /cases/jquery.min.js
+[2023-01-06 17:19:42,070] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /cases/jquery.min.js 404 [0.03, 127.0.0.1:61654]
+[2023-01-06 17:20:04,773] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.23, 127.0.0.1:61667]
+[2023-01-06 17:20:04,976] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.19, 127.0.0.1:61671]
+[2023-01-06 17:20:05,304] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/93 200 [0.19, 127.0.0.1:61674]
+[2023-01-06 17:20:05,507] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project= 200 [0.08, 127.0.0.1:61679]
+[2023-01-06 17:23:23,764] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /files/ 200 [0.42, 127.0.0.1:61786]
+[2023-01-06 17:23:39,071] [runserver.py:147] [runserver:log_action] [INFO]- HTTP PUT /cases/93 200 [0.13, 127.0.0.1:61811]
+[2023-01-06 17:24:52,452] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.13, 127.0.0.1:61909]
+[2023-01-06 17:24:52,565] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.11, 127.0.0.1:61913]
+[2023-01-06 17:24:52,791] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/93 200 [0.09, 127.0.0.1:61916]
+[2023-01-06 17:24:53,041] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project= 200 [0.03, 127.0.0.1:61921]
+[2023-01-06 17:26:08,545] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.11, 127.0.0.1:62015]
+[2023-01-06 17:26:08,718] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.14, 127.0.0.1:62018]
+[2023-01-06 17:26:09,049] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/93 200 [0.12, 127.0.0.1:62022]
+[2023-01-06 17:26:09,347] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project= 200 [0.04, 127.0.0.1:62027]
+[2023-01-06 17:26:46,260] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /files/ 200 [0.24, 127.0.0.1:62076]
+[2023-01-06 17:26:49,430] [runserver.py:147] [runserver:log_action] [INFO]- HTTP PUT /cases/93 200 [0.11, 127.0.0.1:62084]
+[2023-01-06 17:32:29,104] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\models.py changed, reloading.
+[2023-01-06 17:34:28,021] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 17:37:50,705] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\serializer.py changed, reloading.
+[2023-01-06 17:38:26,297] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 17:39:14,067] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\serializer.py changed, reloading.
+[2023-01-06 17:39:17,345] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 17:39:45,826] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\serializer.py changed, reloading.
+[2023-01-06 17:39:48,887] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 17:40:58,453] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 17:41:05,395] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2023-01-06 17:41:05,427] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-06 17:41:05,427] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2023-01-06 17:41:10,577] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /files 301 [1.72, 127.0.0.1:63235]
+[2023-01-06 17:41:17,775] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /files/ 200 [6.20, 127.0.0.1:63241]
+[2023-01-06 17:41:24,315] [log.py:241] [log:log_response] [WARNING]- Not Found: /files/jquery.min.js
+[2023-01-06 17:41:24,316] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /files/jquery.min.js 404 [0.94, 127.0.0.1:63256]
+[2023-01-06 17:44:23,251] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\serializer.py changed, reloading.
+[2023-01-06 17:44:27,559] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 17:44:29,193] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2023-01-06 17:44:29,194] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-06 17:44:29,196] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2023-01-06 17:44:33,560] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /files/
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "D:\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "D:\Python310\lib\concurrent\futures\thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py", line 706, in get
+    return Response(serializer.data)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\serializers.py", line 768, in data
+    ret = super().data
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\serializers.py", line 686, in to_representation
+    return [
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\fields.py", line 1838, in to_representation
+    return method(value)
+  File "C:\Users\Administrator\Desktop\myweb\myweb\saas\serializer.py", line 56, in get_filepath
+    return '/'.join(obj.file.split('/')[3:])
+AttributeError: 'FieldFile' object has no attribute 'split'
+[2023-01-06 17:44:33,573] [runserver.py:160] [runserver:log_action] [ERROR]- HTTP GET /files/ 500 [2.64, 127.0.0.1:63499]
+[2023-01-06 17:44:34,648] [log.py:241] [log:log_response] [WARNING]- Not Found: /files/jquery.min.js
+[2023-01-06 17:44:34,650] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /files/jquery.min.js 404 [0.04, 127.0.0.1:63499]
+[2023-01-06 17:45:26,828] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\serializer.py changed, reloading.
+[2023-01-06 17:45:30,271] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 17:45:32,364] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2023-01-06 17:45:32,364] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-06 17:45:32,366] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2023-01-06 17:45:34,884] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /files/ 200 [0.98, 127.0.0.1:63589]
+[2023-01-06 17:45:39,318] [log.py:241] [log:log_response] [WARNING]- Not Found: /files/jquery.min.js
+[2023-01-06 17:45:39,319] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /files/jquery.min.js 404 [0.03, 127.0.0.1:63599]
+[2023-01-06 17:47:46,455] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\serializer.py changed, reloading.
+[2023-01-06 17:47:49,462] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 17:47:49,961] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2023-01-06 17:47:49,961] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-06 17:47:49,961] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2023-01-06 17:47:53,834] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /files/ 200 [0.34, 127.0.0.1:63748]
+[2023-01-06 17:47:54,062] [log.py:241] [log:log_response] [WARNING]- Not Found: /files/jquery.min.js
+[2023-01-06 17:47:54,064] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /files/jquery.min.js 404 [0.05, 127.0.0.1:63748]
+[2023-01-06 17:48:04,244] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\serializer.py changed, reloading.
+[2023-01-06 17:48:07,164] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 17:48:07,850] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2023-01-06 17:48:07,850] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-06 17:48:07,850] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2023-01-06 17:53:28,228] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [3.74, 127.0.0.1:64020]
+[2023-01-06 17:53:34,156] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/?page=2 200 [0.94, 127.0.0.1:64027]
+[2023-01-06 17:53:36,641] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.19, 127.0.0.1:64033]
+[2023-01-06 17:53:37,113] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.39, 127.0.0.1:64036]
+[2023-01-06 17:53:38,155] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project= 200 [0.37, 127.0.0.1:64045]
+[2023-01-06 17:53:38,166] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/93 200 [0.40, 127.0.0.1:64044]
+[2023-01-06 17:54:34,769] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /files/ 200 [1.61, 127.0.0.1:64071]
+[2023-01-06 17:54:38,556] [runserver.py:147] [runserver:log_action] [INFO]- HTTP PUT /cases/93 200 [0.58, 127.0.0.1:64078]
+[2023-01-06 17:54:47,626] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [1.17, 127.0.0.1:64085]
+[2023-01-06 17:54:49,800] [log.py:241] [log:log_response] [WARNING]- Not Found: /cases/jquery.min.js
+[2023-01-06 17:54:49,801] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /cases/jquery.min.js 404 [0.51, 127.0.0.1:64085]
+[2023-01-06 17:54:52,199] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/?page=2 200 [0.27, 127.0.0.1:64085]
+[2023-01-06 17:54:52,561] [log.py:241] [log:log_response] [WARNING]- Not Found: /cases/jquery.min.js
+[2023-01-06 17:54:52,587] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /cases/jquery.min.js 404 [0.06, 127.0.0.1:64093]
+[2023-01-06 17:55:10,136] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.27, 127.0.0.1:64102]
+[2023-01-06 17:55:12,841] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/?page=2 200 [0.18, 127.0.0.1:64110]
+[2023-01-06 17:55:15,376] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.07, 127.0.0.1:64115]
+[2023-01-06 17:55:15,780] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.15, 127.0.0.1:64118]
+[2023-01-06 17:55:16,280] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/93 200 [0.17, 127.0.0.1:64125]
+[2023-01-06 17:55:16,318] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project= 200 [0.21, 127.0.0.1:64126]
+[2023-01-06 18:00:19,439] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.23, 127.0.0.1:64310]
+[2023-01-06 18:02:37,169] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/?page=2 200 [0.10, 127.0.0.1:64372]
+[2023-01-06 18:02:40,682] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.10, 127.0.0.1:64379]
+[2023-01-06 18:02:40,728] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.14, 127.0.0.1:64380]
+[2023-01-06 18:02:40,853] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/93 200 [0.05, 127.0.0.1:64386]
+[2023-01-06 18:02:41,159] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project= 200 [0.08, 127.0.0.1:64389]
+[2023-01-06 18:02:56,310] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.20, 127.0.0.1:64403]
+[2023-01-06 18:02:59,190] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/?page=2 200 [0.10, 127.0.0.1:64409]
+[2023-01-06 18:03:00,452] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.09, 127.0.0.1:64412]
+[2023-01-06 18:03:00,800] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.09, 127.0.0.1:64416]
+[2023-01-06 18:03:01,229] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project= 200 [0.10, 127.0.0.1:64424]
+[2023-01-06 18:03:01,233] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/93 200 [0.11, 127.0.0.1:64423]
+[2023-01-06 18:06:01,368] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.03, 127.0.0.1:64503]
+[2023-01-06 18:06:01,627] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.08, 127.0.0.1:64506]
+[2023-01-06 18:06:01,746] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/93 200 [0.08, 127.0.0.1:64510]
+[2023-01-06 18:06:02,018] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project= 200 [0.04, 127.0.0.1:64513]
+[2023-01-06 18:06:13,032] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.10, 127.0.0.1:64525]
+[2023-01-06 18:06:15,555] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/?page=2 200 [0.05, 127.0.0.1:64528]
+[2023-01-06 18:06:17,993] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.11, 127.0.0.1:64535]
+[2023-01-06 18:06:18,043] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.16, 127.0.0.1:64536]
+[2023-01-06 18:06:18,189] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/93 200 [0.05, 127.0.0.1:64542]
+[2023-01-06 18:06:18,453] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project= 200 [0.08, 127.0.0.1:64546]
+[2023-01-06 18:07:37,581] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.11, 127.0.0.1:64589]
+[2023-01-06 18:07:37,596] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.11, 127.0.0.1:64592]
+[2023-01-06 18:07:37,833] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/93 200 [0.10, 127.0.0.1:64596]
+[2023-01-06 18:07:38,099] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project= 200 [0.06, 127.0.0.1:64599]
+[2023-01-06 18:07:52,088] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /files/ 200 [0.10, 127.0.0.1:64613]
+[2023-01-06 18:10:34,297] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.07, 127.0.0.1:64723]
+[2023-01-06 18:10:34,611] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.25, 127.0.0.1:64726]
+[2023-01-06 18:10:34,715] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/93 200 [0.09, 127.0.0.1:64730]
+[2023-01-06 18:10:35,069] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project= 200 [0.13, 127.0.0.1:64734]
+[2023-01-06 18:11:48,461] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.06, 127.0.0.1:64778]
+[2023-01-06 18:11:48,694] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.09, 127.0.0.1:64783]
+[2023-01-06 18:11:48,906] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/93 200 [0.16, 127.0.0.1:64788]
+[2023-01-06 18:11:49,216] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project= 200 [0.20, 127.0.0.1:64791]
+[2023-01-06 18:12:01,051] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [1.16, 127.0.0.1:64798]
+[2023-01-06 18:12:01,051] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [1.03, 127.0.0.1:64801]
+[2023-01-06 18:12:01,786] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project= 200 [0.34, 127.0.0.1:64808]
+[2023-01-06 18:12:01,973] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/93 200 [0.84, 127.0.0.1:64805]
+[2023-01-06 18:12:46,076] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /files/ 200 [0.17, 127.0.0.1:64829]
+[2023-01-06 18:13:52,787] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.09, 127.0.0.1:64865]
+[2023-01-06 18:13:52,927] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.12, 127.0.0.1:64868]
+[2023-01-06 18:13:53,468] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/93 200 [0.28, 127.0.0.1:64872]
+[2023-01-06 18:13:54,985] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project= 200 [0.13, 127.0.0.1:64879]
+[2023-01-06 19:23:46,194] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /files/ 200 [1.03, 127.0.0.1:52529]
+[2023-01-06 19:24:56,369] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.06, 127.0.0.1:52567]
+[2023-01-06 19:24:56,666] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.14, 127.0.0.1:52570]
+[2023-01-06 19:24:56,842] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/93 200 [0.16, 127.0.0.1:52574]
+[2023-01-06 19:24:57,138] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project= 200 [0.13, 127.0.0.1:52578]
+[2023-01-06 19:25:21,074] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.08, 127.0.0.1:52587]
+[2023-01-06 19:25:21,312] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.12, 127.0.0.1:52590]
+[2023-01-06 19:25:21,406] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/93 200 [0.08, 127.0.0.1:52594]
+[2023-01-06 19:25:21,806] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project= 200 [0.17, 127.0.0.1:52597]
+[2023-01-06 19:27:38,087] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.08, 127.0.0.1:52633]
+[2023-01-06 19:27:38,334] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.12, 127.0.0.1:52636]
+[2023-01-06 19:27:38,461] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/93 200 [0.06, 127.0.0.1:52640]
+[2023-01-06 19:27:38,804] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project= 200 [0.10, 127.0.0.1:52643]
+[2023-01-06 19:27:45,669] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.05, 127.0.0.1:52650]
+[2023-01-06 19:27:45,728] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.11, 127.0.0.1:52651]
+[2023-01-06 19:27:48,679] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.18, 127.0.0.1:52655]
+[2023-01-06 19:27:51,392] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/?page=2 200 [0.12, 127.0.0.1:52661]
+[2023-01-06 19:27:52,332] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.05, 127.0.0.1:52665]
+[2023-01-06 19:27:52,684] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.10, 127.0.0.1:52668]
+[2023-01-06 19:27:53,089] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project= 200 [0.08, 127.0.0.1:52676]
+[2023-01-06 19:27:53,090] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/93 200 [0.08, 127.0.0.1:52675]
+[2023-01-06 19:28:30,866] [log.py:241] [log:log_response] [WARNING]- Not Found: /cases/jquery.min.js
+[2023-01-06 19:28:30,873] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /cases/jquery.min.js 404 [1.59, 127.0.0.1:52696]
+[2023-01-06 19:28:34,991] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/?page=2 200 [2.95, 127.0.0.1:52696]
+[2023-01-06 19:28:35,410] [log.py:241] [log:log_response] [WARNING]- Not Found: /cases/jquery.min.js
+[2023-01-06 19:28:35,412] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /cases/jquery.min.js 404 [0.06, 127.0.0.1:52696]
+[2023-01-06 19:30:55,521] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.05, 127.0.0.1:52767]
+[2023-01-06 19:30:55,796] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.13, 127.0.0.1:52770]
+[2023-01-06 19:30:55,942] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/93 200 [0.10, 127.0.0.1:52774]
+[2023-01-06 19:30:56,268] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project= 200 [0.12, 127.0.0.1:52777]
+[2023-01-06 19:33:37,850] [runserver.py:147] [runserver:log_action] [INFO]- HTTP PUT /cases/93 200 [10.03, 127.0.0.1:52903]
+[2023-01-06 19:34:03,678] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/?page=2 200 [1.36, 127.0.0.1:52926]
+[2023-01-06 19:34:04,196] [log.py:241] [log:log_response] [WARNING]- Not Found: /cases/jquery.min.js
+[2023-01-06 19:34:04,198] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /cases/jquery.min.js 404 [0.22, 127.0.0.1:52926]
+[2023-01-06 19:35:37,620] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.78, 127.0.0.1:52983]
+[2023-01-06 19:35:38,368] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [1.52, 127.0.0.1:52984]
+[2023-01-06 19:35:39,030] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.28, 127.0.0.1:52989]
+[2023-01-06 19:35:43,446] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/?page=2 200 [0.74, 127.0.0.1:52996]
+[2023-01-06 19:35:45,324] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.12, 127.0.0.1:53004]
+[2023-01-06 19:35:45,987] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.48, 127.0.0.1:53007]
+[2023-01-06 19:35:47,164] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/93 200 [0.49, 127.0.0.1:53014]
+[2023-01-06 19:35:47,176] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project= 200 [0.49, 127.0.0.1:53015]
+[2023-01-06 19:35:53,462] [runserver.py:147] [runserver:log_action] [INFO]- HTTP PUT /cases/93 200 [0.17, 127.0.0.1:53027]
+[2023-01-06 19:35:56,322] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/?page=2 200 [0.26, 127.0.0.1:53034]
+[2023-01-06 19:35:56,914] [log.py:241] [log:log_response] [WARNING]- Not Found: /cases/jquery.min.js
+[2023-01-06 19:35:56,916] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /cases/jquery.min.js 404 [0.33, 127.0.0.1:53034]
+[2023-01-06 19:37:56,103] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.58, 127.0.0.1:53094]
+[2023-01-06 19:38:05,929] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/?search=93 200 [0.97, 127.0.0.1:53103]
+[2023-01-06 19:38:10,653] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/?search= 200 [0.34, 127.0.0.1:53111]
+[2023-01-06 19:38:51,265] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py changed, reloading.
+[2023-01-06 19:38:59,968] [server.py:290] [server:application_checker] [ERROR]- Exception inside application: cannot schedule new futures after interpreter shutdown
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "D:\pythonList\web_python310\lib\site-packages\django\utils\deprecation.py", line 148, in __acall__
+    response = await sync_to_async(
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 423, in __call__
+    future = loop.run_in_executor(
+  File "D:\Python310\lib\asyncio\base_events.py", line 813, in run_in_executor
+    executor.submit(func, *args), loop=self)
+  File "D:\Python310\lib\concurrent\futures\thread.py", line 163, in submit
+    raise RuntimeError('cannot schedule new futures after '
+RuntimeError: cannot schedule new futures after interpreter shutdown
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\channels\staticfiles.py", line 44, in __call__
+    return await self.application(scope, receive, send)
+  File "D:\pythonList\web_python310\lib\site-packages\channels\routing.py", line 71, in __call__
+    return await application(scope, receive, send)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\asgi.py", line 155, in __call__
+    await self.handle(scope, receive, send)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\asgi.py", line 178, in handle
+    response = await self.get_response_async(request)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\base.py", line 162, in get_response_async
+    response = await self._middleware_chain(request)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\exception.py", line 44, in inner
+    response = await sync_to_async(
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 423, in __call__
+    future = loop.run_in_executor(
+  File "D:\Python310\lib\asyncio\base_events.py", line 813, in run_in_executor
+    executor.submit(func, *args), loop=self)
+  File "D:\Python310\lib\concurrent\futures\thread.py", line 163, in submit
+    raise RuntimeError('cannot schedule new futures after '
+RuntimeError: cannot schedule new futures after interpreter shutdown
+[2023-01-06 19:41:44,191] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 19:41:57,209] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2023-01-06 19:41:57,240] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-06 19:41:57,256] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2023-01-06 19:42:42,530] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [1.42, 127.0.0.1:53262]
+[2023-01-06 19:42:53,244] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/?search=93 200 [0.38, 127.0.0.1:53281]
+[2023-01-06 19:42:55,201] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.21, 127.0.0.1:53287]
+[2023-01-06 19:42:55,899] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.60, 127.0.0.1:53290]
+[2023-01-06 19:42:56,587] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/93 200 [0.17, 127.0.0.1:53296]
+[2023-01-06 19:42:56,628] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project= 200 [0.19, 127.0.0.1:53299]
+[2023-01-06 19:43:05,882] [runserver.py:147] [runserver:log_action] [INFO]- HTTP PUT /cases/93 200 [1.13, 127.0.0.1:53312]
+[2023-01-06 19:43:14,432] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/?page=2 200 [3.98, 127.0.0.1:53316]
+[2023-01-06 19:43:18,276] [log.py:241] [log:log_response] [WARNING]- Not Found: /cases/jquery.min.js
+[2023-01-06 19:43:18,278] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /cases/jquery.min.js 404 [0.63, 127.0.0.1:53321]
+[2023-01-06 19:44:22,861] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /files/ 200 [1.00, 127.0.0.1:53358]
+[2023-01-06 19:44:25,361] [runserver.py:147] [runserver:log_action] [INFO]- HTTP PUT /cases/93 200 [0.31, 127.0.0.1:53363]
+[2023-01-06 19:44:28,489] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/?page=2 200 [0.45, 127.0.0.1:53366]
+[2023-01-06 19:44:28,993] [log.py:241] [log:log_response] [WARNING]- Not Found: /cases/jquery.min.js
+[2023-01-06 19:44:28,994] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /cases/jquery.min.js 404 [0.03, 127.0.0.1:53366]
+[2023-01-06 19:44:39,426] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.19, 127.0.0.1:53379]
+[2023-01-06 19:44:44,869] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/?search=93 200 [0.16, 127.0.0.1:53386]
+[2023-01-06 19:44:46,930] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.13, 127.0.0.1:53394]
+[2023-01-06 19:44:46,960] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.16, 127.0.0.1:53395]
+[2023-01-06 19:44:47,274] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/93 200 [0.22, 127.0.0.1:53402]
+[2023-01-06 19:44:47,437] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project= 200 [0.10, 127.0.0.1:53406]
+[2023-01-06 19:51:37,156] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /files/ 200 [0.27, 127.0.0.1:54035]
+[2023-01-06 19:51:37,583] [log.py:241] [log:log_response] [WARNING]- Not Found: /files/jquery.min.js
+[2023-01-06 19:51:37,585] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /files/jquery.min.js 404 [0.11, 127.0.0.1:54038]
+[2023-01-06 19:51:40,911] [log.py:241] [log:log_response] [WARNING]- Not Found: /saas/saas_program/testFile/hosts_zwQ4san.json
+[2023-01-06 19:51:40,913] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /saas/saas_program/testFile/hosts_zwQ4san.json 404 [0.04, 127.0.0.1:54038]
+[2023-01-06 19:51:41,201] [log.py:241] [log:log_response] [WARNING]- Not Found: /saas/saas_program/testFile/jquery.min.js
+[2023-01-06 19:51:41,202] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /saas/saas_program/testFile/jquery.min.js 404 [0.03, 127.0.0.1:54038]
+[2023-01-06 19:56:46,673] [runserver.py:147] [runserver:log_action] [INFO]- HTTP OPTIONS /files/ 200 [0.04, 127.0.0.1:54437]
+[2023-01-06 19:56:48,377] [runserver.py:147] [runserver:log_action] [INFO]- HTTP OPTIONS /files/ 200 [0.04, 127.0.0.1:54438]
+[2023-01-06 20:15:45,448] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\myweb\settings.py changed, reloading.
+[2023-01-06 20:16:13,192] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 20:16:17,232] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2023-01-06 20:16:17,263] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-06 20:16:17,263] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2023-01-06 20:17:15,024] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\myweb\settings.py changed, reloading.
+[2023-01-06 20:17:18,001] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 20:17:18,539] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2023-01-06 20:17:18,539] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-06 20:17:18,539] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2023-01-06 20:17:32,778] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\myweb\settings.py changed, reloading.
+[2023-01-06 20:17:35,695] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 20:17:36,211] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2023-01-06 20:17:36,211] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-06 20:17:36,211] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2023-01-06 20:17:42,257] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\myweb\settings.py changed, reloading.
+[2023-01-06 20:17:45,723] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 20:17:46,362] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2023-01-06 20:17:46,362] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-06 20:17:46,362] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2023-01-06 20:17:50,911] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\myweb\settings.py changed, reloading.
+[2023-01-06 20:17:54,157] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 20:17:54,609] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2023-01-06 20:17:54,609] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-06 20:17:54,609] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2023-01-06 20:18:18,904] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\myweb\settings.py changed, reloading.
+[2023-01-06 20:18:22,046] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 20:18:22,566] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2023-01-06 20:18:22,567] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-06 20:18:22,569] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2023-01-06 20:18:49,665] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\myweb\urls.py changed, reloading.
+[2023-01-06 20:18:52,809] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 20:19:17,320] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\myweb\urls.py changed, reloading.
+[2023-01-06 20:19:20,803] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 20:19:27,906] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\myweb\urls.py changed, reloading.
+[2023-01-06 20:19:31,540] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 20:19:35,886] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2023-01-06 20:19:35,887] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-06 20:19:35,888] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2023-01-06 20:19:41,166] [log.py:241] [log:log_response] [WARNING]- Not Found: /cases/jquery.min.js
+[2023-01-06 20:19:41,168] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /cases/jquery.min.js 404 [1.67, 127.0.0.1:55062]
+[2023-01-06 20:20:03,999] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\myweb\urls.py changed, reloading.
+[2023-01-06 20:21:00,638] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 20:21:10,669] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\myweb\urls.py changed, reloading.
+[2023-01-06 20:21:15,560] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 20:21:18,733] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\myweb\urls.py changed, reloading.
+[2023-01-06 20:21:21,792] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 20:21:31,530] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\myweb\urls.py changed, reloading.
+[2023-01-06 20:21:34,898] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 20:21:53,761] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\myweb\urls.py changed, reloading.
+[2023-01-06 20:21:56,947] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 20:22:01,596] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2023-01-06 20:22:01,596] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-06 20:22:01,596] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2023-01-06 20:22:04,786] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\myweb\urls.py changed, reloading.
+[2023-01-06 20:22:08,176] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 20:25:14,976] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py changed, reloading.
+[2023-01-06 20:25:18,236] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 20:25:28,352] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py changed, reloading.
+[2023-01-06 20:25:31,532] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 20:25:45,336] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py changed, reloading.
+[2023-01-06 20:25:48,530] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 20:26:27,317] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py changed, reloading.
+[2023-01-06 20:26:30,195] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 20:26:30,866] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2023-01-06 20:26:30,866] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-06 20:26:30,866] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2023-01-06 20:26:44,687] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\urls.py changed, reloading.
+[2023-01-06 20:26:47,826] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 20:26:48,342] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2023-01-06 20:26:48,342] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-06 20:26:48,342] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2023-01-06 20:26:56,830] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\urls.py changed, reloading.
+[2023-01-06 20:26:59,922] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 20:29:13,326] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 20:29:13,856] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2023-01-06 20:29:13,856] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-06 20:29:13,872] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2023-01-06 20:29:26,076] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /files/ 200 [4.48, 127.0.0.1:55526]
+[2023-01-06 20:29:29,734] [log.py:241] [log:log_response] [WARNING]- Not Found: /files/jquery.min.js
+[2023-01-06 20:29:29,735] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /files/jquery.min.js 404 [0.19, 127.0.0.1:55526]
+[2023-01-06 20:29:33,702] [log.py:241] [log:log_response] [WARNING]- Not Found: /media/saas/saas_program/testFile/20_ouFpEd3.png
+[2023-01-06 20:29:33,705] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /media/saas/saas_program/testFile/20_ouFpEd3.png 404 [0.03, 127.0.0.1:55532]
+[2023-01-06 20:29:33,845] [log.py:241] [log:log_response] [WARNING]- Not Found: /media/saas/saas_program/testFile/jquery.min.js
+[2023-01-06 20:29:33,847] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /media/saas/saas_program/testFile/jquery.min.js 404 [0.03, 127.0.0.1:55532]
+[2023-01-06 20:29:42,433] [log.py:241] [log:log_response] [WARNING]- Not Found: /file/
+[2023-01-06 20:29:42,435] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /file/ 404 [0.03, 127.0.0.1:55541]
+[2023-01-06 20:29:42,493] [log.py:241] [log:log_response] [WARNING]- Not Found: /file/jquery.min.js
+[2023-01-06 20:29:42,495] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /file/jquery.min.js 404 [0.03, 127.0.0.1:55541]
+[2023-01-06 20:29:59,498] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\urls.py changed, reloading.
+[2023-01-06 20:30:02,824] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 20:30:03,360] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2023-01-06 20:30:03,361] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-06 20:30:03,362] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2023-01-06 20:30:03,810] [log.py:241] [log:log_response] [WARNING]- Not Found: /file/
+[2023-01-06 20:30:03,812] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /file/ 404 [0.05, 127.0.0.1:55559]
+[2023-01-06 20:30:03,917] [log.py:241] [log:log_response] [WARNING]- Not Found: /file/jquery.min.js
+[2023-01-06 20:30:03,918] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /file/jquery.min.js 404 [0.03, 127.0.0.1:55559]
+[2023-01-06 20:30:40,494] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 20:30:40,947] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2023-01-06 20:30:40,947] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-06 20:30:40,947] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2023-01-06 20:30:57,243] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /file/ 200 [0.29, 127.0.0.1:55597]
+[2023-01-06 20:30:57,454] [log.py:241] [log:log_response] [WARNING]- Not Found: /file/jquery.min.js
+[2023-01-06 20:30:57,456] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /file/jquery.min.js 404 [0.05, 127.0.0.1:55597]
+[2023-01-06 20:30:59,634] [log.py:241] [log:log_response] [WARNING]- Not Found: /media/saas/saas_program/testFile/20.png
+[2023-01-06 20:30:59,636] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /media/saas/saas_program/testFile/20.png 404 [0.03, 127.0.0.1:55597]
+[2023-01-06 20:30:59,698] [log.py:241] [log:log_response] [WARNING]- Not Found: /media/saas/saas_program/testFile/jquery.min.js
+[2023-01-06 20:30:59,700] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /media/saas/saas_program/testFile/jquery.min.js 404 [0.03, 127.0.0.1:55597]
+[2023-01-06 20:31:12,442] [log.py:241] [log:log_response] [WARNING]- Not Found: /media/saas/saas_program/testFile/测试Linux.txt
+[2023-01-06 20:31:12,443] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /media/saas/saas_program/testFile/%E6%B5%8B%E8%AF%95Linux.txt 404 [0.03, 127.0.0.1:55607]
+[2023-01-06 20:31:12,564] [log.py:241] [log:log_response] [WARNING]- Not Found: /media/saas/saas_program/testFile/jquery.min.js
+[2023-01-06 20:31:12,567] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /media/saas/saas_program/testFile/jquery.min.js 404 [0.04, 127.0.0.1:55607]
+[2023-01-06 20:31:15,494] [log.py:241] [log:log_response] [WARNING]- Not Found: /media/saas/saas_program/testFile/test.xlsx
+[2023-01-06 20:31:15,495] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /media/saas/saas_program/testFile/test.xlsx 404 [0.03, 127.0.0.1:55607]
+[2023-01-06 20:31:15,591] [log.py:241] [log:log_response] [WARNING]- Not Found: /media/saas/saas_program/testFile/jquery.min.js
+[2023-01-06 20:31:15,595] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /media/saas/saas_program/testFile/jquery.min.js 404 [0.06, 127.0.0.1:55607]
+[2023-01-06 20:31:29,569] [log.py:241] [log:log_response] [WARNING]- Not Found: /media/saas/saas_program/testFile/hosts.json
+[2023-01-06 20:31:29,571] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /media/saas/saas_program/testFile/hosts.json 404 [0.03, 127.0.0.1:55617]
+[2023-01-06 20:31:29,637] [log.py:241] [log:log_response] [WARNING]- Not Found: /media/saas/saas_program/testFile/jquery.min.js
+[2023-01-06 20:31:29,639] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /media/saas/saas_program/testFile/jquery.min.js 404 [0.03, 127.0.0.1:55617]
+[2023-01-06 20:34:01,821] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\urls.py changed, reloading.
+[2023-01-06 20:34:05,099] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 20:34:05,616] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2023-01-06 20:34:05,616] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-06 20:34:05,616] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2023-01-06 20:34:08,936] [log.py:241] [log:log_response] [WARNING]- Not Found: /media/saas/saas_program/testFile/20.png
+[2023-01-06 20:34:08,938] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /media/saas/saas_program/testFile/20.png 404 [0.05, 127.0.0.1:55707]
+[2023-01-06 20:34:09,027] [log.py:241] [log:log_response] [WARNING]- Not Found: /media/saas/saas_program/testFile/jquery.min.js
+[2023-01-06 20:34:09,028] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /media/saas/saas_program/testFile/jquery.min.js 404 [0.04, 127.0.0.1:55707]
+[2023-01-06 20:34:51,324] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\myweb\settings.py changed, reloading.
+[2023-01-06 20:34:54,561] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-06 20:34:55,014] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2023-01-06 20:34:55,014] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-06 20:34:55,014] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2023-01-06 20:35:00,151] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /files/ 200 [0.21, 127.0.0.1:55736]
+[2023-01-06 20:35:00,363] [log.py:241] [log:log_response] [WARNING]- Not Found: /files/jquery.min.js
+[2023-01-06 20:35:00,364] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /files/jquery.min.js 404 [0.04, 127.0.0.1:55736]
+[2023-01-06 20:35:01,783] [log.py:241] [log:log_response] [WARNING]- Not Found: /media/saas/saas_program/testFile/20_ouFpEd3.png
+[2023-01-06 20:35:01,785] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /media/saas/saas_program/testFile/20_ouFpEd3.png 404 [0.05, 127.0.0.1:55739]
+[2023-01-06 20:35:01,869] [log.py:241] [log:log_response] [WARNING]- Not Found: /media/saas/saas_program/testFile/jquery.min.js
+[2023-01-06 20:35:01,871] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /media/saas/saas_program/testFile/jquery.min.js 404 [0.05, 127.0.0.1:55739]
+[2023-01-06 20:35:09,240] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /media/saas/saas_program/testFile/hosts_zwQ4san.json 200 [0.03, 127.0.0.1:55741]
+[2023-01-06 20:35:09,365] [log.py:241] [log:log_response] [WARNING]- Not Found: /media/saas/saas_program/testFile/jquery.min.js
+[2023-01-06 20:35:09,367] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /media/saas/saas_program/testFile/jquery.min.js 404 [0.03, 127.0.0.1:55741]
+[2023-01-06 20:35:21,517] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /media/saas/saas_program/testFile/%E6%B5%8B%E8%AF%95Linux_436ymbq.txt 200 [0.06, 127.0.0.1:55749]
+[2023-01-06 20:35:21,596] [log.py:241] [log:log_response] [WARNING]- Not Found: /media/saas/saas_program/testFile/jquery.min.js
+[2023-01-06 20:35:21,598] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /media/saas/saas_program/testFile/jquery.min.js 404 [0.02, 127.0.0.1:55749]
+[2023-01-06 20:35:33,789] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /media/saas/saas_program/testFile/%E6%B5%8B%E8%AF%95Linux_436ymbq.txt 200 [0.01, 127.0.0.1:55753]
+[2023-01-09 14:08:38,191] [log.py:241] [log:log_response] [WARNING]- Not Found: /files/jquery.min.js
+[2023-01-09 14:08:40,826] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /files/jquery.min.js 404 [31.38, 127.0.0.1:63657]
+[2023-01-09 14:16:09,790] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [24.18, 127.0.0.1:63734]
+[2023-01-09 14:16:11,488] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [25.96, 127.0.0.1:63733]
+[2023-01-09 14:16:17,742] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /files/ 200 [3.41, 127.0.0.1:63745]
+[2023-01-09 14:16:26,063] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /files/ 200 [3.91, 127.0.0.1:63753]
+[2023-01-09 14:16:27,392] [log.py:241] [log:log_response] [WARNING]- Not Found: /files/jquery.min.js
+[2023-01-09 14:16:27,393] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /files/jquery.min.js 404 [0.61, 127.0.0.1:63753]
+[2023-01-09 14:16:33,103] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /files/ 200 [0.52, 127.0.0.1:63753]
+[2023-01-09 14:16:33,546] [log.py:241] [log:log_response] [WARNING]- Not Found: /files/jquery.min.js
+[2023-01-09 14:16:33,548] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /files/jquery.min.js 404 [0.04, 127.0.0.1:63753]
+[2023-01-09 14:16:35,630] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /files/?page=2 200 [0.99, 127.0.0.1:63753]
+[2023-01-09 14:16:36,467] [log.py:241] [log:log_response] [WARNING]- Not Found: /files/jquery.min.js
+[2023-01-09 14:16:36,468] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /files/jquery.min.js 404 [0.21, 127.0.0.1:63753]
+[2023-01-09 14:16:39,874] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /media/saas/saas_program/testFile/fiddler%E6%9B%BF%E6%8D%A2%E5%86%85%E5%AE%B9.txt 200 [0.45, 127.0.0.1:63753]
+[2023-01-09 14:16:41,205] [log.py:241] [log:log_response] [WARNING]- Not Found: /media/saas/saas_program/testFile/jquery.min.js
+[2023-01-09 14:16:41,207] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /media/saas/saas_program/testFile/jquery.min.js 404 [0.37, 127.0.0.1:63753]
+[2023-01-09 14:19:29,729] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /media/saas/saas_program/testFile/fiddler%E6%9B%BF%E6%8D%A2%E5%86%85%E5%AE%B9.txt 304 [0.21, 127.0.0.1:64036]
+[2023-01-09 14:19:34,728] [log.py:241] [log:log_response] [WARNING]- Not Found: /media/saas/saas_program/testFile/jquery.min.js
+[2023-01-09 14:19:34,730] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /media/saas/saas_program/testFile/jquery.min.js 404 [0.22, 127.0.0.1:64036]
+[2023-01-09 14:22:23,396] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /media/saas/saas_program/testFile/fiddler%E6%9B%BF%E6%8D%A2%E5%86%85%E5%AE%B9.txt 304 [0.01, 127.0.0.1:64601]
+[2023-01-09 14:22:27,534] [log.py:241] [log:log_response] [WARNING]- Not Found: /media/saas/saas_program/testFile/jquery.min.js
+[2023-01-09 14:22:27,536] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /media/saas/saas_program/testFile/jquery.min.js 404 [0.04, 127.0.0.1:64601]
+[2023-01-09 15:39:59,196] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /media/saas/saas_program/testFile/fiddler%E6%9B%BF%E6%8D%A2%E5%86%85%E5%AE%B9.txt 304 [36.64, 127.0.0.1:49777]
+[2023-01-09 15:40:14,583] [log.py:241] [log:log_response] [WARNING]- Not Found: /media/saas/saas_program/testFile/jquery.min.js
+[2023-01-09 15:40:15,209] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /media/saas/saas_program/testFile/jquery.min.js 404 [11.77, 127.0.0.1:49777]
+[2023-01-09 15:44:32,915] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [77.83, 127.0.0.1:49909]
+[2023-01-09 15:44:35,197] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [49.88, 127.0.0.1:49933]
+[2023-01-09 15:44:35,213] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [80.21, 127.0.0.1:49908]
+[2023-01-09 16:47:44,817] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [27.40, 127.0.0.1:53694]
+[2023-01-09 16:48:19,899] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [7.08, 127.0.0.1:53724]
+[2023-01-09 16:48:22,538] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [5.30, 127.0.0.1:53732]
+[2023-01-09 16:48:24,468] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [2.06, 127.0.0.1:53738]
+[2023-01-09 16:48:26,853] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [1.39, 127.0.0.1:53745]
+[2023-01-09 16:48:28,346] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [1.42, 127.0.0.1:53747]
+[2023-01-09 16:48:38,212] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project=36 200 [2.99, 127.0.0.1:53757]
+[2023-01-09 16:49:18,225] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.34, 127.0.0.1:53780]
+[2023-01-09 16:49:18,529] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.46, 127.0.0.1:53784]
+[2023-01-09 16:49:53,330] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.19, 127.0.0.1:53808]
+[2023-01-09 16:49:53,453] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.31, 127.0.0.1:53809]
+[2023-01-09 16:49:55,326] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project=36 200 [0.21, 127.0.0.1:53816]
+[2023-01-09 16:50:33,989] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.27, 127.0.0.1:53839]
+[2023-01-09 16:50:34,098] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.39, 127.0.0.1:53838]
+[2023-01-09 16:50:34,831] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.17, 127.0.0.1:53850]
+[2023-01-09 16:50:34,925] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.27, 127.0.0.1:53851]
+[2023-01-09 16:50:37,591] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.11, 127.0.0.1:53856]
+[2023-01-09 16:50:37,990] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.20, 127.0.0.1:53859]
+[2023-01-09 16:50:39,498] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project=36 200 [0.19, 127.0.0.1:53866]
+[2023-01-09 16:51:06,163] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /deleteAuto/ 200 [0.27, 127.0.0.1:53884]
+[2023-01-09 16:51:10,293] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.20, 127.0.0.1:53894]
+[2023-01-09 16:51:15,469] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/?page=2 200 [0.35, 127.0.0.1:53901]
+[2023-01-09 16:54:57,693] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.19, 127.0.0.1:54098]
+[2023-01-09 16:54:57,767] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.27, 127.0.0.1:54097]
+[2023-01-09 16:55:05,635] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project=36 200 [1.07, 127.0.0.1:54108]
+[2023-01-09 16:55:28,664] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /files/?page=2 200 [8.00, 127.0.0.1:54115]
+[2023-01-09 16:55:30,123] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/css/bootstrap.min.css 304 [1.30, 127.0.0.1:54115]
+[2023-01-09 16:55:30,185] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/css/bootstrap-tweaks.css 304 [1.37, 127.0.0.1:54124]
+[2023-01-09 16:55:30,498] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/css/prettify.css 304 [1.14, 127.0.0.1:54125]
+[2023-01-09 16:55:30,571] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/css/default.css 304 [0.24, 127.0.0.1:54124]
+[2023-01-09 16:55:30,756] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/js/jquery-3.5.1.min.js 304 [0.36, 127.0.0.1:54115]
+[2023-01-09 16:55:30,761] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/js/ajax-form.js 304 [0.14, 127.0.0.1:54125]
+[2023-01-09 16:55:30,845] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/js/csrf.js 304 [0.18, 127.0.0.1:54124]
+[2023-01-09 16:55:30,860] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/js/bootstrap.min.js 304 [0.01, 127.0.0.1:54124]
+[2023-01-09 16:55:30,875] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/js/prettify-min.js 304 [0.01, 127.0.0.1:54124]
+[2023-01-09 16:55:30,895] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/js/default.js 304 [0.00, 127.0.0.1:54124]
+[2023-01-09 16:55:31,338] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/img/grid.png 304 [0.15, 127.0.0.1:54124]
+[2023-01-09 16:55:33,089] [log.py:241] [log:log_response] [WARNING]- Not Found: /files/jquery.min.js
+[2023-01-09 16:55:33,091] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /files/jquery.min.js 404 [1.58, 127.0.0.1:54124]
+[2023-01-09 16:57:50,731] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.16, 127.0.0.1:54190]
+[2023-01-09 16:57:50,921] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.13, 127.0.0.1:54194]
+[2023-01-09 16:58:00,020] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.16, 127.0.0.1:54206]
+[2023-01-09 16:58:00,270] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.17, 127.0.0.1:54209]
+[2023-01-09 17:01:18,856] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.12, 127.0.0.1:54300]
+[2023-01-09 17:01:19,282] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.34, 127.0.0.1:54303]
+[2023-01-09 17:01:19,496] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.18, 127.0.0.1:54308]
+[2023-01-09 17:01:19,536] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.22, 127.0.0.1:54309]
+[2023-01-09 17:01:20,271] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.35, 127.0.0.1:54316]
+[2023-01-09 17:01:20,815] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.66, 127.0.0.1:54319]
+[2023-01-09 17:01:21,512] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project=36 200 [0.39, 127.0.0.1:54322]
+[2023-01-09 17:02:06,212] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.11, 127.0.0.1:54345]
+[2023-01-09 17:02:06,410] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.15, 127.0.0.1:54348]
+[2023-01-09 17:02:33,857] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project=36 200 [0.18, 127.0.0.1:54380]
+[2023-01-09 17:02:40,156] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.44, 127.0.0.1:54420]
+[2023-01-09 17:02:40,355] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.64, 127.0.0.1:54421]
+[2023-01-09 17:04:29,687] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.08, 127.0.0.1:54581]
+[2023-01-09 17:04:29,981] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.18, 127.0.0.1:54584]
+[2023-01-09 17:11:43,594] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.53, 127.0.0.1:55029]
+[2023-01-09 17:11:43,625] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.17, 127.0.0.1:55032]
+[2023-01-09 17:12:04,624] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.09, 127.0.0.1:55047]
+[2023-01-09 17:12:04,888] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.13, 127.0.0.1:55050]
+[2023-01-09 17:12:34,558] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.19, 127.0.0.1:55072]
+[2023-01-09 17:12:34,780] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.23, 127.0.0.1:55075]
+[2023-01-09 17:12:40,702] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.10, 127.0.0.1:55083]
+[2023-01-09 17:12:40,952] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.13, 127.0.0.1:55087]
+[2023-01-09 17:12:50,502] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.14, 127.0.0.1:55096]
+[2023-01-09 17:12:50,725] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.14, 127.0.0.1:55100]
+[2023-01-09 17:13:22,200] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.13, 127.0.0.1:55126]
+[2023-01-09 17:13:22,224] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.15, 127.0.0.1:55127]
+[2023-01-09 17:15:06,941] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.18, 127.0.0.1:55219]
+[2023-01-09 17:15:07,033] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.27, 127.0.0.1:55220]
+[2023-01-09 17:15:11,384] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project=36 200 [0.23, 127.0.0.1:55226]
+[2023-01-09 17:15:24,866] [log.py:241] [log:log_response] [WARNING]- Not Found: /files/jquery.min.js
+[2023-01-09 17:15:24,869] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /files/jquery.min.js 404 [0.21, 127.0.0.1:55243]
+[2023-01-09 17:16:24,083] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.20, 127.0.0.1:55276]
+[2023-01-09 17:16:24,395] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.42, 127.0.0.1:55279]
+[2023-01-09 17:16:24,416] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.19, 127.0.0.1:55283]
+[2023-01-09 17:16:24,775] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.37, 127.0.0.1:55286]
+[2023-01-09 17:16:27,436] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project=36 200 [0.16, 127.0.0.1:55293]
+[2023-01-09 17:19:23,597] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.12, 127.0.0.1:55479]
+[2023-01-09 17:19:23,983] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.25, 127.0.0.1:55482]
+[2023-01-09 17:19:26,057] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project=36 200 [0.13, 127.0.0.1:55488]
+[2023-01-09 17:19:37,010] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.11, 127.0.0.1:55502]
+[2023-01-09 17:19:37,199] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.12, 127.0.0.1:55505]
+[2023-01-09 17:19:38,756] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project=36 200 [0.19, 127.0.0.1:55509]
+[2023-01-09 17:20:42,969] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.14, 127.0.0.1:55549]
+[2023-01-09 17:20:43,306] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.25, 127.0.0.1:55552]
+[2023-01-09 17:20:45,454] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project=36 200 [0.18, 127.0.0.1:55560]
+[2023-01-09 17:21:08,162] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.21, 127.0.0.1:55579]
+[2023-01-09 17:21:08,164] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.21, 127.0.0.1:55578]
+[2023-01-09 17:21:09,652] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project=36 200 [0.16, 127.0.0.1:55586]
+[2023-01-09 17:47:12,043] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.36, 127.0.0.1:55963]
+[2023-01-09 17:47:12,118] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.43, 127.0.0.1:55964]
+[2023-01-09 17:49:39,525] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.12, 127.0.0.1:56090]
+[2023-01-09 17:49:39,773] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.17, 127.0.0.1:56093]
+[2023-01-09 17:49:40,186] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.15, 127.0.0.1:56097]
+[2023-01-09 17:49:40,502] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.16, 127.0.0.1:56101]
+[2023-01-09 17:49:40,770] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.16, 127.0.0.1:56107]
+[2023-01-09 17:49:41,153] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.23, 127.0.0.1:56113]
+[2023-01-09 17:49:41,441] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.15, 127.0.0.1:56116]
+[2023-01-09 17:49:41,709] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.12, 127.0.0.1:56121]
+[2023-01-09 17:49:41,994] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.09, 127.0.0.1:56125]
+[2023-01-09 17:49:42,326] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.11, 127.0.0.1:56128]
+[2023-01-09 17:49:43,440] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project=36 200 [0.13, 127.0.0.1:56133]
+[2023-01-09 17:50:36,618] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.14, 127.0.0.1:56223]
+[2023-01-09 17:50:37,322] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.62, 127.0.0.1:56226]
+[2023-01-09 17:51:04,091] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.80, 127.0.0.1:56265]
+[2023-01-09 17:51:04,158] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.86, 127.0.0.1:56266]
+[2023-01-09 17:51:23,120] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.49, 127.0.0.1:56309]
+[2023-01-09 17:51:23,611] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.97, 127.0.0.1:56310]
+[2023-01-09 17:55:59,704] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.33, 127.0.0.1:56841]
+[2023-01-09 17:55:59,862] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.47, 127.0.0.1:56843]
+[2023-01-09 17:56:01,830] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project=36 200 [0.16, 127.0.0.1:56852]
+[2023-01-09 17:56:05,035] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.14, 127.0.0.1:56860]
+[2023-01-09 17:56:05,370] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.16, 127.0.0.1:56863]
+[2023-01-09 18:01:50,895] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.10, 127.0.0.1:57488]
+[2023-01-09 18:01:51,118] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.13, 127.0.0.1:57492]
+[2023-01-09 18:02:10,072] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.25, 127.0.0.1:57545]
+[2023-01-09 18:02:10,426] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.47, 127.0.0.1:57548]
+[2023-01-09 18:02:21,715] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.16, 127.0.0.1:57569]
+[2023-01-09 18:02:21,806] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.24, 127.0.0.1:57570]
+[2023-01-09 18:02:24,127] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project=36 200 [0.13, 127.0.0.1:57579]
+[2023-01-09 18:11:08,386] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.42, 127.0.0.1:58882]
+[2023-01-09 18:11:08,521] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.46, 127.0.0.1:58885]
+[2023-01-09 18:11:44,119] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.19, 127.0.0.1:58953]
+[2023-01-09 18:11:44,258] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.24, 127.0.0.1:58957]
+[2023-01-09 18:11:59,666] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.10, 127.0.0.1:58982]
+[2023-01-09 18:12:00,056] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.28, 127.0.0.1:58986]
+[2023-01-09 18:12:16,100] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.12, 127.0.0.1:59015]
+[2023-01-09 18:12:16,426] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.26, 127.0.0.1:59018]
+[2023-01-09 18:12:31,036] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.23, 127.0.0.1:59045]
+[2023-01-09 18:12:31,286] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.48, 127.0.0.1:59046]
+[2023-01-09 18:12:41,118] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.22, 127.0.0.1:59073]
+[2023-01-09 18:12:41,259] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.36, 127.0.0.1:59074]
+[2023-01-09 18:12:43,745] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project=36 200 [0.18, 127.0.0.1:59082]
+[2023-01-09 18:12:47,313] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.81, 127.0.0.1:59094]
+[2023-01-09 18:12:47,484] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.99, 127.0.0.1:59093]
+[2023-01-09 18:12:55,018] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.48, 127.0.0.1:59104]
+[2023-01-09 18:12:56,698] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.25, 127.0.0.1:59109]
+[2023-01-09 18:12:57,364] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.59, 127.0.0.1:59112]
+[2023-01-09 18:12:58,681] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/80 200 [1.00, 127.0.0.1:59122]
+[2023-01-09 18:12:58,763] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project= 200 [0.98, 127.0.0.1:59124]
+[2023-01-09 18:13:04,494] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [1.72, 127.0.0.1:59139]
+[2023-01-09 18:13:04,525] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [1.74, 127.0.0.1:59140]
+[2023-01-09 18:13:22,246] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.42, 127.0.0.1:59155]
+[2023-01-09 18:13:44,826] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/?page=2 200 [0.32, 127.0.0.1:59169]
+[2023-01-09 18:13:48,111] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.10, 127.0.0.1:59173]
+[2023-01-09 18:13:48,473] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.15, 127.0.0.1:59176]
+[2023-01-09 18:13:48,999] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/93 200 [0.19, 127.0.0.1:59185]
+[2023-01-09 18:13:49,295] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project= 200 [0.48, 127.0.0.1:59186]
+[2023-01-09 18:13:51,286] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.17, 127.0.0.1:59197]
+[2023-01-09 18:13:51,356] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.24, 127.0.0.1:59198]
+[2023-01-09 18:14:01,056] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /media/saas/saas_program/testFile/fiddler%E6%9B%BF%E6%8D%A2%E5%86%85%E5%AE%B9.txt 304 [5.06, 127.0.0.1:59210]
+[2023-01-09 18:14:10,425] [log.py:241] [log:log_response] [WARNING]- Not Found: /media/saas/saas_program/testFile/jquery.min.js
+[2023-01-09 18:14:10,511] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /media/saas/saas_program/testFile/jquery.min.js 404 [8.73, 127.0.0.1:59210]
+[2023-01-09 18:15:46,231] [log.py:241] [log:log_response] [WARNING]- Not Found: /media/saas/saas_program/testFile/jquery.min.js
+[2023-01-09 18:15:46,232] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /media/saas/saas_program/testFile/jquery.min.js 404 [0.08, 127.0.0.1:59348]
+[2023-01-09 18:15:57,360] [log.py:241] [log:log_response] [WARNING]- Not Found: /files/jquery.min.js
+[2023-01-09 18:15:57,362] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /files/jquery.min.js 404 [0.06, 127.0.0.1:59356]
+[2023-01-09 18:16:02,853] [log.py:241] [log:log_response] [WARNING]- Not Found: /media/saas/saas_program/testFile/jquery.min.js
+[2023-01-09 18:16:02,857] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /media/saas/saas_program/testFile/jquery.min.js 404 [0.04, 127.0.0.1:59365]
+[2023-01-09 18:18:48,814] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /media/saas/saas_program/testFile/fiddler_k6IF8gU.txt 200 [0.32, 127.0.0.1:59422]
+[2023-01-09 18:18:49,266] [log.py:241] [log:log_response] [WARNING]- Not Found: /media/saas/saas_program/testFile/jquery.min.js
+[2023-01-09 18:18:49,268] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /media/saas/saas_program/testFile/jquery.min.js 404 [0.03, 127.0.0.1:59426]
+[2023-01-09 18:18:52,159] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /media/saas/saas_program/testFile/hosts_zwQ4san.json 200 [0.06, 127.0.0.1:59426]
+[2023-01-09 18:18:52,227] [log.py:241] [log:log_response] [WARNING]- Not Found: /media/saas/saas_program/testFile/jquery.min.js
+[2023-01-09 18:18:52,230] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /media/saas/saas_program/testFile/jquery.min.js 404 [0.04, 127.0.0.1:59426]
+[2023-01-09 18:18:57,884] [log.py:241] [log:log_response] [WARNING]- Not Found: /media/saas/saas_program/testFile/jquery.min.js
+[2023-01-09 18:18:57,886] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /media/saas/saas_program/testFile/jquery.min.js 404 [0.03, 127.0.0.1:59426]
+[2023-01-09 18:19:02,400] [log.py:241] [log:log_response] [WARNING]- Not Found: /media/saas/saas_program/testFile/20_ouFpEd3.png
+[2023-01-09 18:19:02,401] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /media/saas/saas_program/testFile/20_ouFpEd3.png 404 [0.08, 127.0.0.1:59428]
+[2023-01-09 18:19:02,473] [log.py:241] [log:log_response] [WARNING]- Not Found: /media/saas/saas_program/testFile/jquery.min.js
+[2023-01-09 18:19:02,475] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /media/saas/saas_program/testFile/jquery.min.js 404 [0.03, 127.0.0.1:59428]
+[2023-01-09 18:19:05,823] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /media/saas/saas_program/testFile/20.png 200 [0.04, 127.0.0.1:59428]
+[2023-01-09 18:19:05,892] [log.py:241] [log:log_response] [WARNING]- Not Found: /media/saas/saas_program/testFile/jquery.min.js
+[2023-01-09 18:19:05,894] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /media/saas/saas_program/testFile/jquery.min.js 404 [0.03, 127.0.0.1:59428]
+[2023-01-09 18:23:43,707] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.21, 127.0.0.1:59690]
+[2023-01-09 18:35:57,916] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /media/saas/saas_program/testFile/fiddler%E6%9B%BF%E6%8D%A2%E5%86%85%E5%AE%B9.txt 200 [1.02, 127.0.0.1:60613]
+[2023-01-09 18:36:03,522] [log.py:241] [log:log_response] [WARNING]- Not Found: /media/saas/saas_program/testFile/jquery.min.js
+[2023-01-09 18:36:03,523] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /media/saas/saas_program/testFile/jquery.min.js 404 [0.06, 127.0.0.1:60620]
+[2023-01-09 18:37:20,109] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [8.08, 127.0.0.1:60656]
+[2023-01-09 18:37:20,742] [log.py:241] [log:log_response] [WARNING]- Not Found: /cases/jquery.min.js
+[2023-01-09 18:37:20,744] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /cases/jquery.min.js 404 [0.03, 127.0.0.1:60662]
+[2023-01-09 18:37:21,855] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 304 [1.30, 127.0.0.1:60661]
+[2023-01-09 18:37:29,204] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /file/ 200 [0.95, 127.0.0.1:60661]
+[2023-01-09 18:37:29,555] [log.py:241] [log:log_response] [WARNING]- Not Found: /file/jquery.min.js
+[2023-01-09 18:37:29,557] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /file/jquery.min.js 404 [0.03, 127.0.0.1:60661]
+[2023-01-09 18:37:32,752] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /media/saas/saas_program/testFile/test.xlsx 200 [0.09, 127.0.0.1:60668]
+[2023-01-09 18:37:43,154] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /media/saas/saas_program/testFile/%E6%B5%8B%E8%AF%95Linux.txt 200 [0.16, 127.0.0.1:60680]
+[2023-01-09 18:37:43,240] [log.py:241] [log:log_response] [WARNING]- Not Found: /media/saas/saas_program/testFile/jquery.min.js
+[2023-01-09 18:37:43,241] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /media/saas/saas_program/testFile/jquery.min.js 404 [0.03, 127.0.0.1:60680]
+[2023-01-09 18:38:05,178] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /media/saas/saas_program/testFile/fiddler_2wO7JWN.txt 200 [0.10, 127.0.0.1:60691]
+[2023-01-09 18:38:05,271] [log.py:241] [log:log_response] [WARNING]- Not Found: /media/saas/saas_program/testFile/jquery.min.js
+[2023-01-09 18:38:05,273] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /media/saas/saas_program/testFile/jquery.min.js 404 [0.03, 127.0.0.1:60691]
+[2023-01-09 18:38:19,232] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /deleteAuto/ 200 [0.15, 127.0.0.1:60698]
+[2023-01-09 18:38:32,107] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.47, 127.0.0.1:60711]
+[2023-01-09 18:38:32,122] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.49, 127.0.0.1:60710]
+[2023-01-09 18:38:33,107] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.47, 127.0.0.1:60723]
+[2023-01-09 18:38:33,536] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.90, 127.0.0.1:60724]
+[2023-01-09 18:38:34,756] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project=37 200 [0.51, 127.0.0.1:60729]
+[2023-01-09 18:38:40,192] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.43, 127.0.0.1:60742]
+[2023-01-09 18:38:40,517] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.75, 127.0.0.1:60743]
+[2023-01-09 18:40:01,224] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.09, 127.0.0.1:60783]
+[2023-01-09 18:40:01,575] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.23, 127.0.0.1:60786]
+[2023-01-09 18:40:02,412] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.17, 127.0.0.1:60794]
+[2023-01-09 18:40:03,205] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.14, 127.0.0.1:60804]
+[2023-01-09 18:40:06,644] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/?page=2 200 [0.11, 127.0.0.1:60809]
+[2023-01-09 18:40:09,633] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.22, 127.0.0.1:60820]
+[2023-01-09 18:40:27,447] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /deleteAuto/ 200 [0.01, 127.0.0.1:60836]
+[2023-01-09 18:40:45,910] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.16, 127.0.0.1:60854]
+[2023-01-09 18:40:46,804] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.09, 127.0.0.1:60860]
+[2023-01-09 18:40:48,772] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.12, 127.0.0.1:60871]
+[2023-01-09 18:40:50,739] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.13, 127.0.0.1:60877]
+[2023-01-09 18:40:54,823] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/36 200 [0.10, 127.0.0.1:60882]
+[2023-01-09 18:40:56,557] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.08, 127.0.0.1:60885]
+[2023-01-09 18:40:57,485] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.07, 127.0.0.1:60894]
+[2023-01-09 18:40:59,068] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/ 200 [0.09, 127.0.0.1:60896]
+[2023-01-09 18:40:59,993] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/ 200 [0.15, 127.0.0.1:60904]
+[2023-01-09 18:41:03,655] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/ 200 [0.09, 127.0.0.1:60914]
+[2023-01-09 18:41:08,408] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.14, 127.0.0.1:60930]
+[2023-01-09 18:41:08,520] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.25, 127.0.0.1:60931]
+[2023-01-09 18:41:09,635] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.16, 127.0.0.1:60941]
+[2023-01-09 18:41:09,686] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.15, 127.0.0.1:60943]
+[2023-01-09 18:41:10,554] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.16, 127.0.0.1:60949]
+[2023-01-09 18:41:11,198] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.13, 127.0.0.1:60955]
+[2023-01-09 18:41:15,952] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.08, 127.0.0.1:60968]
+[2023-01-09 18:41:16,626] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.11, 127.0.0.1:60972]
+[2023-01-09 18:41:19,635] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.34, 127.0.0.1:60979]
+[2023-01-09 18:41:20,463] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.27, 127.0.0.1:60985]
+[2023-01-09 18:42:07,691] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.22, 127.0.0.1:61006]
+[2023-01-09 18:42:24,093] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.17, 127.0.0.1:61020]
+[2023-01-09 18:43:00,567] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.13, 127.0.0.1:61043]
+[2023-01-09 18:43:10,555] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.16, 127.0.0.1:61050]
+[2023-01-09 18:43:47,434] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.16, 127.0.0.1:61082]
+[2023-01-09 18:43:53,227] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.16, 127.0.0.1:61095]
+[2023-01-09 18:43:53,243] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.17, 127.0.0.1:61096]
+[2023-01-09 18:43:55,969] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.18, 127.0.0.1:61108]
+[2023-01-09 18:43:55,995] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.21, 127.0.0.1:61109]
+[2023-01-09 18:43:58,961] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.13, 127.0.0.1:61122]
+[2023-01-09 18:43:59,648] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.12, 127.0.0.1:61132]
+[2023-01-09 18:48:19,243] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.26, 127.0.0.1:61313]
+[2023-01-09 18:48:20,494] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.75, 127.0.0.1:61320]
+[2023-01-09 18:48:32,175] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/ 200 [0.11, 127.0.0.1:61339]
+[2023-01-09 18:48:32,855] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/ 200 [0.09, 127.0.0.1:61348]
+[2023-01-09 18:48:33,900] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.05, 127.0.0.1:61352]
+[2023-01-09 18:48:34,568] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.05, 127.0.0.1:61361]
+[2023-01-09 18:48:41,657] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.15, 127.0.0.1:61376]
+[2023-01-09 18:48:42,721] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.08, 127.0.0.1:61385]
+[2023-01-09 18:48:49,915] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/?page=2 200 [0.10, 127.0.0.1:61397]
+[2023-01-09 18:49:51,345] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /dealFiddler/
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "D:\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "D:\Python310\lib\concurrent\futures\thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py", line 678, in post
+    datas = fiddlerExe.getDatas(data['hosts'])
+  File "C:\Users\Administrator\Desktop\myweb\myweb\saas\fiddlerExe.py", line 30, in getDatas
+    with open(r'D:\auto.dat', 'rb') as f1:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\auto.dat'
+[2023-01-09 18:49:51,521] [runserver.py:160] [runserver:log_action] [ERROR]- HTTP POST /dealFiddler/ 500 [6.78, 127.0.0.1:61514]
+[2023-01-09 18:51:10,878] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /deleteAuto/ 200 [0.01, 127.0.0.1:61719]
+[2023-01-09 18:51:45,121] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-09 18:51:45,248] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.35, 127.0.0.1:61956]
+[2023-01-09 18:52:03,490] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [1.27, 127.0.0.1:61989]
+[2023-01-09 18:52:10,608] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/?size=500 200 [0.23, 127.0.0.1:62000]
+[2023-01-09 18:52:20,360] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/85 200 [4.31, 127.0.0.1:62025]
+[2023-01-09 18:52:20,460] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/84 200 [4.44, 127.0.0.1:62024]
+[2023-01-09 18:52:20,462] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/82 200 [4.44, 127.0.0.1:62021]
+[2023-01-09 18:52:20,465] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/86 200 [4.39, 127.0.0.1:62026]
+[2023-01-09 18:52:20,466] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/81 200 [4.45, 127.0.0.1:62022]
+[2023-01-09 18:52:21,128] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/83 200 [5.11, 127.0.0.1:62023]
+[2023-01-09 18:52:22,001] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/80 200 [0.86, 127.0.0.1:62061]
+[2023-01-09 18:52:22,002] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/88 200 [1.36, 127.0.0.1:62057]
+[2023-01-09 18:52:22,003] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/91 200 [1.50, 127.0.0.1:62053]
+[2023-01-09 18:52:22,005] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/89 200 [1.51, 127.0.0.1:62051]
+[2023-01-09 18:52:22,006] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/90 200 [1.50, 127.0.0.1:62052]
+[2023-01-09 18:52:22,019] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/87 200 [1.62, 127.0.0.1:62041]
+[2023-01-09 18:52:22,801] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/93 200 [0.67, 127.0.0.1:62073]
+[2023-01-09 18:52:23,062] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/92 200 [0.93, 127.0.0.1:62072]
+[2023-01-09 18:52:28,383] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.30, 127.0.0.1:62090]
+[2023-01-09 18:52:38,410] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [2.13, 127.0.0.1:62116]
+[2023-01-09 18:52:38,660] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [2.72, 127.0.0.1:62113]
+[2023-01-09 18:52:38,660] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [2.40, 127.0.0.1:62115]
+[2023-01-09 18:52:38,754] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [3.04, 127.0.0.1:62105]
+[2023-01-09 18:52:39,201] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [2.92, 127.0.0.1:62117]
+[2023-01-09 18:52:39,282] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [3.21, 127.0.0.1:62114]
+[2023-01-09 18:52:41,448] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [2.64, 127.0.0.1:62141]
+[2023-01-09 18:52:41,916] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [3.29, 127.0.0.1:62131]
+[2023-01-09 18:52:41,920] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [3.24, 127.0.0.1:62135]
+[2023-01-09 18:52:44,703] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [1.43, 127.0.0.1:62158]
+[2023-01-09 18:52:48,890] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /cases/
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\backends\mysql\base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.DataError: (1366, 'Incorrect string value: \'\\xF0\\x9F\\x98\\x85",...\' for column \'unchange\' at row 1')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "D:\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "D:\Python310\lib\concurrent\futures\thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py", line 440, in post
+    serialize.save()
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\serializers.py", line 962, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\base.py", line 863, in save_base
+    updated = self._save_table(
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\query.py", line 1791, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\sql\compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\backends\mysql\base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\pythonList\web_python310\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.DataError: (1366, 'Incorrect string value: \'\\xF0\\x9F\\x98\\x85",...\' for column \'unchange\' at row 1')
+[2023-01-09 18:52:48,973] [runserver.py:160] [runserver:log_action] [ERROR]- HTTP POST /cases/ 500 [9.41, 127.0.0.1:62145]
+[2023-01-09 18:57:50,540] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-09 18:57:50,550] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.09, 127.0.0.1:62359]
+[2023-01-09 18:58:32,143] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.26, 127.0.0.1:62378]
+[2023-01-09 18:58:35,441] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.19, 127.0.0.1:62391]
+[2023-01-09 19:25:21,160] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [134.92, 127.0.0.1:64048]
+[2023-01-09 19:31:52,813] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [12.97, 127.0.0.1:64325]

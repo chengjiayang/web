@@ -1,0 +1,279 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<?xml version="1.0" encoding="UTF-8"???>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>saas接口自动化测试报告</title>
+    <meta name="generator" content="HTMLTestReportCN 0.8.3" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    
+<style type="text/css" media="screen">
+body        { font-family: Microsoft YaHei,Tahoma,arial,helvetica,sans-serif;padding: 20px; font-size: 100%; }
+table       { font-size: 100%; }
+/* -- heading ---------------------------------------------------------------------- */
+.heading {
+    margin-top: 0ex;
+    margin-bottom: 1ex;
+}
+.heading .description {
+    margin-top: 4ex;
+    margin-bottom: 6ex;
+}
+/* -- report ------------------------------------------------------------------------ */
+#total_row  { font-weight: bold; }
+.passCase   { color: #5cb85c; }
+.failCase   { color: #d9534f; font-weight: bold; }
+.errorCase  { color: #f0ad4e; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+</style>
+
+</head>
+<body>
+<div class="heading">
+<h1 style="font-family: Microsoft YaHei">saas接口自动化测试报告</h1>
+<p class="attribute">开始时间 : 2022-03-04 18:50:27.902466</p>
+
+<p class="attribute">合计耗时 : 0:00:03.185064</p>
+
+<p class="attribute">测试结果 : 共 1，通过 1，通过率= 100.00%</p>
+
+
+<p class="description">用例执行情况：</p>
+</div>
+
+
+<p id="show_detail_line">
+<a class="btn btn-primary" href="javascript:showCase(4)">概要{ 100.00% }</a>
+<a class="btn btn-success" href="javascript:showCase(0)">通过{ 1 }</a>
+<a class="btn btn-danger" href="javascript:showCase(1)">失败{ 0 }</a>
+<a class="btn btn-warning" href="javascript:showCase(2)">错误{ 0 }</a>
+<a class="btn btn-info" href="javascript:showCase(3)">所有{ 1 }</a>
+</p>
+<table id="result_table" class="table table-condensed table-bordered table-hover">
+<colgroup>
+<col align="left" />
+<col align="right" />
+<col align="right" />
+<col align="right" />
+<col align="right" />
+<col align="right" />
+</colgroup>
+<tr id="header_row" class="text-center active" style="font-weight: bold;font-size: 14px;">
+    <td>用例集/测试用例</td>
+    <td>总计</td>
+    <td>通过</td>
+    <td>失败</td>
+    <td>错误</td>
+    <td>详细</td>
+</tr>
+
+
+
+<tr class="success">
+    <td>test_5531646391027.TestCase553</td>
+    <td class="text-center">1</td>
+    <td class="text-center">1</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',1)" class="detail" id="c1">详细</a></td>
+</tr>
+
+
+<tr id="pt1_1" class="hiddenRow">
+    <td class="passCase"><div class="testcase">test_553_1_0: 学员考试任务提交接口-考生完成试卷答题:553</div></td>
+    <td colspan="5" align="center">
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt1_1' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_1'>通过</button>
+    <div id='div_pt1_1' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id="btn_pt1_1" type="button" class="btn-xs" data-toggle="collapse" data-target="#div_pt1_1">通过</button>
+    <div id="div_pt1_1" class="collapse in" style="text-align:left">
+    <pre>
+    
+pt1_1: <class>
+
+2022-03-04 18:50:27,918 - 5531646391027 - "test_5531646391027.py: 41" - test_553 - INFO - 用例数据：
+2022-03-04 18:50:27,918 - 5531646391027 - "test_5531646391027.py: 42" - test_553 - INFO - {'id': 553, 'project': None, 'name': '553', 'url': '/exam/exams/tasks/submit', 'method': 'POST', 'url_params': None, 'body_params': '{"solutionId":"{solutionId}","taskId":"{id}"}', 'file': None, 'code': 200, 'unchange': '{"errCode":0,"message":"","data":0}', 'change': None, 'information': '学员考试任务提交接口-考生完成试卷答题', 'result_log': None, 'is_online': '否'}
+2022-03-04 18:50:28,174 - 5531646391027 - "configHttp.py: 124" - getauth - INFO - 登录后header：{'Content-Type': 'application/json', 'Accept': 'application/json', 'charset': 'UTF-8', 'origin': 'https://saas-test.51cto.com', 'Referer': 'https://saas-test.51cto.com/', 'Authorization': 'bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmVkIjpmYWxzZSwidXNlcl9uYW1lIjoi5buW57qi6ZyeIiwic2NvcGUiOlsicmVzb3VyY2VzIl0sImlkIjoxNDU3NTM0NzQwMDMwMDE3NTM2LCJjb21wbmFtZSI6IuiHquWKqOWMlua1i-ivleS4k-eUqOS8geS4miIsImV4cCI6Mzc5Mzg3NDY3NSwidmVyc2lvbiI6IlRSSUFMIiwiYXV0aG9yaXRpZXMiOlsiMTQ1NzUzNDczOTk0MTkzNzE1Ml_pq5jnuqfnrqHnkIblkZgiLCIxNDU3NTM0NzM5OTQxOTM3MTU0X-aZrumAmuWRmOW3pSJdLCJkaWQiOjE0NTc1MzQ3Mzk2NjA5MTg3ODQsImp0aSI6ImQzNTAyNDIyLTVjMDEtNGIwZi05N2VlLTVjNTU3NDliYmM5OCIsImNsaWVudF9pZCI6ImdhdGV3YXkiLCJjaWQiOjE0NTc1MzQ3Mzk2NjA5MTg3ODR9.bjg1jQ8B6vLeJ0s9t9dznz9h7dzq1HNJ-M7BZVeMdHRGkC5VtUY58naTpkpZ-oey5UQCiYg8GBdNxXiCep684SoIoGjilBPA_IIf7fPHoKxtF_SaXkrqklUwP0YPBsC--hrmLn_VnPszjPMWmyXmGNhIvE-7ayjDukRqu1nK98P3pMBnlMD2cm8YDBfGG18IrdNP8F6zfD2lKOb2Wtfe57hgFuZFx7ssHWgH4q3fWQxeVdwRyr5SjgfBXuo9qU8v8iNFo53Rdayq8azu_dnQxYMFUxGnlozG-5eUivPW9ikPODDcNGw03npg9auuqllyC1frswl0JdazBDFKKPdD7w'}
+2022-03-04 18:50:28,335 - 5531646391027 - "runCase1102.py: 138" - runOneCase - INFO - 执行接口：保存考试-问答题
+2022-03-04 18:50:28,335 - 5531646391027 - "runCase1102.py: 140" - runOneCase - INFO - 请求路径：http://saas-test-api.51cto.com/exam/exams
+2022-03-04 18:50:28,335 - 5531646391027 - "runCase1102.py: 141" - runOneCase - INFO - 请求参数：b'{"answerMode": "OVER", "candidates": ["1457534740030017536"], "description": "", "duration": 0, "startDate": "2022-03-04 18:52:28", "plan": false, "endDate": "2022-03-04 19:10:28", "thumbnail": "https://v8.51cto.com/template/exam/cover/cover1.jpg", "title": "\\u95ee\\u7b54\\u98982022-03-031", "multipleScoretype": "HALFSCORE", "randomOption": true, "randomQuestion": true, "paper": {"type": "MANUAL", "questions": [{"title": "<p>123</p>", "type": "SUBJECTIVE", "difficulty": "MIDDLE", "categoryName": "\\u9ed8\\u8ba4\\u5206\\u7c7b", "createTime": "2021-04-02 15:46", "creator": "sunsa", "createBy": "1320634661042393088", "categoryId": "1", "categoryFullName": "\\u9ed8\\u8ba4\\u5206\\u7c7b", "analysis": "<p>123</p>", "answer": "<p>123</p>", "options": [], "tags": [], "checkbox": false, "score": 2}], "rule": {}, "count": 1, "score": 2}, "switchScreens": {"duration": 5, "enable": false, "times": 10}, "hideScore": false, "hidePassed": false, "passScore": 0, "retryCount": -1, "publish": true, "device": "BOTH"}'
+2022-03-04 18:50:28,335 - 5531646391027 - "runCase1102.py: 142" - runOneCase - INFO - 请求方法：POST
+2022-03-04 18:50:28,335 - 5531646391027 - "runCase1102.py: 143" - runOneCase - INFO - 返回码：200
+2022-03-04 18:50:28,335 - 5531646391027 - "runCase1102.py: 145" - runOneCase - INFO - 接口【保存考试-问答题】 返回内容：{'errCode': 0, 'message': '', 'data': '1499698786066300928'}
+2022-03-04 18:50:28,660 - 5531646391027 - "configHttp.py: 391" - getResult - INFO - {'_id': '1499698786066300928'}
+2022-03-04 18:50:28,690 - 5531646391027 - "runCase1102.py: 193" - runOneCase - INFO - 接口保存考试-问答题返回内容{'result_http': <response>, 'result_next_parm': {}, 'result_lasecase_parm': {'lastApi': 8, 'examId': '1499698786066300928'}}
+2022-03-04 18:50:28,868 - 5531646391027 - "runCase1102.py: 138" - runOneCase - INFO - 执行接口：考试任务未完成
+2022-03-04 18:50:28,868 - 5531646391027 - "runCase1102.py: 140" - runOneCase - INFO - 请求路径：http://saas-test-api.51cto.com/exam/exams/tasks?page=0&size=20&status=UNDONE
+2022-03-04 18:50:28,868 - 5531646391027 - "runCase1102.py: 141" - runOneCase - INFO - 请求参数：None
+2022-03-04 18:50:28,868 - 5531646391027 - "runCase1102.py: 142" - runOneCase - INFO - 请求方法：GET
+2022-03-04 18:50:28,868 - 5531646391027 - "runCase1102.py: 143" - runOneCase - INFO - 返回码：200
+2022-03-04 18:50:28,868 - 5531646391027 - "runCase1102.py: 145" - runOneCase - INFO - 接口【考试任务未完成】 返回内容：{'errCode': 0, 'message': '', 'data': {'content': [{'id': '1496013434835210240', 'examId': '1496013434700992512', 'title': '问答题1', 'thumbnail': 'https://v8.51cto.com/template/exam/cover/cover1.jpg', 'startTime': '2021-07-23 10:00:00', 'endTime': '2022-02-22 15:06:00', 'duration': 0, 'count': '1', 'score': 0, 'submitCount': 0, 'passed': False, 'passScore': 0, 'retryCount': -1, 'scoring': 0, 'hidePassed': False, 'hideScore': False, 'device': 'BOTH', 'expired': True}, {'id': '1496013436781367296', 'examId': '1496013436731035648', 'title': '问答题1', 'thumbnail': 'https://v8.51cto.com/template/exam/cover/cover1.jpg', 'startTime': '2021-07-23 10:00:00', 'endTime': '2022-02-22 15:06:00', 'duration': 0, 'count': '1', 'score': 0, 'submitCount': 0, 'passed': False, 'passScore': 0, 'retryCount': -1, 'scoring': 0, 'hidePassed': False, 'hideScore': False, 'device': 'BOTH', 'expired': True}, {'id': '1496013452992352256', 'examId': '1496013452937826304', 'title': '问答题1', 'thumbnail': 'https://v8.51cto.com/template/exam/cover/cover1.jpg', 'startTime': '2021-07-23 10:00:00', 'endTime': '2022-02-22 15:06:00', 'duration': 0, 'count': '1', 'score': 0, 'submitCount': 0, 'passed': False, 'passScore': 0, 'retryCount': -1, 'scoring': 0, 'hidePassed': False, 'hideScore': False, 'device': 'BOTH', 'expired': True}, {'id': '1496013724116357120', 'examId': '1496013723982139392', 'title': '问答题1', 'thumbnail': 'https://v8.51cto.com/template/exam/cover/cover1.jpg', 'startTime': '2021-07-23 10:00:00', 'endTime': '2022-02-22 15:07:00', 'duration': 0, 'count': '1', 'score': 0, 'submitCount': 0, 'passed': False, 'passScore': 0, 'retryCount': -1, 'scoring': 0, 'hidePassed': False, 'hideScore': False, 'device': 'BOTH', 'expired': True}, {'id': '1499358515310931968', 'examId': '1499358515273183232', 'title': '问答题2022-03-031', 'thumbnail': 'https://v8.51cto.com/template/exam/cover/cover1.jpg', 'startTime': '2022-03-03 10:00:00', 'endTime': '2022-03-03 20:38:00', 'duration': 0, 'count': '1', 'score': 0, 'submitCount': 0, 'passed': False, 'passScore': 0, 'retryCount': -1, 'scoring': 0, 'hidePassed': False, 'hideScore': False, 'device': 'BOTH', 'expired': True}, {'id': '1499358696374841344', 'examId': '1499358696311926784', 'title': '问答题2022-03-031', 'thumbnail': 'https://v8.51cto.com/template/exam/cover/cover1.jpg', 'startTime': '2022-03-03 10:00:00', 'endTime': '2022-03-03 20:38:00', 'duration': 0, 'count': '1', 'score': 0, 'submitCount': 0, 'passed': False, 'passScore': 0, 'retryCount': -1, 'scoring': 0, 'hidePassed': False, 'hideScore': False, 'device': 'BOTH', 'expired': True}, {'id': '1499358858732154880', 'examId': '1499358858677628928', 'title': '问答题2022-03-031', 'thumbnail': 'https://v8.51cto.com/template/exam/cover/cover1.jpg', 'startTime': '2022-03-03 10:00:00', 'endTime': '2022-03-03 20:38:00', 'duration': 0, 'count': '1', 'score': 0, 'submitCount': 0, 'passed': False, 'passScore': 0, 'retryCount': -1, 'scoring': 0, 'hidePassed': False, 'hideScore': False, 'device': 'BOTH', 'expired': True}, {'id': '1499360820693348352', 'examId': '1499360820626239488', 'title': '问答题2022-03-031', 'thumbnail': 'https://v8.51cto.com/template/exam/cover/cover1.jpg', 'startTime': '2022-03-03 10:00:00', 'endTime': '2022-03-03 20:47:00', 'duration': 0, 'count': '1', 'score': 0, 'submitCount': 0, 'passed': False, 'passScore': 0, 'retryCount': -1, 'scoring': 0, 'hidePassed': False, 'hideScore': False, 'device': 'BOTH', 'expired': True}, {'id': '1499360951777931264', 'examId': '1499360951710822400', 'title': '问答题2022-03-031', 'thumbnail': 'https://v8.51cto.com/template/exam/cover/cover1.jpg', 'startTime': '2022-03-03 10:00:00', 'endTime': '2022-03-03 20:47:00', 'duration': 0, 'count': '1', 'score': 0, 'submitCount': 0, 'passed': False, 'passScore': 0, 'retryCount': -1, 'scoring': 0, 'hidePassed': False, 'hideScore': False, 'device': 'BOTH', 'expired': True}, {'id': '1499361057440837632', 'examId': '1499361057386311680', 'title': '问答题2022-03-031', 'thumbnail': 'https://v8.51cto.com/template/exam/cover/cover1.jpg', 'startTime': '2022-03-03 10:00:00', 'endTime': '2022-03-03 20:47:00', 'duration': 0, 'count': '1', 'score': 0, 'submitCount': 0, 'passed': False, 'passScore': 0, 'retryCount': -1, 'scoring': 0, 'hidePassed': False, 'hideScore': False, 'device': 'BOTH', 'expired': True}, {'id': '1499361570307747840', 'examId': '1499361570265804800', 'title': '问答题2022-03-031', 'thumbnail': 'https://v8.51cto.com/template/exam/cover/cover1.jpg', 'startTime': '2022-03-03 10:00:00', 'endTime': '2022-03-03 20:50:00', 'duration': 0, 'count': '1', 'score': 0, 'submitCount': 0, 'passed': False, 'passScore': 0, 'retryCount': -1, 'scoring': 0, 'hidePassed': False, 'hideScore': False, 'device': 'BOTH', 'expired': True}, {'id': '1499366373083623424', 'examId': '1499366373020708864', 'title': '问答题2022-03-031', 'thumbnail': 'https://v8.51cto.com/template/exam/cover/cover1.jpg', 'startTime': '2022-03-03 10:00:00', 'endTime': '2022-03-03 21:09:00', 'duration': 0, 'count': '1', 'score': 0, 'submitCount': 0, 'passed': False, 'passScore': 0, 'retryCount': -1, 'scoring': 0, 'hidePassed': False, 'hideScore': False, 'device': 'BOTH', 'expired': True}, {'id': '1499367237588398080', 'examId': '1499367237517094912', 'title': '问答题2022-03-031', 'thumbnail': 'https://v8.51cto.com/template/exam/cover/cover1.jpg', 'startTime': '2022-03-03 10:00:00', 'endTime': '2022-03-03 21:13:00', 'duration': 0, 'count': '1', 'score': 0, 'submitCount': 0, 'passed': False, 'passScore': 0, 'retryCount': -1, 'scoring': 0, 'hidePassed': False, 'hideScore': False, 'device': 'BOTH', 'expired': True}, {'id': '1499385452758609920', 'examId': '1499385452712472576', 'title': '问答题2022-03-031', 'thumbnail': 'https://v8.51cto.com/template/exam/cover/cover1.jpg', 'startTime': '2022-03-03 10:00:00', 'endTime': '2022-03-03 22:25:00', 'duration': 0, 'count': '1', 'score': 0, 'submitCount': 0, 'passed': False, 'passScore': 0, 'retryCount': -1, 'scoring': 0, 'hidePassed': False, 'hideScore': False, 'device': 'BOTH', 'expired': True}, {'id': '1499684268779044864', 'examId': '1499684268565135360', 'title': '问答题2022-03-031', 'thumbnail': 'https://v8.51cto.com/template/exam/cover/cover1.jpg', 'startTime': '2022-03-03 10:00:00', 'endTime': '2022-03-04 18:12:00', 'duration': 0, 'count': '1', 'score': 0, 'submitCount': 0, 'passed': False, 'passScore': 0, 'retryCount': -1, 'scoring': 0, 'hidePassed': False, 'hideScore': False, 'device': 'BOTH', 'expired': True}, {'id': '1499696547327180800', 'examId': '1499696547155214336', 'title': '问答题2022-03-031', 'thumbnail': 'https://v8.51cto.com/template/exam/cover/cover1.jpg', 'startTime': '2022-03-03 10:00:00', 'endTime': '2022-03-04 19:01:00', 'duration': 0, 'count': '1', 'score': 0, 'submitCount': 0, 'passed': False, 'passScore': 0, 'retryCount': -1, 'scoring': 0, 'hidePassed': False, 'hideScore': False, 'device': 'BOTH', 'expired': False}, {'id': '1499698151396802560', 'examId': '1499698151103201280', 'title': '问答题2022-03-031', 'thumbnail': 'https://v8.51cto.com/template/exam/cover/cover1.jpg', 'startTime': '2022-03-03 10:00:00', 'endTime': '2022-03-04 19:07:00', 'duration': 0, 'count': '1', 'score': 0, 'submitCount': 0, 'passed': False, 'passScore': 0, 'retryCount': -1, 'scoring': 0, 'hidePassed': False, 'hideScore': False, 'device': 'BOTH', 'expired': False}, {'id': '1499698786284404736', 'examId': '1499698786066300928', 'title': '问答题2022-03-031', 'thumbnail': 'https://v8.51cto.com/template/exam/cover/cover1.jpg', 'startTime': '2022-03-03 10:00:00', 'endTime': '2022-03-04 19:10:00', 'duration': 0, 'count': '1', 'score': 0, 'submitCount': 0, 'passed': False, 'passScore': 0, 'retryCount': -1, 'scoring': 0, 'hidePassed': False, 'hideScore': False, 'device': 'BOTH', 'expired': False}], 'total': '18'}}
+2022-03-04 18:50:29,457 - 5531646391027 - "configHttp.py: 391" - getResult - INFO - {}
+2022-03-04 18:50:29,457 - 5531646391027 - "runCase1102.py: 193" - runOneCase - INFO - 接口考试任务未完成返回内容{'result_http': <response>, 'result_next_parm': {'id': 1499698786284404736}}
+2022-03-04 18:50:29,553 - 5531646391027 - "runCase1102.py: 138" - runOneCase - INFO - 执行接口：学员考试任务提交接口-考生开始答题
+2022-03-04 18:50:29,553 - 5531646391027 - "runCase1102.py: 140" - runOneCase - INFO - 请求路径：http://saas-test-api.51cto.com/exam/exams/tasks/1499698786284404736/start
+2022-03-04 18:50:29,553 - 5531646391027 - "runCase1102.py: 141" - runOneCase - INFO - 请求参数：None
+2022-03-04 18:50:29,553 - 5531646391027 - "runCase1102.py: 142" - runOneCase - INFO - 请求方法：POST
+2022-03-04 18:50:29,553 - 5531646391027 - "runCase1102.py: 143" - runOneCase - INFO - 返回码：200
+2022-03-04 18:50:29,568 - 5531646391027 - "runCase1102.py: 145" - runOneCase - INFO - 接口【学员考试任务提交接口-考生开始答题】 返回内容：{'errCode': 0, 'message': '', 'data': {'id': '1499698791296598016', 'score': 0.0, 'status': 'STARTED', 'accessTime': '2022-03-04 18:50:29', 'duration': 0, 'scoring': False, 'passed': False, 'count': {'single': '0', 'multiple': '0', 'subjective': '1', 'program': '0'}, 'total': 2, 'remaining': '9223372036854775807'}}
+2022-03-04 18:50:30,018 - 5531646391027 - "configHttp.py: 391" - getResult - INFO - {'latest._id': '1499698791296598016'}
+2022-03-04 18:50:30,018 - 5531646391027 - "runCase1102.py: 193" - runOneCase - INFO - 接口学员考试任务提交接口-考生开始答题返回内容{'result_http': <response>, 'result_next_parm': {'solutionId': 1499698791296598016, 'id': 1499698786284404736}}
+2022-03-04 18:50:30,103 - 5531646391027 - "runCase1102.py: 138" - runOneCase - INFO - 执行接口：学员考试任务提交接口-考生查询自己某场考试的试卷信息-及当前已答过的答案信息-开始答题-考试进行中查看（已开始答题）
+2022-03-04 18:50:30,103 - 5531646391027 - "runCase1102.py: 140" - runOneCase - INFO - 请求路径：http://saas-test-api.51cto.com/exam/exams/tasks/1499698786284404736/questions?id=1499698786284404736&solutionId=1499698791296598016
+2022-03-04 18:50:30,103 - 5531646391027 - "runCase1102.py: 141" - runOneCase - INFO - 请求参数：None
+2022-03-04 18:50:30,103 - 5531646391027 - "runCase1102.py: 142" - runOneCase - INFO - 请求方法：GET
+2022-03-04 18:50:30,103 - 5531646391027 - "runCase1102.py: 143" - runOneCase - INFO - 返回码：200
+2022-03-04 18:50:30,103 - 5531646391027 - "runCase1102.py: 145" - runOneCase - INFO - 接口【学员考试任务提交接口-考生查询自己某场考试的试卷信息-及当前已答过的答案信息-开始答题-考试进行中查看（已开始答题）】 返回内容：{'errCode': 0, 'message': '', 'data': {'id': '1499698786284404736', 'examId': '1499698786066300928', 'title': '问答题2022-03-031', 'description': '', 'answerMode': 'OVER', 'status': 'STARTED', 'userId': '1457534740030017536', 'username': '廖红霞', 'startTime': '2022-03-03 10:00:00', 'endTime': '2022-03-04 19:10:00', 'score': 0, 'total': 2, 'count': '1', 'program': True, 'remove': False, 'duration': 0, 'thumbnail': 'https://v8.51cto.com/template/exam/cover/cover1.jpg', 'answering': True, 'singleCount': '0', 'multipleCount': '0', 'solutions': [{'id': '1499698791296598016', 'score': 0.0, 'status': 'STARTED', 'accessTime': '2022-03-04 18:50:29', 'duration': 0, 'scoring': False, 'passed': False, 'count': {'single': '0', 'multiple': '0', 'subjective': '1', 'program': '0'}, 'total': 2, 'questions': [{'id': '1499698786066300929', 'assessments': [], 'mark': False, 'score': 0, 'sort': 0, 'title': '<p>123</p>', 'options': [], 'type': 'SUBJECTIVE', 'deleted': False, 'categoryId': '1', 'total': 2, 'spent': 0, 'attachable': False}], 'taskId': '0', 'examId': '0', 'remaining': '9223372036854775807'}], 'submitCount': 0, 'passed': False, 'passScore': 0, 'retryCount': -1, 'biz': 'NORMAL', 'scoring': False, 'hidePassed': False, 'hideScore': False, 'device': 'BOTH', 'snapshot': {'enabled': False, 'rate': 0, 'allowNone': False}}}
+2022-03-04 18:50:30,376 - 5531646391027 - "configHttp.py: 391" - getResult - INFO - {'_id': '1499698786284404736'}
+2022-03-04 18:50:30,376 - 5531646391027 - "runCase1102.py: 193" - runOneCase - INFO - 接口学员考试任务提交接口-考生查询自己某场考试的试卷信息-及当前已答过的答案信息-开始答题-考试进行中查看（已开始答题）返回内容{'result_http': <response>, 'result_next_parm': {'solutionId': 1499698791296598016, 'taskId': 1499698786284404736, 'question': 1499698786066300929}}
+2022-03-04 18:50:30,469 - 5531646391027 - "runCase1102.py: 138" - runOneCase - INFO - 执行接口：学员考试任务提交接口-考试提交某个考试，某个问题的答案(问答题)
+2022-03-04 18:50:30,469 - 5531646391027 - "runCase1102.py: 140" - runOneCase - INFO - 请求路径：http://saas-test-api.51cto.com/exam/exams/tasks/answer
+2022-03-04 18:50:30,469 - 5531646391027 - "runCase1102.py: 141" - runOneCase - INFO - 请求参数：b'{"answer": {"question": "1499698786066300929", "reply": "\\u56de\\u7b54"}, "solutionId": "1499698791296598016", "taskId": "1499698786284404736", "language": ""}'
+2022-03-04 18:50:30,469 - 5531646391027 - "runCase1102.py: 142" - runOneCase - INFO - 请求方法：POST
+2022-03-04 18:50:30,469 - 5531646391027 - "runCase1102.py: 143" - runOneCase - INFO - 返回码：200
+2022-03-04 18:50:30,469 - 5531646391027 - "runCase1102.py: 145" - runOneCase - INFO - 接口【学员考试任务提交接口-考试提交某个考试，某个问题的答案(问答题)】 返回内容：{'errCode': 0, 'message': '', 'data': '1499698791296598016'}
+2022-03-04 18:50:30,853 - 5531646391027 - "configHttp.py: 391" - getResult - INFO - {'latest._id': '1499698791296598016'}
+2022-03-04 18:50:30,853 - 5531646391027 - "runCase1102.py: 193" - runOneCase - INFO - 接口学员考试任务提交接口-考试提交某个考试，某个问题的答案(问答题)返回内容{'result_http': <response>, 'result_next_parm': {'solutionId': 1499698791296598016, 'id': 1499698786284404736}}
+2022-03-04 18:50:30,938 - 5531646391027 - "runCase1102.py: 138" - runOneCase - INFO - 执行接口：学员考试任务提交接口-考生完成试卷答题
+2022-03-04 18:50:30,938 - 5531646391027 - "runCase1102.py: 140" - runOneCase - INFO - 请求路径：http://saas-test-api.51cto.com/exam/exams/tasks/submit
+2022-03-04 18:50:30,938 - 5531646391027 - "runCase1102.py: 141" - runOneCase - INFO - 请求参数：b'{"solutionId": "1499698791296598016", "taskId": "1499698786284404736"}'
+2022-03-04 18:50:30,938 - 5531646391027 - "runCase1102.py: 142" - runOneCase - INFO - 请求方法：POST
+2022-03-04 18:50:30,938 - 5531646391027 - "runCase1102.py: 143" - runOneCase - INFO - 返回码：200
+2022-03-04 18:50:30,938 - 5531646391027 - "runCase1102.py: 145" - runOneCase - INFO - 接口【学员考试任务提交接口-考生完成试卷答题】 返回内容：{'errCode': 0, 'message': '', 'data': 0}
+2022-03-04 18:50:30,954 - 5531646391027 - "runCase1102.py: 193" - runOneCase - INFO - 接口学员考试任务提交接口-考生完成试卷答题返回内容{'result_http': <response>}
+2022-03-04 18:50:31,087 - 5531646391027 - "runCase1102.py: 138" - runOneCase - INFO - 执行接口：删除考试
+2022-03-04 18:50:31,087 - 5531646391027 - "runCase1102.py: 140" - runOneCase - INFO - 请求路径：http://saas-test-api.51cto.com/exam/exams/1499698786066300928
+2022-03-04 18:50:31,087 - 5531646391027 - "runCase1102.py: 141" - runOneCase - INFO - 请求参数：None
+2022-03-04 18:50:31,087 - 5531646391027 - "runCase1102.py: 142" - runOneCase - INFO - 请求方法：DELETE
+2022-03-04 18:50:31,087 - 5531646391027 - "runCase1102.py: 143" - runOneCase - INFO - 返回码：200
+2022-03-04 18:50:31,087 - 5531646391027 - "runCase1102.py: 145" - runOneCase - INFO - 接口【删除考试】 返回内容：{'errCode': 0, 'message': '', 'data': '1499698786066300928'}
+2022-03-04 18:50:31,087 - 5531646391027 - "runCase1102.py: 193" - runOneCase - INFO - 接口删除考试返回内容{'result_http': <response>}
+
+
+    </response></response></response></response></response></response></response></class></pre>
+    </div>
+    </td>
+</tr>
+
+
+<tr id="total_row" class="text-center info">
+    <td>总计</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>通过率：100.00%</td>
+</tr>
+</table>
+
+<div id="ending"> </div>
+    <div style=" position:fixed;right:50px; bottom:30px; width:20px; height:20px;cursor:pointer">
+    <a href="#"><span class="glyphicon glyphicon-eject" style="font-size:30px;" aria-hidden="true">
+    </span></a></div>
+    
+<script language="javascript" type="text/javascript">
+output_list = Array();
+// 修改按钮颜色显示错误问题 --Findyou v0.8.2.3
+$("button[id^='btn_pt']").addClass("btn btn-success");
+$("button[id^='btn_ft']").addClass("btn btn-danger");
+$("button[id^='btn_et']").addClass("btn btn-warning");
+/*level
+增加分类并调整，增加error按钮事件 --Findyou v0.8.2.3
+0:Pass    //pt none, ft hiddenRow, et hiddenRow
+1:Failed  //pt hiddenRow, ft none, et hiddenRow
+2:Error    //pt hiddenRow, ft hiddenRow, et none
+3:All     //pt none, ft none, et none
+4:Summary //all hiddenRow
+*/
+//add Error button event --Findyou v0.8.2.3
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level == 0 || level == 2 || level == 4 ) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level == 1 || level == 2 || level == 4) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'et') {
+            if (level == 0 || level == 1 || level == 4) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+    }
+    //加入【详细】切换文字变化 --Findyou
+    detail_class=document.getElementsByClassName('detail');
+	//console.log(detail_class.length)
+	if (level == 3) {
+		for (var i = 0; i < detail_class.length; i++){
+			detail_class[i].innerHTML="收起"
+		}
+	}
+	else{
+			for (var i = 0; i < detail_class.length; i++){
+			detail_class[i].innerHTML="详细"
+		}
+	}
+}
+//add Error button event --Findyou v0.8.2.3
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        tid0 = 't' + cid.substr(1) + '_' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        if (!tr) {
+            tid = 'e' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        //修改点击无法收起的BUG，加入【详细】切换文字变化 --Findyou
+        if (toHide) {
+            document.getElementById(tid).className = 'hiddenRow';
+            document.getElementById(cid).innerText = "详细"
+        }
+        else {
+            document.getElementById(tid).className = '';
+            document.getElementById(cid).innerText = "收起"
+        }
+    }
+}
+function html_escape(s) {
+    s = s.replace(/&/g,'&');
+    s = s.replace(/</g,'<');
+    s = s.replace(/>/g,'>');
+    return s;
+}
+</script>
+</body>
+</html>

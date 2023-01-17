@@ -1,0 +1,75 @@
+[2022-12-05 11:54:02,335] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-05 11:54:02,335] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-05 11:54:02,335] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-05 11:56:34,861] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-05 11:56:34,861] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-05 11:56:34,861] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-05 11:58:07,554] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-05 11:58:07,569] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-05 11:58:07,569] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-05 12:21:38,782] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-05 12:21:38,785] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-05 12:21:38,789] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-05 13:05:48,084] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-05 13:05:48,084] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-05 13:05:48,084] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-05 13:07:22,088] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-05 13:07:22,089] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-05 13:07:22,090] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-05 13:08:56,729] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-05 13:08:56,729] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-05 13:08:56,729] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-05 13:12:17,942] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-05 13:12:17,942] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-05 13:12:17,958] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-05 13:13:33,590] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-05 13:13:33,590] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-05 13:13:33,590] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-05 13:14:17,536] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-05 13:14:17,536] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-05 13:14:17,536] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-05 13:18:44,914] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-05 13:18:44,917] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-05 13:18:44,926] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-05 13:19:38,451] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-05 13:19:38,451] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-05 13:19:38,451] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-05 13:22:33,670] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-05 13:22:33,670] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-05 13:22:33,670] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-05 13:39:11,704] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-05 13:39:11,704] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-05 13:39:11,704] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-05 13:40:00,260] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-05 13:40:00,260] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-05 13:40:00,260] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-05 13:40:50,018] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-05 13:40:50,018] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-05 13:40:50,018] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-05 13:41:48,847] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-05 13:41:48,847] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-05 13:41:48,863] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-05 13:54:27,626] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-05 13:54:27,654] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-05 13:54:27,656] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-05 20:54:07,049] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-05 20:54:07,080] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2022-12-05 20:54:07,080] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 0.0.0.0:8000
+[2022-12-05 20:56:40,203] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-05 20:56:40,203] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=192.168.1.102
+[2022-12-05 20:56:40,203] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 192.168.1.102:8000
+[2022-12-05 20:59:51,195] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-05 20:59:51,195] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=192.168.1.102
+[2022-12-05 20:59:51,195] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 192.168.1.102:8000
+[2022-12-05 21:13:25,308] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-05 21:13:25,346] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2022-12-05 21:13:25,349] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 0.0.0.0:8000
+[2022-12-05 21:17:49,749] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-05 21:17:49,749] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2022-12-05 21:17:49,749] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 0.0.0.0:8000
+[2022-12-05 21:52:34,309] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-05 21:52:34,356] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8080:interface=0.0.0.0
+[2022-12-05 21:52:34,387] [server.py:160] [server:listen_error] [CRITICAL]- Listen failure: Couldn't listen on 0.0.0.0:8080: [WinError 10048] 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。.
+[2022-12-05 22:12:19,465] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-05 22:12:19,496] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2022-12-05 22:12:19,496] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 0.0.0.0:8000

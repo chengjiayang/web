@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block title %}project{% endblock %}
+{% block content %}
+<div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>项目名称</th>
+                    <th>创建时间</th>
+                    <th>修改时间</th>
+                    <th>测试结果统计</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            {% for project in projects %}
+                <tr>
+                    <td>{{ project.id }}</td>
+                    <td>{{ project.name }}</td>
+                    <td>{{ project.create_time|date:"Y-n-d H:i:s"}}</td>
+                    <td>{{ project.modify_time|date:"Y-n-d H:i:s"}}</td>
+                    <td><a href=""> 查看</a></td>
+                </tr>
+            {% endfor %}
+
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

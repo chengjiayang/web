@@ -1,0 +1,255 @@
+[2022-03-07 17:05:49,494] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-07 17:06:00,988] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-03-07 17:06:00,988] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-03-07 17:06:00,999] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-03-07 17:17:10,608] [log.py:222] [log:log_response] [WARNING]- Not Found: /
+[2022-03-07 17:17:10,612] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET / 404 [0.04, 127.0.0.1:52614]
+[2022-03-07 17:17:10,720] [log.py:222] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-03-07 17:17:10,723] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /favicon.ico 404 [0.01, 127.0.0.1:52614]
+[2022-03-07 17:17:16,531] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/ 200 [0.79, 127.0.0.1:52614]
+[2022-03-07 17:17:16,551] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/admin/css/base.css 304 [0.01, 127.0.0.1:52614]
+[2022-03-07 17:17:16,554] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/admin/css/dashboard.css 304 [0.01, 127.0.0.1:52615]
+[2022-03-07 17:17:16,561] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/admin/css/responsive.css 304 [0.01, 127.0.0.1:52618]
+[2022-03-07 17:17:16,564] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/admin/css/fonts.css 304 [0.01, 127.0.0.1:52614]
+[2022-03-07 17:17:16,574] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/admin/img/icon-addlink.svg 304 [0.00, 127.0.0.1:52614]
+[2022-03-07 17:17:16,578] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/admin/img/icon-changelink.svg 304 [0.01, 127.0.0.1:52618]
+[2022-03-07 17:17:16,652] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/admin/fonts/Roboto-Light-webfont.woff 304 [0.00, 127.0.0.1:52618]
+[2022-03-07 17:17:16,659] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/admin/fonts/Roboto-Bold-webfont.woff 304 [0.01, 127.0.0.1:52615]
+[2022-03-07 17:17:16,663] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/admin/fonts/Roboto-Regular-webfont.woff 304 [0.01, 127.0.0.1:52614]
+[2022-03-07 17:17:19,252] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/ 200 [0.28, 127.0.0.1:52614]
+[2022-03-07 17:17:19,283] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/admin/css/changelists.css 304 [0.02, 127.0.0.1:52614]
+[2022-03-07 17:17:19,289] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/admin/js/jquery.init.js 304 [0.02, 127.0.0.1:52618]
+[2022-03-07 17:17:19,295] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/admin/js/vendor/jquery/jquery.js 304 [0.02, 127.0.0.1:52620]
+[2022-03-07 17:17:19,298] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/admin/js/core.js 304 [0.02, 127.0.0.1:52621]
+[2022-03-07 17:17:19,303] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/admin/js/admin/RelatedObjectLookups.js 304 [0.02, 127.0.0.1:52622]
+[2022-03-07 17:17:19,343] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.07, 127.0.0.1:52615]
+[2022-03-07 17:17:19,345] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/admin/js/actions.js 304 [0.06, 127.0.0.1:52614]
+[2022-03-07 17:17:19,350] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/admin/js/urlify.js 304 [0.06, 127.0.0.1:52618]
+[2022-03-07 17:17:19,353] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/admin/js/prepopulate.js 304 [0.06, 127.0.0.1:52620]
+[2022-03-07 17:17:19,358] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/admin/js/vendor/xregexp/xregexp.js 304 [0.06, 127.0.0.1:52621]
+[2022-03-07 17:17:19,368] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/admin/img/search.svg 304 [0.00, 127.0.0.1:52621]
+[2022-03-07 17:17:19,401] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/admin/img/tooltag-add.svg 304 [0.00, 127.0.0.1:52621]
+[2022-03-07 17:18:53,863] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/720/change/ 200 [0.31, 127.0.0.1:52768]
+[2022-03-07 17:18:53,890] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/admin/css/forms.css 304 [0.01, 127.0.0.1:52768]
+[2022-03-07 17:18:53,897] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/admin/css/vendor/select2/select2.css 304 [0.01, 127.0.0.1:52772]
+[2022-03-07 17:18:53,905] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/admin/js/vendor/select2/i18n/zh-CN.js 304 [0.01, 127.0.0.1:52775]
+[2022-03-07 17:18:53,908] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/admin/css/autocomplete.css 304 [0.02, 127.0.0.1:52773]
+[2022-03-07 17:18:53,911] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/admin/js/vendor/select2/select2.full.js 304 [0.02, 127.0.0.1:52774]
+[2022-03-07 17:18:53,939] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.06, 127.0.0.1:52769]
+[2022-03-07 17:18:53,941] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/admin/js/inlines.js 304 [0.05, 127.0.0.1:52768]
+[2022-03-07 17:18:53,945] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/admin/css/widgets.css 304 [0.05, 127.0.0.1:52772]
+[2022-03-07 17:18:53,950] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/admin/js/autocomplete.js 304 [0.04, 127.0.0.1:52775]
+[2022-03-07 17:18:53,953] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/admin/js/change_form.js 304 [0.00, 127.0.0.1:52772]
+[2022-03-07 17:18:53,963] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/admin/js/prepopulate_init.js 304 [0.00, 127.0.0.1:52772]
+[2022-03-07 17:21:53,375] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/ 200 [0.24, 127.0.0.1:52845]
+[2022-03-07 17:22:00,305] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/?q=%E6%8C%87%E6%B4%BE 200 [0.16, 127.0.0.1:52845]
+[2022-03-07 17:22:00,360] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.04, 127.0.0.1:52845]
+[2022-03-07 17:22:12,396] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/?p=1&q=%E6%8C%87%E6%B4%BE 200 [0.06, 127.0.0.1:52845]
+[2022-03-07 17:22:12,460] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.05, 127.0.0.1:52845]
+[2022-03-07 17:22:21,191] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/?p=0&q=%E6%8C%87%E6%B4%BE 200 [0.19, 127.0.0.1:52845]
+[2022-03-07 17:22:21,240] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.03, 127.0.0.1:52845]
+[2022-03-07 17:22:23,924] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.34, 127.0.0.1:52845]
+[2022-03-07 17:22:23,967] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:52845]
+[2022-03-07 17:28:49,832] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-07 17:28:50,499] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-03-07 17:28:50,500] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-03-07 17:28:50,503] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-03-07 17:28:57,694] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.51, 127.0.0.1:51006]
+[2022-03-07 17:28:57,748] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.03, 127.0.0.1:51006]
+[2022-03-07 17:29:00,320] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/?p=0&q=%E6%8C%87%E6%B4%BE 200 [0.14, 127.0.0.1:51006]
+[2022-03-07 17:29:01,809] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.23, 127.0.0.1:51006]
+[2022-03-07 17:29:01,865] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.04, 127.0.0.1:51006]
+[2022-03-07 17:34:32,417] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-07 17:34:32,777] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-03-07 17:34:32,792] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-03-07 17:34:32,792] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-03-07 17:34:38,363] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.47, 127.0.0.1:51365]
+[2022-03-07 17:34:38,397] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:51365]
+[2022-03-07 17:36:19,049] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-07 17:36:19,395] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-03-07 17:36:19,395] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-03-07 17:36:19,395] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-03-07 17:36:24,010] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.40, 127.0.0.1:51453]
+[2022-03-07 17:36:24,050] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.03, 127.0.0.1:51453]
+[2022-03-07 17:36:30,031] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/?p=0&q=%E6%8C%87%E6%B4%BE 200 [0.14, 127.0.0.1:51453]
+[2022-03-07 17:36:31,796] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.32, 127.0.0.1:51453]
+[2022-03-07 17:36:31,841] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.03, 127.0.0.1:51453]
+[2022-03-07 17:42:23,082] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-07 17:42:23,345] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-03-07 17:42:23,346] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-03-07 17:42:23,347] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-03-07 17:42:28,407] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.44, 127.0.0.1:53356]
+[2022-03-07 17:42:28,456] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.04, 127.0.0.1:53356]
+[2022-03-07 17:42:30,597] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/?p=0&q=%E6%8C%87%E6%B4%BE 200 [0.21, 127.0.0.1:53356]
+[2022-03-07 17:42:31,986] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.26, 127.0.0.1:53356]
+[2022-03-07 17:42:32,010] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:53356]
+[2022-03-07 17:42:41,905] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/?p=0&q=%E6%8C%87%E6%B4%BE 200 [0.12, 127.0.0.1:53356]
+[2022-03-07 17:42:43,694] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.24, 127.0.0.1:53356]
+[2022-03-07 17:42:43,722] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:53356]
+[2022-03-07 17:47:35,266] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-07 17:47:35,547] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-03-07 17:47:35,547] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-03-07 17:47:35,547] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-03-07 17:47:39,478] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.52, 127.0.0.1:53669]
+[2022-03-07 17:47:39,508] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:53669]
+[2022-03-07 17:47:43,829] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/?p=0&q=%E6%8C%87%E6%B4%BE 200 [0.22, 127.0.0.1:53669]
+[2022-03-07 17:47:45,297] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.27, 127.0.0.1:53669]
+[2022-03-07 17:47:45,342] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.03, 127.0.0.1:53669]
+[2022-03-07 17:48:19,903] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-07 17:48:20,107] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-03-07 17:48:20,107] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-03-07 17:48:20,107] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-03-07 17:48:22,618] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.54, 127.0.0.1:53716]
+[2022-03-07 17:48:22,656] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:53716]
+[2022-03-07 17:48:31,791] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/?p=0&q=%E6%8C%87%E6%B4%BE 200 [0.10, 127.0.0.1:53716]
+[2022-03-07 17:49:05,235] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.24, 127.0.0.1:53716]
+[2022-03-07 17:49:05,271] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:53716]
+[2022-03-07 17:49:49,333] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-07 17:49:49,581] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-03-07 17:49:49,581] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-03-07 17:49:49,581] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-03-07 17:49:51,456] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.48, 127.0.0.1:53787]
+[2022-03-07 17:49:51,488] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:53787]
+[2022-03-07 17:50:26,123] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-07 17:50:26,803] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-03-07 17:50:26,803] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-03-07 17:50:26,803] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-03-07 17:50:29,494] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.46, 127.0.0.1:53836]
+[2022-03-07 17:50:29,576] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.07, 127.0.0.1:53836]
+[2022-03-07 17:51:51,430] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-07 17:51:51,804] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-03-07 17:51:51,804] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-03-07 17:51:51,804] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-03-07 17:51:56,371] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.63, 127.0.0.1:53920]
+[2022-03-07 17:51:56,443] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.03, 127.0.0.1:53920]
+[2022-03-07 17:52:21,991] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-07 17:52:22,413] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-03-07 17:52:22,413] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-03-07 17:52:22,415] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-03-07 17:52:22,970] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.52, 127.0.0.1:54027]
+[2022-03-07 17:52:23,003] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:54027]
+[2022-03-07 17:53:59,999] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-07 17:54:00,296] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-03-07 17:54:00,296] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-03-07 17:54:00,296] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-03-07 17:54:03,289] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.46, 127.0.0.1:54247]
+[2022-03-07 17:54:03,322] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:54247]
+[2022-03-07 17:54:16,473] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/?p=0&q=%E6%8C%87%E6%B4%BE 200 [0.10, 127.0.0.1:54247]
+[2022-03-07 17:54:18,147] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.32, 127.0.0.1:54247]
+[2022-03-07 17:54:18,175] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:54247]
+[2022-03-07 18:55:03,006] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.48, 127.0.0.1:53912]
+[2022-03-07 18:55:03,053] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.03, 127.0.0.1:53912]
+[2022-03-07 18:55:12,774] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.29, 127.0.0.1:53922]
+[2022-03-07 19:09:15,824] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.27, 127.0.0.1:58597]
+[2022-03-07 19:09:15,865] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:58597]
+[2022-03-07 19:09:47,867] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-07 19:09:48,376] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-03-07 19:09:48,376] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-03-07 19:09:48,376] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-03-07 19:09:50,630] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.68, 127.0.0.1:58641]
+[2022-03-07 19:09:50,671] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:58641]
+[2022-03-07 19:11:46,543] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-07 19:11:46,802] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-03-07 19:11:46,802] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-03-07 19:11:46,802] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-03-07 19:11:49,838] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.58, 127.0.0.1:58751]
+[2022-03-07 19:11:49,888] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.03, 127.0.0.1:58751]
+[2022-03-07 19:16:04,265] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-07 19:16:04,635] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-03-07 19:16:04,637] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-03-07 19:16:04,639] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-03-07 19:16:08,221] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.42, 127.0.0.1:63463]
+[2022-03-07 19:16:08,279] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.04, 127.0.0.1:63463]
+[2022-03-07 19:16:56,278] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/?p=0&q=%E6%8C%87%E6%B4%BE 200 [0.25, 127.0.0.1:63504]
+[2022-03-07 19:16:56,330] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.04, 127.0.0.1:63504]
+[2022-03-07 19:16:57,597] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.24, 127.0.0.1:63504]
+[2022-03-07 19:16:57,629] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:63504]
+[2022-03-07 19:19:11,384] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-07 19:19:11,723] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-03-07 19:19:11,724] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-03-07 19:19:11,725] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-03-07 19:19:13,138] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.42, 127.0.0.1:63648]
+[2022-03-07 19:19:13,178] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:63648]
+[2022-03-07 19:20:27,516] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-07 19:20:27,757] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-03-07 19:20:27,757] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-03-07 19:20:27,759] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-03-07 19:20:31,283] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.42, 127.0.0.1:63760]
+[2022-03-07 19:20:31,326] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:63760]
+[2022-03-07 19:20:52,439] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-07 19:20:52,702] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-03-07 19:20:52,703] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-03-07 19:20:52,704] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-03-07 19:21:14,646] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-07 19:21:14,877] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-03-07 19:21:14,877] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-03-07 19:21:14,877] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-03-07 19:21:20,172] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.52, 127.0.0.1:63854]
+[2022-03-07 19:21:20,214] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:63854]
+[2022-03-07 19:28:13,936] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-07 19:28:14,236] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-03-07 19:28:14,236] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-03-07 19:28:14,236] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-03-07 19:28:17,848] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.42, 127.0.0.1:64321]
+[2022-03-07 19:28:17,892] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.03, 127.0.0.1:64321]
+[2022-03-07 19:28:48,202] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-07 19:28:48,536] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-03-07 19:28:48,536] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-03-07 19:28:48,546] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-03-07 19:28:51,283] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.49, 127.0.0.1:64363]
+[2022-03-07 19:28:51,320] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:64363]
+[2022-03-07 19:32:21,536] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-07 19:32:21,845] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-03-07 19:32:21,847] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-03-07 19:32:21,849] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-03-07 19:32:26,026] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.55, 127.0.0.1:64715]
+[2022-03-07 19:32:26,096] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.05, 127.0.0.1:64715]
+[2022-03-07 19:34:21,308] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-07 19:34:21,636] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-03-07 19:34:21,636] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-03-07 19:34:21,636] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-03-07 19:34:27,653] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.84, 127.0.0.1:57092]
+[2022-03-07 19:34:28,031] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.20, 127.0.0.1:57092]
+[2022-03-07 19:34:52,351] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-07 19:34:52,656] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-03-07 19:34:52,657] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-03-07 19:34:52,659] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-03-07 19:34:57,493] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/?p=0&q=%E6%8C%87%E6%B4%BE 200 [0.36, 127.0.0.1:57136]
+[2022-03-07 19:35:00,052] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.30, 127.0.0.1:57136]
+[2022-03-07 19:35:00,123] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.05, 127.0.0.1:57136]
+[2022-03-07 19:37:39,554] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-07 19:37:39,896] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-03-07 19:37:39,896] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-03-07 19:37:39,906] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-03-07 19:37:42,369] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.55, 127.0.0.1:57292]
+[2022-03-07 19:37:42,413] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:57292]
+[2022-03-07 19:38:30,396] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-07 19:38:30,776] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-03-07 19:38:30,776] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-03-07 19:38:30,776] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-03-07 19:38:35,104] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.49, 127.0.0.1:57371]
+[2022-03-07 19:38:35,164] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.04, 127.0.0.1:57371]
+[2022-03-07 19:48:23,575] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-07 19:48:23,960] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-03-07 19:48:23,960] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-03-07 19:48:23,965] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-03-07 19:48:26,343] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.63, 127.0.0.1:57725]
+[2022-03-07 19:48:26,383] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:57725]
+[2022-03-07 19:49:18,270] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-07 19:49:18,646] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-03-07 19:49:18,646] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-03-07 19:49:18,646] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-03-07 19:49:21,370] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.50, 127.0.0.1:57774]
+[2022-03-07 19:49:21,416] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:57774]
+[2022-03-07 19:51:32,935] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-03-07 19:51:33,235] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-03-07 19:51:33,235] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-03-07 19:51:33,245] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-03-07 19:51:36,178] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.58, 127.0.0.1:57882]
+[2022-03-07 19:51:36,219] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:57882]
+[2022-03-07 19:51:41,530] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/?p=0&q=%E6%8C%87%E6%B4%BE 200 [0.28, 127.0.0.1:57882]
+[2022-03-07 19:51:43,966] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/add/ 200 [0.23, 127.0.0.1:57893]
+[2022-03-07 19:51:44,037] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.04, 127.0.0.1:57893]
+[2022-03-07 19:52:15,513] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/?p=0&q=%E6%8C%87%E6%B4%BE 200 [0.10, 127.0.0.1:57909]
+[2022-03-07 19:52:16,768] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/saas/casenew/640/change/?_changelist_filters=p%3D0%26q%3D%25E6%258C%2587%25E6%25B4%25BE 200 [0.25, 127.0.0.1:57909]
+[2022-03-07 19:52:16,805] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:57909]

@@ -1,0 +1,11 @@
+INFO Watching for file changes with StatReloader
+INFO HTTP/2 support enabled
+INFO Configuring endpoint tcp:port=8000:interface=127.0.0.1
+INFO Listening on TCP address 127.0.0.1:8000
+INFO HTTP GET /admin/saas/casenew/ 200 [0.27, 127.0.0.1:50892]
+INFO HTTP POST /admin/saas/casenew/ 302 [0.43, 127.0.0.1:50892]
+INFO HTTP GET /logs 301 [0.00, 127.0.0.1:50892]
+INFO HTTP GET /logs/ 200 [0.00, 127.0.0.1:50892]
+INFO WebSocket HANDSHAKING /chat/ [127.0.0.1:50900]
+INFO WebSocket CONNECT /chat/ [127.0.0.1:50900]
+INFO D:\myweb\myweb\settings.py changed, reloading.

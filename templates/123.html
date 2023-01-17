@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="form-row field-dealtype">
+
+
+                <div>
+
+
+                        <label class="required" for="id_basec-0-dealtype">操作类别:</label>
+
+                            <select name="basec-0-dealtype" id="id_basec-0-dealtype">
+  <option value="0" selected="">接口取值</option>
+
+  <option value="1">mysql内操作/取值</option>
+
+  <option value="2">mongodb内操作/取值</option>
+
+  <option value="3">redis内操作/取值</option>
+
+  <option value="4">不做参数处理</option>
+
+</select>
+
+
+
+                </div>
+
+        </div>
+<div class="form-row field-interfaceProcess">
+
+
+                <div>
+
+
+                        <label for="id_basec-0-interfaceProcess">接口取值字典:</label>
+
+                            <input type="text" name="basec-0-interfaceProcess" class="vTextField" maxlength="2000" id="id_basec-0-interfaceProcess">
+
+
+
+                </div>
+
+        </div>
+<div class="form-row field-sqls" >
+
+
+                <div>
+
+
+                        <label for="id_basec-0-sqls">Mysql数据库语句:</label>
+
+                            <textarea name="basec-0-sqls" cols="40" rows="10" class="vLargeTextField" id="id_basec-0-sqls"></textarea>
+
+
+
+                </div>
+
+        </div>
+</body>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script  type="text/javascript">
+$(document).ready(function(){
+$("#id_basec-0-dealtype").change(function()
+{
+<!--var value=$('#id_basec-0-dealtype').val();-->
+<!--alert(value);-->
+var a = document.getElementsByClassName("form-row field-sqls");
+if($('#id_basec-0-dealtype').val()==1){
+          for (var i = 0; i < a.length; i++) {
+　　　　　　　　　　a[i].style.display = "none";
+                   }
+}
+else if($('#id_basec-0-dealtype').val()==0){
+          for (var i = 0; i < a.length; i++) {
+　　　　　　　　　　a[i].style.display = "block";
+                   }
+}
+
+});
+});
+</script>
+
+</html>

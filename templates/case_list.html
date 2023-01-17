@@ -1,0 +1,99 @@
+{% extends 'base.html' %}
+{% block title %}case{% endblock %}
+{% block content %}
+
+<script>
+    function checkAll(){
+    var a=document.getElementById("select_cases");
+    var list_cases=document.getElementsByName("caseId_selected");
+    for(i in list_cases){
+    list_cases[i].checked=a.checked;
+    }
+    }
+
+</script>
+<form action="/cases/" method="post">
+  {%csrf_token%}
+  <table id="result_list">
+<thead>
+<tr>
+
+<th >
+  <input type="checkbox" id="select_cases" onclick="checkAll(this)"  />
+</th>
+<th scope="col" class="sortable column-id">
+   <div >ID</div>
+</th>
+<th scope="col" class="sortable column-name">
+ <div >用例名</div>
+</th>
+<th scope="col" class="sortable column-url">
+ <div >请求路径</div>
+</th>
+<th scope="col" class="sortable column-method">
+ <div >请求方法</div>
+</th>
+<th scope="col" class="sortable column-url_params">
+ <div >查询参数</div>
+</th>
+<th scope="col" class="sortable column-body_params">
+ <div >Body参数</div>
+</th>
+<th scope="col" class="sortable column-file">
+ <div >上传文件</div>
+</th>
+<th scope="col" class="sortable column-code">
+ <div >返回码</div>
+</th>
+<th scope="col" class="sortable column-unchange">
+ <div >返回结果（稳定型）</div>
+</th>
+<th scope="col" class="sortable column-change">
+ <div >返回结果（内容变动型参数名）</div>
+</th>
+<th scope="col" class="sortable column-information">
+ <div >接口描述</div>
+</th>
+<th scope="col" class="sortable column-project">
+ <div >所属项目</div>
+</th>
+<th scope="col" class="sortable column-create_time">
+ <div >创建时间</div>
+</th>
+<th scope="col" class="sortable column-modify_time">
+ <div >更新时间</div>
+</th>
+</tr>
+</thead>
+
+<tbody>
+
+{% for case in caseslist %}
+<tr>
+  <td class="action-checkbox">
+    <input type="checkbox" name="caseId_selected" value={{case.id}} class="action-select">
+  </td>
+  <th class="field-id">
+    <a href="/admin/saas/cases/{{case.id}}/change/">{{case.id}}</a>
+  </th>
+  <td class="field-name">{{case.name}}</td>
+  <td class="field-url">{{case.url}}</td>
+  <td class="field-method">{{case.method}}</td>
+  <td class="field-url_params">{{case.url_params}}</td>
+  <td class="field-body_params">{{case.body_params}}</td>
+  <td class="field-file">{{case.file}}</td>
+  <td class="field-code">{{case.code}}</td>
+  <td class="field-unchange">{{case.unchange}}</td>
+  <td class="field-change">{{case.change}}</td>
+  <td class="field-information">{{case.information}}</td>
+  <td class="field-project nowrap">{{case.project}}</td>
+  <td class="field-create_time nowrap">{{case.create_time}}</td>
+  <td class="field-modify_time nowrap">{{case.modify_time}}</td>
+</tr>
+{% endfor %}
+
+</tbody>
+</table>
+  <input type="submit" value="执行" />
+</form>
+{% endblock %}

@@ -1,0 +1,4 @@
+a='{"title":"修改课程","description":"","categoryId":"2","status":"ON","contents":[{"id":"{id}","title":"{title}","courseId":"{courseId}","chapterId":"{chapterId}","fileId":"{fileId}","duration":"{duration}","sort":"{sort}","fileType":"{fileType}","trial":"{trial}","type":"{type}","type_id":"{fileId}VIDEO","lists":[]}],"thumbnail":"https://v8.51cto.com/test/template/plan/cover/cover1.jpg","assignParam":{"organizationParams":[{"type":"DEPARTMENT","autoJoin":true,"ids":[]},{"type":"POSITION","autoJoin":true,"ids":[]},{"type":"TEAM","autoJoin":true,"ids":[]},{"type":"USER","autoJoin":true,"ids":[]}],"senior":false,"visible":true},"id":"{courseId}"}'
+import json
+
+print(json.loads(a))

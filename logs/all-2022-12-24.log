@@ -1,0 +1,484 @@
+[2022-12-24 11:09:49,201] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-24 11:10:08,718] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-24 11:10:08,718] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-24 11:10:08,718] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-24 11:49:25,078] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 11:49:25,124] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.15, 127.0.0.1:50879]
+[2022-12-24 11:52:25,578] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [7.07, 127.0.0.1:50965]
+[2022-12-24 11:52:34,039] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/ 200 [0.66, 127.0.0.1:50974]
+[2022-12-24 11:52:37,631] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.07, 127.0.0.1:50978]
+[2022-12-24 11:52:40,166] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/ 200 [0.07, 127.0.0.1:50986]
+[2022-12-24 11:52:44,706] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.14, 127.0.0.1:50992]
+[2022-12-24 11:52:45,677] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [1.11, 127.0.0.1:50995]
+[2022-12-24 11:52:47,005] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.06, 127.0.0.1:51004]
+[2022-12-24 11:52:52,690] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /deleteAuto/ 200 [0.01, 127.0.0.1:51011]
+[2022-12-24 11:53:09,757] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.08, 127.0.0.1:51028]
+[2022-12-24 11:53:12,465] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/ 200 [0.08, 127.0.0.1:51033]
+[2022-12-24 11:53:13,458] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.09, 127.0.0.1:51037]
+[2022-12-24 11:54:04,107] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 11:54:04,116] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.03, 127.0.0.1:51092]
+[2022-12-24 11:54:38,397] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.06, 127.0.0.1:51120]
+[2022-12-24 11:54:42,379] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/?size=50 200 [0.06, 127.0.0.1:51133]
+[2022-12-24 11:54:55,841] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 11:54:55,856] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.03, 127.0.0.1:51146]
+[2022-12-24 11:55:08,998] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.08, 127.0.0.1:51159]
+[2022-12-24 11:55:13,859] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 11:55:13,870] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.05, 127.0.0.1:51176]
+[2022-12-24 12:03:38,764] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 12:03:38,813] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.11, 127.0.0.1:52142]
+[2022-12-24 12:07:10,864] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 12:07:10,871] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.02, 127.0.0.1:52396]
+[2022-12-24 17:21:16,273] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /deleteAuto/ 200 [0.06, 127.0.0.1:53838]
+[2022-12-24 17:21:23,041] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /dealFiddler/
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "D:\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "D:\Python310\lib\concurrent\futures\thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py", line 676, in post
+    datas = fiddlerExe.getDatas(data['hosts'])
+  File "C:\Users\Administrator\Desktop\myweb\myweb\saas\fiddlerExe.py", line 30, in getDatas
+    with open(r'D:\auto.dat', 'rb') as f1:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\auto.dat'
+[2022-12-24 17:21:23,114] [runserver.py:160] [runserver:log_action] [ERROR]- HTTP POST /dealFiddler/ 500 [2.32, 127.0.0.1:53843]
+[2022-12-24 17:21:28,649] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /deleteAuto/ 200 [0.01, 127.0.0.1:53848]
+[2022-12-24 17:21:30,880] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /dealFiddler/
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "D:\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "D:\Python310\lib\concurrent\futures\thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py", line 676, in post
+    datas = fiddlerExe.getDatas(data['hosts'])
+  File "C:\Users\Administrator\Desktop\myweb\myweb\saas\fiddlerExe.py", line 30, in getDatas
+    with open(r'D:\auto.dat', 'rb') as f1:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\auto.dat'
+[2022-12-24 17:21:30,886] [runserver.py:160] [runserver:log_action] [ERROR]- HTTP POST /dealFiddler/ 500 [0.15, 127.0.0.1:53853]
+[2022-12-24 17:23:48,133] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.20, 127.0.0.1:53869]
+[2022-12-24 17:31:12,508] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.12, 127.0.0.1:54089]
+[2022-12-24 17:31:25,185] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.13, 127.0.0.1:54103]
+[2022-12-24 17:31:32,490] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/ 200 [0.04, 127.0.0.1:54114]
+[2022-12-24 17:32:03,376] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.07, 127.0.0.1:54136]
+[2022-12-24 17:32:04,737] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.08, 127.0.0.1:54146]
+[2022-12-24 17:33:45,899] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.02, 127.0.0.1:54205]
+[2022-12-24 17:33:49,561] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/ 200 [0.07, 127.0.0.1:54211]
+[2022-12-24 17:34:01,788] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.16, 127.0.0.1:54218]
+[2022-12-24 17:34:01,827] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.20, 127.0.0.1:54217]
+[2022-12-24 17:34:08,551] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.06, 127.0.0.1:54231]
+[2022-12-24 17:34:31,689] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /deleteAuto/ 200 [0.00, 127.0.0.1:54277]
+[2022-12-24 17:36:31,864] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.03, 127.0.0.1:54387]
+[2022-12-24 18:00:21,056] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-24 18:00:40,688] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-24 18:00:40,720] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-24 18:00:40,721] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-24 18:03:49,593] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [1.69, 127.0.0.1:50966]
+[2022-12-24 18:03:52,286] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/ 200 [0.42, 127.0.0.1:50972]
+[2022-12-24 18:03:55,546] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.15, 127.0.0.1:50978]
+[2022-12-24 18:03:56,163] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.76, 127.0.0.1:50979]
+[2022-12-24 18:04:31,878] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /deleteAuto/ 200 [0.01, 127.0.0.1:51000]
+[2022-12-24 18:11:49,519] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /deleteAuto/ 200 [0.01, 127.0.0.1:51753]
+[2022-12-24 18:11:57,466] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.17, 127.0.0.1:51756]
+[2022-12-24 18:11:57,482] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.15, 127.0.0.1:51760]
+[2022-12-24 18:12:01,390] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/ 200 [0.08, 127.0.0.1:51767]
+[2022-12-24 18:12:10,327] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.07, 127.0.0.1:51775]
+[2022-12-24 18:12:11,678] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.09, 127.0.0.1:51781]
+[2022-12-24 18:12:11,696] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.10, 127.0.0.1:51782]
+[2022-12-24 18:12:12,140] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/2 200 [0.06, 127.0.0.1:51787]
+[2022-12-24 18:12:12,186] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project= 200 [0.08, 127.0.0.1:51791]
+[2022-12-24 18:12:46,790] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 18:12:46,801] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.06, 127.0.0.1:51835]
+[2022-12-24 18:24:50,422] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 18:24:50,444] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.05, 127.0.0.1:52118]
+[2022-12-24 18:25:28,437] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 18:25:28,468] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.04, 127.0.0.1:52141]
+[2022-12-24 18:42:38,944] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 18:42:39,251] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [1.83, 127.0.0.1:54856]
+[2022-12-24 18:48:39,651] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 18:48:39,657] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.01, 127.0.0.1:55009]
+[2022-12-24 18:49:46,510] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 18:49:46,523] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.04, 127.0.0.1:55028]
+[2022-12-24 18:50:49,135] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 18:50:49,146] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.03, 127.0.0.1:55053]
+[2022-12-24 18:52:22,328] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 18:52:22,337] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.02, 127.0.0.1:55102]
+[2022-12-24 18:54:34,912] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 18:54:34,923] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.02, 127.0.0.1:55269]
+[2022-12-24 18:55:29,139] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 18:55:29,151] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.05, 127.0.0.1:55308]
+[2022-12-24 18:57:59,967] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 18:58:00,003] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.05, 127.0.0.1:55569]
+[2022-12-24 19:03:06,121] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 19:03:06,139] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.03, 127.0.0.1:55838]
+[2022-12-24 19:05:54,651] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [5.87, 127.0.0.1:55904]
+[2022-12-24 19:06:14,592] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.41, 127.0.0.1:55924]
+[2022-12-24 19:06:14,608] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.39, 127.0.0.1:55925]
+[2022-12-24 19:08:45,367] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project=36 200 [0.23, 127.0.0.1:55999]
+[2022-12-24 19:10:51,554] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.92, 127.0.0.1:56127]
+[2022-12-24 19:10:54,768] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.16, 127.0.0.1:56132]
+[2022-12-24 19:14:41,703] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /relations 301 [0.42, 127.0.0.1:56212]
+[2022-12-24 19:15:06,882] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /relations/ 200 [25.02, 127.0.0.1:56212]
+[2022-12-24 19:15:09,646] [log.py:241] [log:log_response] [WARNING]- Not Found: /relations/jquery.min.js
+[2022-12-24 19:15:09,647] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /relations/jquery.min.js 404 [0.32, 127.0.0.1:56212]
+[2022-12-24 19:15:09,739] [log.py:241] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-12-24 19:15:09,739] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /favicon.ico 404 [0.03, 127.0.0.1:56212]
+[2022-12-24 19:30:10,533] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.29, 127.0.0.1:56372]
+[2022-12-24 19:30:46,918] [log.py:241] [log:log_response] [WARNING]- Not Found: /relations/jquery.min.js
+[2022-12-24 19:30:46,920] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /relations/jquery.min.js 404 [0.04, 127.0.0.1:56458]
+[2022-12-24 19:36:56,750] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 19:36:56,760] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.11, 127.0.0.1:57116]
+[2022-12-24 19:37:39,668] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 19:37:39,679] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.02, 127.0.0.1:57167]
+[2022-12-24 19:39:56,331] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 19:39:56,356] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.04, 127.0.0.1:57294]
+[2022-12-24 19:39:59,862] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /cases/
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "D:\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "D:\Python310\lib\concurrent\futures\thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py", line 430, in post
+    relateds=datas['related']
+KeyError: 'related'
+[2022-12-24 19:40:00,033] [runserver.py:160] [runserver:log_action] [ERROR]- HTTP POST /cases/ 500 [1.26, 127.0.0.1:57300]
+[2022-12-24 19:41:03,784] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 19:41:03,795] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.02, 127.0.0.1:57363]
+[2022-12-24 19:41:06,059] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.02, 127.0.0.1:57369]
+[2022-12-24 19:42:10,538] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.20, 127.0.0.1:57441]
+[2022-12-24 19:42:10,572] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.24, 127.0.0.1:57442]
+[2022-12-24 19:42:18,229] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.02, 127.0.0.1:57458]
+[2022-12-24 19:44:18,842] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [1.15, 127.0.0.1:57583]
+[2022-12-24 19:44:24,556] [log.py:241] [log:log_response] [WARNING]- Not Found: /relations/jquery.min.js
+[2022-12-24 19:44:24,558] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /relations/jquery.min.js 404 [0.19, 127.0.0.1:57583]
+[2022-12-24 19:44:37,424] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.26, 127.0.0.1:57583]
+[2022-12-24 19:44:37,827] [log.py:241] [log:log_response] [WARNING]- Not Found: /cases/jquery.min.js
+[2022-12-24 19:44:37,829] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /cases/jquery.min.js 404 [0.03, 127.0.0.1:57583]
+[2022-12-24 19:46:41,330] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\models.py changed, reloading.
+[2022-12-24 19:47:41,845] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-24 19:47:48,007] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-24 19:47:48,007] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-24 19:47:48,007] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-24 19:49:26,463] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-24 19:49:27,165] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-24 19:49:27,165] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-24 19:49:27,165] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-24 19:49:37,026] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.19, 127.0.0.1:57875]
+[2022-12-24 19:49:53,288] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.02, 127.0.0.1:57884]
+[2022-12-24 19:52:01,234] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.93, 127.0.0.1:57999]
+[2022-12-24 19:52:01,662] [log.py:241] [log:log_response] [WARNING]- Not Found: /cases/jquery.min.js
+[2022-12-24 19:52:01,663] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /cases/jquery.min.js 404 [0.13, 127.0.0.1:57999]
+[2022-12-24 19:52:32,993] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.11, 127.0.0.1:57999]
+[2022-12-24 20:02:13,714] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-24 20:02:20,952] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-24 20:02:20,952] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-24 20:02:20,952] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-24 20:02:28,551] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.42, 127.0.0.1:59322]
+[2022-12-24 20:02:40,656] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.70, 127.0.0.1:59326]
+[2022-12-24 20:02:41,081] [log.py:241] [log:log_response] [WARNING]- Not Found: /cases/jquery.min.js
+[2022-12-24 20:02:41,083] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /cases/jquery.min.js 404 [0.16, 127.0.0.1:59326]
+[2022-12-24 20:03:30,737] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 20:03:30,745] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.06, 127.0.0.1:59353]
+[2022-12-24 20:03:36,399] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.02, 127.0.0.1:59358]
+[2022-12-24 20:07:56,209] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 20:07:56,209] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.64, 127.0.0.1:59473]
+[2022-12-24 20:08:02,262] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [1.33, 127.0.0.1:59477]
+[2022-12-24 20:08:36,288] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 20:08:36,296] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.20, 127.0.0.1:59492]
+[2022-12-24 20:08:40,253] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.81, 127.0.0.1:59498]
+[2022-12-24 20:08:56,603] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.27, 127.0.0.1:59516]
+[2022-12-24 20:09:16,627] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.19, 127.0.0.1:59532]
+[2022-12-24 20:09:16,774] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.34, 127.0.0.1:59531]
+[2022-12-24 20:09:17,200] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/5 200 [0.14, 127.0.0.1:59537]
+[2022-12-24 20:09:17,300] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project= 200 [0.16, 127.0.0.1:59541]
+[2022-12-24 20:09:31,711] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 20:09:31,724] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.02, 127.0.0.1:59556]
+[2022-12-24 20:10:38,818] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 20:10:38,830] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.03, 127.0.0.1:59601]
+[2022-12-24 20:10:47,593] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.58, 127.0.0.1:59621]
+[2022-12-24 20:10:47,624] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.60, 127.0.0.1:59622]
+[2022-12-24 20:10:48,061] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.41, 127.0.0.1:59635]
+[2022-12-24 20:10:48,155] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [1.12, 127.0.0.1:59626]
+[2022-12-24 20:10:48,170] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.09, 127.0.0.1:59643]
+[2022-12-24 20:10:48,170] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [1.15, 127.0.0.1:59623]
+[2022-12-24 20:10:48,186] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [1.16, 127.0.0.1:59624]
+[2022-12-24 20:10:48,186] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.48, 127.0.0.1:59639]
+[2022-12-24 20:10:48,280] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [1.25, 127.0.0.1:59625]
+[2022-12-24 20:10:48,482] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.27, 127.0.0.1:59652]
+[2022-12-24 20:10:48,514] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.30, 127.0.0.1:59649]
+[2022-12-24 20:10:48,514] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.28, 127.0.0.1:59653]
+[2022-12-24 20:10:48,779] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.12, 127.0.0.1:59659]
+[2022-12-24 20:10:49,044] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.25, 127.0.0.1:59663]
+[2022-12-24 20:10:49,169] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.08, 127.0.0.1:59667]
+[2022-12-24 20:11:04,719] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.15, 127.0.0.1:59683]
+[2022-12-24 20:11:10,521] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/?page=2 200 [0.14, 127.0.0.1:59695]
+[2022-12-24 20:13:29,299] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.20, 127.0.0.1:59808]
+[2022-12-24 20:13:56,552] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.09, 127.0.0.1:59834]
+[2022-12-24 20:14:00,069] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.11, 127.0.0.1:59838]
+[2022-12-24 20:14:21,615] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.14, 127.0.0.1:59860]
+[2022-12-24 20:14:58,003] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.11, 127.0.0.1:59884]
+[2022-12-24 20:15:11,162] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/?page=2 200 [0.08, 127.0.0.1:59892]
+[2022-12-24 20:15:25,385] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.05, 127.0.0.1:59911]
+[2022-12-24 20:15:25,458] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.12, 127.0.0.1:59912]
+[2022-12-24 20:15:25,777] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/20 200 [0.06, 127.0.0.1:59919]
+[2022-12-24 20:15:25,808] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project= 200 [0.09, 127.0.0.1:59920]
+[2022-12-24 20:17:42,568] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.05, 127.0.0.1:60006]
+[2022-12-24 20:17:42,646] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.14, 127.0.0.1:60005]
+[2022-12-24 20:17:42,888] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project= 200 [0.08, 127.0.0.1:60014]
+[2022-12-24 20:17:42,903] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/20 200 [0.09, 127.0.0.1:60013]
+[2022-12-24 20:18:06,044] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.07, 127.0.0.1:60028]
+[2022-12-24 20:18:14,505] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.15, 127.0.0.1:60035]
+[2022-12-24 20:18:14,538] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.18, 127.0.0.1:60038]
+[2022-12-24 20:18:14,818] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project= 200 [0.02, 127.0.0.1:60046]
+[2022-12-24 20:18:14,864] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/3 200 [0.08, 127.0.0.1:60045]
+[2022-12-24 20:18:22,237] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.14, 127.0.0.1:60055]
+[2022-12-24 20:18:34,939] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.03, 127.0.0.1:60068]
+[2022-12-24 20:18:35,016] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.10, 127.0.0.1:60070]
+[2022-12-24 20:18:35,302] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/3 200 [0.11, 127.0.0.1:60076]
+[2022-12-24 20:18:35,302] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project= 200 [0.11, 127.0.0.1:60077]
+[2022-12-24 20:18:42,153] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.12, 127.0.0.1:60086]
+[2022-12-24 20:18:46,043] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.07, 127.0.0.1:60096]
+[2022-12-24 20:18:46,125] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.15, 127.0.0.1:60097]
+[2022-12-24 20:18:46,494] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project= 200 [0.13, 127.0.0.1:60105]
+[2022-12-24 20:18:46,505] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/8 200 [0.16, 127.0.0.1:60104]
+[2022-12-24 20:18:59,653] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.11, 127.0.0.1:60119]
+[2022-12-24 20:23:48,555] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/9 200 [1.43, 127.0.0.1:60339]
+[2022-12-24 20:23:48,555] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/10 200 [1.43, 127.0.0.1:60340]
+[2022-12-24 20:23:48,586] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/5 200 [1.48, 127.0.0.1:60332]
+[2022-12-24 20:23:48,586] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/11 200 [1.45, 127.0.0.1:60341]
+[2022-12-24 20:23:48,602] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/7 200 [1.48, 127.0.0.1:60338]
+[2022-12-24 20:23:48,602] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/6 200 [1.49, 127.0.0.1:60337]
+[2022-12-24 20:23:49,531] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/8 200 [0.95, 127.0.0.1:60350]
+[2022-12-24 20:23:56,339] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.12, 127.0.0.1:60360]
+[2022-12-24 20:24:02,108] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/?size=500 200 [0.15, 127.0.0.1:60374]
+[2022-12-24 20:24:08,901] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/12 200 [0.33, 127.0.0.1:60392]
+[2022-12-24 20:24:09,056] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/14 200 [0.49, 127.0.0.1:60391]
+[2022-12-24 20:24:09,058] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/13 200 [0.50, 127.0.0.1:60390]
+[2022-12-24 20:24:09,107] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/17 200 [0.53, 127.0.0.1:60395]
+[2022-12-24 20:24:09,110] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/15 200 [0.54, 127.0.0.1:60393]
+[2022-12-24 20:24:09,113] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/16 200 [0.54, 127.0.0.1:60394]
+[2022-12-24 20:24:09,169] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/18 200 [0.25, 127.0.0.1:60404]
+[2022-12-24 20:24:09,228] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/19 200 [0.15, 127.0.0.1:60410]
+[2022-12-24 20:24:09,230] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/20 200 [0.15, 127.0.0.1:60411]
+[2022-12-24 20:24:12,018] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.09, 127.0.0.1:60418]
+[2022-12-24 20:24:23,007] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 20:24:23,017] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.06, 127.0.0.1:60431]
+[2022-12-24 20:24:25,767] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.39, 127.0.0.1:60445]
+[2022-12-24 20:24:26,051] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.66, 127.0.0.1:60448]
+[2022-12-24 20:24:26,332] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.95, 127.0.0.1:60446]
+[2022-12-24 20:24:26,347] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.96, 127.0.0.1:60447]
+[2022-12-24 20:24:26,347] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.54, 127.0.0.1:60456]
+[2022-12-24 20:24:26,659] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.84, 127.0.0.1:60459]
+[2022-12-24 20:24:26,971] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.61, 127.0.0.1:60472]
+[2022-12-24 20:24:27,081] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [1.27, 127.0.0.1:60458]
+[2022-12-24 20:24:27,081] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [1.01, 127.0.0.1:60465]
+[2022-12-24 20:24:27,127] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.45, 127.0.0.1:60481]
+[2022-12-24 20:24:27,127] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.76, 127.0.0.1:60474]
+[2022-12-24 20:24:27,127] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.75, 127.0.0.1:60475]
+[2022-12-24 20:24:27,626] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.64, 127.0.0.1:60485]
+[2022-12-24 20:24:27,813] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.70, 127.0.0.1:60492]
+[2022-12-24 20:24:27,876] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.78, 127.0.0.1:60491]
+[2022-12-24 20:24:35,641] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.45, 127.0.0.1:60504]
+[2022-12-24 20:24:40,394] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/?size=500 200 [0.16, 127.0.0.1:60512]
+[2022-12-24 20:24:58,611] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.11, 127.0.0.1:60544]
+[2022-12-24 20:24:58,666] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.16, 127.0.0.1:60545]
+[2022-12-24 20:25:48,983] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 20:25:49,031] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.30, 127.0.0.1:60584]
+[2022-12-24 20:26:53,273] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 20:26:53,366] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.11, 127.0.0.1:60632]
+[2022-12-24 20:28:19,650] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.16, 127.0.0.1:60714]
+[2022-12-24 20:28:20,134] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.48, 127.0.0.1:60721]
+[2022-12-24 20:28:20,149] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.66, 127.0.0.1:60713]
+[2022-12-24 20:28:20,165] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.51, 127.0.0.1:60719]
+[2022-12-24 20:28:20,165] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.45, 127.0.0.1:60726]
+[2022-12-24 20:28:20,180] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.53, 127.0.0.1:60720]
+[2022-12-24 20:28:28,662] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.12, 127.0.0.1:60738]
+[2022-12-24 20:28:31,748] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/?page=3 200 [0.05, 127.0.0.1:60743]
+[2022-12-24 20:28:40,950] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/?size=500 200 [0.22, 127.0.0.1:60752]
+[2022-12-24 20:28:41,002] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/?size=500&page=1 200 [0.25, 127.0.0.1:60756]
+[2022-12-24 20:28:59,220] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/4 200 [0.14, 127.0.0.1:60789]
+[2022-12-24 20:28:59,232] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/22 200 [0.16, 127.0.0.1:60788]
+[2022-12-24 20:28:59,329] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/23 200 [0.24, 127.0.0.1:60790]
+[2022-12-24 20:28:59,331] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/21 200 [0.24, 127.0.0.1:60791]
+[2022-12-24 20:28:59,352] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/25 200 [0.26, 127.0.0.1:60793]
+[2022-12-24 20:28:59,354] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/24 200 [0.26, 127.0.0.1:60792]
+[2022-12-24 20:28:59,366] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/26 200 [0.13, 127.0.0.1:60802]
+[2022-12-24 20:28:59,419] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/27 200 [0.17, 127.0.0.1:60805]
+[2022-12-24 20:28:59,708] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/29 200 [0.34, 127.0.0.1:60812]
+[2022-12-24 20:28:59,770] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/28 200 [0.39, 127.0.0.1:60813]
+[2022-12-24 20:28:59,810] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/2 200 [0.41, 127.0.0.1:60820]
+[2022-12-24 20:28:59,812] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/3 200 [0.34, 127.0.0.1:60830]
+[2022-12-24 20:28:59,814] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/30 200 [0.41, 127.0.0.1:60821]
+[2022-12-24 20:28:59,817] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/31 200 [0.41, 127.0.0.1:60822]
+[2022-12-24 20:28:59,832] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/32 200 [0.11, 127.0.0.1:60834]
+[2022-12-24 20:28:59,910] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/33 200 [0.12, 127.0.0.1:60838]
+[2022-12-24 20:29:00,186] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/34 200 [0.26, 127.0.0.1:60845]
+[2022-12-24 20:29:00,191] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/35 200 [0.27, 127.0.0.1:60844]
+[2022-12-24 20:29:00,261] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/36 200 [0.32, 127.0.0.1:60848]
+[2022-12-24 20:29:00,294] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/37 200 [0.09, 127.0.0.1:60856]
+[2022-12-24 20:29:00,330] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/38 200 [0.12, 127.0.0.1:60857]
+[2022-12-24 20:29:00,374] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/40 200 [0.06, 127.0.0.1:60866]
+[2022-12-24 20:29:00,382] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/39 200 [0.10, 127.0.0.1:60862]
+[2022-12-24 20:29:00,438] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/41 200 [0.09, 127.0.0.1:60870]
+[2022-12-24 20:29:05,001] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 20:29:05,042] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.06, 127.0.0.1:60881]
+[2022-12-24 20:29:48,506] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.15, 127.0.0.1:60927]
+[2022-12-24 20:29:48,636] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.27, 127.0.0.1:60929]
+[2022-12-24 20:29:48,640] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.28, 127.0.0.1:60928]
+[2022-12-24 20:29:48,648] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.27, 127.0.0.1:60933]
+[2022-12-24 20:29:48,660] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.29, 127.0.0.1:60932]
+[2022-12-24 20:29:48,662] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.28, 127.0.0.1:60934]
+[2022-12-24 20:29:54,550] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.13, 127.0.0.1:60946]
+[2022-12-24 20:30:17,085] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 20:30:17,189] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.14, 127.0.0.1:60978]
+[2022-12-24 20:35:13,973] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 20:35:14,011] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.05, 127.0.0.1:61176]
+[2022-12-24 20:35:45,348] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 20:35:45,388] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.06, 127.0.0.1:61198]
+[2022-12-24 20:42:12,303] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 20:42:12,332] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.34, 127.0.0.1:61818]
+[2022-12-24 20:42:37,168] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 20:42:37,210] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.06, 127.0.0.1:61847]
+[2022-12-24 21:02:02,686] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 21:02:03,345] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [3.56, 127.0.0.1:62643]
+[2022-12-24 21:03:35,528] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 21:03:35,733] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.25, 127.0.0.1:62712]
+[2022-12-24 21:06:43,597] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 21:06:43,680] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.42, 127.0.0.1:63174]
+[2022-12-24 21:16:10,349] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 21:16:10,375] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.32, 127.0.0.1:64840]
+[2022-12-24 21:16:35,173] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 21:16:50,391] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [15.24, 127.0.0.1:64883]
+[2022-12-24 21:18:16,238] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 21:18:16,360] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.16, 127.0.0.1:65054]
+[2022-12-24 21:18:40,254] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 21:18:40,382] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.14, 127.0.0.1:65098]
+[2022-12-24 21:22:08,349] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 21:22:08,379] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.38, 127.0.0.1:65483]
+[2022-12-24 21:29:32,588] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 21:29:32,622] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.05, 127.0.0.1:49454]
+[2022-12-24 21:30:07,236] [log.py:241] [log:log_response] [WARNING]- Not Found: /cases/jquery.min.js
+[2022-12-24 21:30:07,478] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /cases/jquery.min.js 404 [2.02, 127.0.0.1:49466]
+[2022-12-24 22:00:03,195] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-24 22:00:25,951] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-24 22:00:25,982] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-24 22:00:25,982] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-24 22:01:24,690] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 22:01:24,730] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.38, 127.0.0.1:49775]
+[2022-12-24 22:05:15,508] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 22:05:15,546] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.05, 127.0.0.1:49946]
+[2022-12-24 22:06:16,160] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 22:06:16,186] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.57, 127.0.0.1:50020]
+[2022-12-24 22:06:31,126] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 22:06:31,154] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.04, 127.0.0.1:50036]
+[2022-12-24 22:08:11,398] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 22:08:11,429] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.05, 127.0.0.1:50099]
+[2022-12-24 22:09:32,092] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 22:09:32,125] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.05, 127.0.0.1:50142]
+[2022-12-24 22:11:05,620] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 22:11:05,647] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.04, 127.0.0.1:50232]
+[2022-12-24 22:13:22,825] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 22:13:22,854] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.04, 127.0.0.1:50366]
+[2022-12-24 22:16:11,827] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 22:16:11,857] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.05, 127.0.0.1:50449]
+[2022-12-24 22:17:09,038] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 22:17:09,094] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.32, 127.0.0.1:50506]
+[2022-12-24 22:20:58,097] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [9.09, 127.0.0.1:50791]
+[2022-12-24 22:21:09,982] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/47 200 [1.23, 127.0.0.1:50817]
+[2022-12-24 22:21:09,982] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/43 200 [1.26, 127.0.0.1:50813]
+[2022-12-24 22:21:09,998] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/45 200 [1.28, 127.0.0.1:50815]
+[2022-12-24 22:21:09,998] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/42 200 [1.28, 127.0.0.1:50812]
+[2022-12-24 22:21:09,998] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/46 200 [1.25, 127.0.0.1:50816]
+[2022-12-24 22:21:10,176] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/44 200 [1.46, 127.0.0.1:50814]
+[2022-12-24 22:21:14,993] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.08, 127.0.0.1:50830]
+[2022-12-24 22:21:30,267] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 22:21:30,308] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.08, 127.0.0.1:50841]
+[2022-12-24 22:22:45,322] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.06, 127.0.0.1:50881]
+[2022-12-24 22:23:12,167] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 22:23:12,199] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.05, 127.0.0.1:50904]
+[2022-12-24 22:25:25,053] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 22:25:25,096] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.06, 127.0.0.1:51029]
+[2022-12-24 22:26:03,954] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.05, 127.0.0.1:51085]
+[2022-12-24 22:27:45,093] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 22:27:45,216] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.14, 127.0.0.1:51258]
+[2022-12-24 22:28:59,547] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-24 22:28:59,580] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.06, 127.0.0.1:51416]
+[2022-12-24 22:29:15,647] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [1.19, 127.0.0.1:51450]
+[2022-12-24 22:29:15,688] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [1.24, 127.0.0.1:51447]
+[2022-12-24 22:29:15,698] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [1.26, 127.0.0.1:51445]
+[2022-12-24 22:29:15,714] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [1.27, 127.0.0.1:51448]
+[2022-12-24 22:29:15,776] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [1.32, 127.0.0.1:51449]
+[2022-12-24 22:29:15,776] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [1.36, 127.0.0.1:51442]
+[2022-12-24 22:29:21,675] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.17, 127.0.0.1:51464]
+[2022-12-24 22:32:38,206] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.12, 127.0.0.1:51662]
+[2022-12-24 22:36:36,997] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.11, 127.0.0.1:52158]
+[2022-12-24 22:36:47,139] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.12, 127.0.0.1:52174]
+[2022-12-24 22:39:14,465] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.09, 127.0.0.1:52374]
+[2022-12-24 22:39:46,106] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.13, 127.0.0.1:52409]
+[2022-12-24 22:40:04,995] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.05, 127.0.0.1:52429]
+[2022-12-24 22:40:12,627] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.13, 127.0.0.1:52444]
+[2022-12-24 22:40:57,724] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.09, 127.0.0.1:52490]

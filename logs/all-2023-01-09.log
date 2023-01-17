@@ -1,0 +1,165 @@
+[2023-01-09 19:46:06,928] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-09 19:46:11,997] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2023-01-09 19:46:11,997] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-09 19:46:11,999] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2023-01-09 19:50:22,061] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py changed, reloading.
+[2023-01-09 19:50:26,609] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-09 19:50:27,892] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2023-01-09 19:50:27,893] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-09 19:50:27,896] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2023-01-09 19:50:37,579] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [9.61, 127.0.0.1:64732]
+[2023-01-09 19:50:38,895] [log.py:241] [log:log_response] [WARNING]- Not Found: /cases/jquery.min.js
+[2023-01-09 19:50:38,897] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /cases/jquery.min.js 404 [0.22, 127.0.0.1:64732]
+[2023-01-09 19:51:47,787] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py changed, reloading.
+[2023-01-09 19:51:51,239] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-09 19:51:52,422] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2023-01-09 19:51:52,422] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-09 19:51:52,424] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2023-01-09 19:51:58,791] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /dealFiddler 301 [0.01, 127.0.0.1:64775]
+[2023-01-09 19:52:00,217] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /dealFiddler/
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\base.py", line 284, in _get_response_async
+    response = await sync_to_async(
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "D:\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "D:\Python310\lib\concurrent\futures\thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\renderers.py", line 654, in get_context
+    raw_data_post_form = self.get_raw_data_form(data, view, 'POST', request)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\renderers.py", line 553, in get_raw_data_form
+    serializer = view.get_serializer()
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\generics.py", line 108, in get_serializer
+    serializer_class = self.get_serializer_class()
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\generics.py", line 122, in get_serializer_class
+    assert self.serializer_class is not None, (
+AssertionError: 'dealFiddler' should either include a `serializer_class` attribute, or override the `get_serializer_class()` method.
+[2023-01-09 19:52:00,229] [runserver.py:160] [runserver:log_action] [ERROR]- HTTP GET /dealFiddler/ 500 [1.15, 127.0.0.1:64775]
+[2023-01-09 19:52:02,557] [log.py:241] [log:log_response] [WARNING]- Not Found: /dealFiddler/jquery.min.js
+[2023-01-09 19:52:02,559] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /dealFiddler/jquery.min.js 404 [0.05, 127.0.0.1:64777]
+[2023-01-09 19:53:09,631] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.33, 127.0.0.1:64815]
+[2023-01-09 19:55:09,269] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /cases/
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "D:\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "D:\Python310\lib\concurrent\futures\thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py", line 432, in post
+    relateds=datas['related']
+KeyError: 'related'
+[2023-01-09 19:55:09,279] [runserver.py:160] [runserver:log_action] [ERROR]- HTTP POST /cases/ 500 [0.21, 127.0.0.1:64957]
+[2023-01-09 19:55:43,610] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /dealFiddler/
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "D:\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "D:\Python310\lib\concurrent\futures\thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py", line 678, in post
+    datas = fiddlerExe.getDatas(data['hosts'])
+KeyError: 'hosts'
+[2023-01-09 19:55:43,620] [runserver.py:160] [runserver:log_action] [ERROR]- HTTP POST /dealFiddler/ 500 [0.11, 127.0.0.1:64977]
+[2023-01-09 19:56:52,873] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /dealFiddler/
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "D:\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "D:\Python310\lib\concurrent\futures\thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py", line 678, in post
+    datas = fiddlerExe.getDatas(data['hosts'])
+KeyError: 'hosts'
+[2023-01-09 19:56:52,882] [runserver.py:160] [runserver:log_action] [ERROR]- HTTP POST /dealFiddler/ 500 [0.13, 127.0.0.1:65068]
+[2023-01-09 19:57:21,961] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-09 19:57:21,971] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.15, 127.0.0.1:65098]
+[2023-01-09 19:57:56,612] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-09 19:57:56,622] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.02, 127.0.0.1:65116]
+[2023-01-09 19:59:22,480] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-09 19:59:22,480] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.01, 127.0.0.1:65178]
+[2023-01-09 20:00:31,550] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py changed, reloading.
+[2023-01-09 20:00:44,270] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-09 20:00:48,554] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2023-01-09 20:00:48,554] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-09 20:00:48,554] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2023-01-09 20:01:18,742] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py changed, reloading.
+[2023-01-09 20:01:21,724] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-09 20:01:22,494] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2023-01-09 20:01:22,494] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-09 20:01:22,494] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000

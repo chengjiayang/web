@@ -1,0 +1,613 @@
+[2022-12-08 10:39:46,986] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-08 11:13:38,182] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\myweb\settings.py changed, reloading.
+[2022-12-08 11:14:53,385] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-08 11:14:58,319] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-08 11:14:58,319] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-08 11:14:58,319] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-08 11:16:04,194] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-08 11:16:04,584] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-08 11:16:04,584] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-08 11:16:04,584] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-08 11:16:35,560] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/1
+[2022-12-08 11:16:35,606] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/1 404 [4.65, 127.0.0.1:51249]
+[2022-12-08 11:16:36,036] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/css/bootstrap.min.css 200 [0.10, 127.0.0.1:51249]
+[2022-12-08 11:16:36,073] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/css/prettify.css 200 [0.12, 127.0.0.1:51259]
+[2022-12-08 11:16:36,102] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/css/bootstrap-tweaks.css 200 [0.15, 127.0.0.1:51258]
+[2022-12-08 11:16:36,141] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/css/default.css 200 [0.18, 127.0.0.1:51260]
+[2022-12-08 11:16:36,353] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/js/jquery-3.5.1.min.js 200 [0.39, 127.0.0.1:51261]
+[2022-12-08 11:16:36,381] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/js/ajax-form.js 200 [0.42, 127.0.0.1:51262]
+[2022-12-08 11:16:36,431] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/js/csrf.js 200 [0.39, 127.0.0.1:51249]
+[2022-12-08 11:16:36,461] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/js/bootstrap.min.js 200 [0.39, 127.0.0.1:51259]
+[2022-12-08 11:16:36,494] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/js/prettify-min.js 200 [0.39, 127.0.0.1:51258]
+[2022-12-08 11:16:36,575] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/js/default.js 200 [0.43, 127.0.0.1:51260]
+[2022-12-08 11:16:36,649] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/img/grid.png 200 [0.29, 127.0.0.1:51261]
+[2022-12-08 11:16:37,132] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 11:16:37,133] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.25, 127.0.0.1:51261]
+[2022-12-08 11:16:37,210] [log.py:241] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-12-08 11:16:37,211] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /favicon.ico 404 [0.03, 127.0.0.1:51261]
+[2022-12-08 11:17:45,717] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py changed, reloading.
+[2022-12-08 11:17:50,405] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-08 11:20:40,486] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-08 11:20:40,876] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-08 11:20:40,876] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-08 11:20:40,876] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-08 11:20:54,398] [log.py:241] [log:log_response] [WARNING]- Method Not Allowed: /projects/
+[2022-12-08 11:20:54,400] [runserver.py:157] [runserver:log_action] [WARNING]- HTTP GET /projects/ 405 [0.14, 127.0.0.1:51369]
+[2022-12-08 11:20:57,277] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 11:20:57,280] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.04, 127.0.0.1:51372]
+[2022-12-08 11:21:00,807] [runserver.py:147] [runserver:log_action] [INFO]- HTTP OPTIONS /projects/ 200 [0.04, 127.0.0.1:51372]
+[2022-12-08 11:21:14,991] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /projects/
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "D:\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "D:\Python310\lib\concurrent\futures\thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py", line 252, in post
+    datas = json.loads(request.body.decode('utf-8'))
+  File "D:\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "D:\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2022-12-08 11:21:15,001] [runserver.py:160] [runserver:log_action] [ERROR]- HTTP POST /projects/ 500 [0.42, 127.0.0.1:51381]
+[2022-12-08 11:21:15,390] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 11:21:15,391] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.03, 127.0.0.1:51381]
+[2022-12-08 11:21:59,324] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/css/bootstrap.min.css.map 200 [0.24, 127.0.0.1:51407]
+[2022-12-08 11:22:00,717] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /projects/
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "D:\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "D:\Python310\lib\concurrent\futures\thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py", line 252, in post
+    datas = json.loads(request.body.decode('utf-8'))
+  File "D:\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "D:\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2022-12-08 11:22:00,729] [runserver.py:160] [runserver:log_action] [ERROR]- HTTP POST /projects/ 500 [0.13, 127.0.0.1:51407]
+[2022-12-08 11:22:01,034] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 11:22:01,036] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.04, 127.0.0.1:51407]
+[2022-12-08 11:29:49,652] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/css/bootstrap.min.css.map 200 [0.01, 127.0.0.1:51994]
+[2022-12-08 11:30:04,125] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /projects/ 200 [0.13, 127.0.0.1:52014]
+[2022-12-08 11:30:04,363] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/css/bootstrap.min.css.map 200 [0.02, 127.0.0.1:52014]
+[2022-12-08 11:30:11,385] [log.py:241] [log:log_response] [WARNING]- Method Not Allowed: /projects/
+[2022-12-08 11:30:11,389] [runserver.py:157] [runserver:log_action] [WARNING]- HTTP GET /projects/ 405 [0.03, 127.0.0.1:52025]
+[2022-12-08 11:30:11,529] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 11:30:11,530] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.03, 127.0.0.1:52025]
+[2022-12-08 11:31:46,201] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\models.py changed, reloading.
+[2022-12-08 11:32:04,053] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-08 11:32:06,113] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-08 11:32:06,113] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-08 11:32:06,113] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-08 11:33:04,412] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\models.py changed, reloading.
+[2022-12-08 11:33:09,537] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-08 11:33:10,208] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-08 11:33:10,208] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-08 11:33:10,208] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-08 11:33:50,351] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /projects/1
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "D:\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "D:\Python310\lib\concurrent\futures\thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'saas.serializer.ProjectModelSerializer'>`
+[2022-12-08 11:33:50,393] [runserver.py:160] [runserver:log_action] [ERROR]- HTTP GET /projects/1 500 [0.48, 127.0.0.1:52209]
+[2022-12-08 11:33:50,673] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 11:33:50,676] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.07, 127.0.0.1:52209]
+[2022-12-08 11:35:50,813] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py changed, reloading.
+[2022-12-08 11:35:54,360] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-08 11:35:54,929] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-08 11:35:54,930] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-08 11:35:54,932] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-08 11:36:03,024] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/1 200 [1.25, 127.0.0.1:52280]
+[2022-12-08 11:36:04,259] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/1 200 [0.05, 127.0.0.1:52283]
+[2022-12-08 11:36:07,761] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 11:36:07,764] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.03, 127.0.0.1:52283]
+[2022-12-08 11:36:35,184] [runserver.py:147] [runserver:log_action] [INFO]- HTTP OPTIONS /projects/1 200 [0.06, 127.0.0.1:52298]
+[2022-12-08 11:36:40,978] [runserver.py:147] [runserver:log_action] [INFO]- HTTP OPTIONS /projects/1 200 [0.05, 127.0.0.1:52305]
+[2022-12-08 11:37:13,648] [runserver.py:147] [runserver:log_action] [INFO]- HTTP PUT /projects/1 200 [0.05, 127.0.0.1:52320]
+[2022-12-08 11:37:33,652] [runserver.py:147] [runserver:log_action] [INFO]- HTTP PUT /projects/1 200 [0.09, 127.0.0.1:52337]
+[2022-12-08 11:37:59,554] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/1 200 [0.05, 127.0.0.1:52352]
+[2022-12-08 11:37:59,688] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 11:37:59,689] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.04, 127.0.0.1:52352]
+[2022-12-08 11:38:06,013] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/1 200 [0.04, 127.0.0.1:52358]
+[2022-12-08 11:38:06,284] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 11:38:06,286] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.03, 127.0.0.1:52358]
+[2022-12-08 11:38:30,540] [runserver.py:147] [runserver:log_action] [INFO]- HTTP OPTIONS /projects/1 200 [0.05, 127.0.0.1:52377]
+[2022-12-08 11:38:49,058] [runserver.py:147] [runserver:log_action] [INFO]- HTTP PUT /projects/1 200 [0.05, 127.0.0.1:52388]
+[2022-12-08 11:39:13,804] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/css/bootstrap.min.css.map 200 [0.16, 127.0.0.1:52400]
+[2022-12-08 11:39:28,305] [runserver.py:147] [runserver:log_action] [INFO]- HTTP PUT /projects/1 200 [0.05, 127.0.0.1:52419]
+[2022-12-08 11:39:28,862] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/css/bootstrap.min.css.map 200 [0.01, 127.0.0.1:52422]
+[2022-12-08 11:41:34,425] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-08 11:41:35,470] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-08 11:41:35,470] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-08 11:41:35,486] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-08 12:32:11,590] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py changed, reloading.
+[2022-12-08 12:34:12,241] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-08 12:34:17,674] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-08 12:34:17,674] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-08 12:34:17,674] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-08 12:34:19,366] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py changed, reloading.
+[2022-12-08 12:34:23,449] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-08 12:34:27,276] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-08 12:34:27,277] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-08 12:34:27,278] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-08 12:34:38,353] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/1 200 [3.58, 127.0.0.1:56357]
+[2022-12-08 12:34:43,075] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 12:34:43,076] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.28, 127.0.0.1:56363]
+[2022-12-08 12:35:30,775] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /projects/1
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "D:\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "D:\Python310\lib\concurrent\futures\thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py", line 328, in put
+    datas=json.loads(request.body.decode('utf-8'))
+  File "D:\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "D:\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Python310\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 6 column 1 (char 40)
+[2022-12-08 12:35:30,775] [runserver.py:160] [runserver:log_action] [ERROR]- HTTP PUT /projects/1 500 [0.28, 127.0.0.1:56375]
+[2022-12-08 12:39:59,485] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-08 12:40:00,561] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-08 12:40:00,561] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-08 12:40:00,561] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-08 12:40:10,324] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 12:40:10,329] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.16, 127.0.0.1:56488]
+[2022-12-08 12:40:12,401] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/1 200 [0.43, 127.0.0.1:56488]
+[2022-12-08 12:40:12,649] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 12:40:12,655] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.11, 127.0.0.1:56488]
+[2022-12-08 12:43:12,650] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-08 12:43:13,794] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-08 12:43:13,794] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-08 12:43:13,794] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-08 12:43:17,762] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/1 200 [0.48, 127.0.0.1:56599]
+[2022-12-08 12:43:21,781] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 12:43:21,785] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.13, 127.0.0.1:56605]
+[2022-12-08 12:43:44,226] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /projects/1
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "D:\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "D:\Python310\lib\concurrent\futures\thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py", line 328, in put
+    datas=json.loads(request.body.decode('utf-8'))
+  File "D:\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "D:\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Python310\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 6 column 1 (char 44)
+[2022-12-08 12:43:44,257] [runserver.py:160] [runserver:log_action] [ERROR]- HTTP PUT /projects/1 500 [0.50, 127.0.0.1:56617]
+[2022-12-08 12:44:16,674] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-08 12:44:17,794] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-08 12:44:17,794] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-08 12:44:17,809] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-08 12:44:22,001] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/1 200 [0.49, 127.0.0.1:56651]
+[2022-12-08 12:44:22,331] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 12:44:22,335] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.12, 127.0.0.1:56651]
+[2022-12-08 12:46:01,047] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /projects/1
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "D:\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "D:\Python310\lib\concurrent\futures\thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py", line 328, in put
+    datas=json.loads(request.body.decode('utf-8'))
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\request.py", line 416, in __getattr__
+    return getattr(self._request, attr)
+  File "D:\pythonList\web_python310\lib\site-packages\django\http\request.py", line 325, in body
+    raise RawPostDataException(
+django.http.request.RawPostDataException: You cannot access body after reading from request's data stream
+[2022-12-08 12:46:01,109] [runserver.py:160] [runserver:log_action] [ERROR]- HTTP PUT /projects/1 500 [71.83, 127.0.0.1:56664]
+[2022-12-08 12:46:19,388] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-08 12:46:20,449] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-08 12:46:20,449] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-08 12:46:20,464] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-08 12:46:24,258] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/1 200 [0.45, 127.0.0.1:56728]
+[2022-12-08 12:46:24,588] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 12:46:24,592] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.11, 127.0.0.1:56728]
+[2022-12-08 12:48:14,382] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-08 12:48:15,492] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-08 12:48:15,494] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-08 12:48:15,498] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-08 12:48:19,683] [log.py:241] [log:log_response] [WARNING]- Method Not Allowed: /projects/
+[2022-12-08 12:48:19,689] [runserver.py:157] [runserver:log_action] [WARNING]- HTTP GET /projects/ 405 [0.45, 127.0.0.1:56812]
+[2022-12-08 12:48:22,223] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 12:48:22,227] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.13, 127.0.0.1:56814]
+[2022-12-08 12:48:38,273] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/1 200 [0.13, 127.0.0.1:56825]
+[2022-12-08 12:48:38,588] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 12:48:38,592] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.08, 127.0.0.1:56825]
+[2022-12-08 12:50:32,707] [runserver.py:147] [runserver:log_action] [INFO]- HTTP PUT /projects/1 200 [94.12, 127.0.0.1:56836]
+[2022-12-08 12:52:09,043] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-08 12:52:09,433] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-08 12:52:09,449] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-08 12:52:09,449] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-08 12:52:26,835] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/1 200 [0.18, 127.0.0.1:56932]
+[2022-12-08 12:52:26,960] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 12:52:26,961] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.03, 127.0.0.1:56932]
+[2022-12-08 12:54:56,148] [runserver.py:147] [runserver:log_action] [INFO]- HTTP PUT /projects/1 200 [0.15, 127.0.0.1:57010]
+[2022-12-08 13:03:31,181] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py changed, reloading.
+[2022-12-08 13:03:44,767] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-08 13:03:45,650] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-08 13:03:45,651] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-08 13:03:45,653] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-08 15:38:14,205] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py changed, reloading.
+[2022-12-08 15:38:47,349] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-08 15:38:53,461] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-08 15:38:53,462] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-08 15:38:53,465] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-08 15:39:36,162] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py changed, reloading.
+[2022-12-08 15:39:40,070] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-08 15:39:40,691] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-08 15:39:40,692] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-08 15:39:40,694] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-08 15:40:00,256] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\myweb\settings.py changed, reloading.
+[2022-12-08 15:40:03,742] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-08 15:40:04,535] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-08 15:40:04,536] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-08 15:40:04,537] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-08 15:40:43,752] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py changed, reloading.
+[2022-12-08 15:40:47,252] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-08 15:40:47,808] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-08 15:40:47,809] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-08 15:40:47,811] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-08 15:41:12,608] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py changed, reloading.
+[2022-12-08 15:41:16,076] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-08 15:41:16,650] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-08 15:41:16,651] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-08 15:41:16,653] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-08 15:41:39,369] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py changed, reloading.
+[2022-12-08 15:41:42,689] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-08 15:41:43,245] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-08 15:41:43,246] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-08 15:41:43,248] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-08 15:42:09,607] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py changed, reloading.
+[2022-12-08 15:42:13,049] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-08 15:42:13,604] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-08 15:42:13,605] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-08 15:42:13,607] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-08 15:42:30,652] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-08 15:42:31,105] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-08 15:42:31,106] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-08 15:42:31,107] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-08 15:42:42,263] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.80, 127.0.0.1:60784]
+[2022-12-08 15:42:43,497] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 200 [0.39, 127.0.0.1:60784]
+[2022-12-08 15:42:43,975] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 15:42:43,977] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.31, 127.0.0.1:60784]
+[2022-12-08 15:43:10,863] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /projects/ 200 [0.57, 127.0.0.1:60799]
+[2022-12-08 15:43:19,737] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.13, 127.0.0.1:60802]
+[2022-12-08 15:43:19,842] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 15:43:19,843] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.02, 127.0.0.1:60802]
+[2022-12-08 15:43:25,269] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/1 200 [0.17, 127.0.0.1:60807]
+[2022-12-08 15:43:25,424] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 15:43:25,427] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.05, 127.0.0.1:60807]
+[2022-12-08 15:43:32,260] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /projects/1
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "D:\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "D:\Python310\lib\concurrent\futures\thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py", line 354, in delete
+    return Response(dict(self.get_serializer(pro),**{"msg":'删除成功'}))
+TypeError: cannot convert dictionary update sequence element #0 to a sequence
+[2022-12-08 15:43:32,276] [runserver.py:160] [runserver:log_action] [ERROR]- HTTP DELETE /projects/1 500 [1.11, 127.0.0.1:60814]
+[2022-12-08 15:44:36,828] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py changed, reloading.
+[2022-12-08 15:44:40,195] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-08 15:44:40,834] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-08 15:44:40,866] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-08 15:44:40,868] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-08 15:44:43,500] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/1
+[2022-12-08 15:44:43,501] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/1 404 [0.71, 127.0.0.1:60851]
+[2022-12-08 15:44:45,687] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/css/bootstrap.min.css 304 [0.06, 127.0.0.1:60851]
+[2022-12-08 15:44:45,693] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/css/bootstrap-tweaks.css 304 [0.06, 127.0.0.1:60852]
+[2022-12-08 15:44:45,717] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/css/prettify.css 304 [0.08, 127.0.0.1:60855]
+[2022-12-08 15:44:45,722] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/css/default.css 304 [0.08, 127.0.0.1:60856]
+[2022-12-08 15:44:45,836] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/js/jquery-3.5.1.min.js 304 [0.20, 127.0.0.1:60857]
+[2022-12-08 15:44:45,843] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/js/ajax-form.js 304 [0.20, 127.0.0.1:60858]
+[2022-12-08 15:44:45,849] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/js/csrf.js 304 [0.16, 127.0.0.1:60851]
+[2022-12-08 15:44:45,855] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/js/bootstrap.min.js 304 [0.12, 127.0.0.1:60852]
+[2022-12-08 15:44:45,860] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/js/prettify-min.js 304 [0.13, 127.0.0.1:60855]
+[2022-12-08 15:44:45,865] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/js/default.js 304 [0.13, 127.0.0.1:60856]
+[2022-12-08 15:44:45,954] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/img/grid.png 304 [0.02, 127.0.0.1:60856]
+[2022-12-08 15:44:46,361] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 15:44:46,363] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.04, 127.0.0.1:60856]
+[2022-12-08 15:44:51,524] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/2 200 [0.11, 127.0.0.1:60863]
+[2022-12-08 15:44:51,726] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 15:44:51,728] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.03, 127.0.0.1:60866]
+[2022-12-08 15:44:55,375] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /projects/2 200 [0.22, 127.0.0.1:60866]
+[2022-12-08 15:45:03,814] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.13, 127.0.0.1:60871]
+[2022-12-08 15:45:03,975] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 15:45:03,977] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.05, 127.0.0.1:60871]
+[2022-12-08 15:45:17,460] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /projects/ 200 [0.07, 127.0.0.1:60881]
+[2022-12-08 15:45:29,470] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /projects/ 200 [0.13, 127.0.0.1:60885]
+[2022-12-08 15:45:38,664] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /projects?name=1 301 [0.01, 127.0.0.1:60894]
+[2022-12-08 15:45:38,761] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/?name=1 200 [0.09, 127.0.0.1:60894]
+[2022-12-08 15:45:38,970] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 15:45:38,972] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.04, 127.0.0.1:60894]
+[2022-12-08 15:45:50,806] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/?name=1 200 [0.07, 127.0.0.1:60901]
+[2022-12-08 15:45:50,923] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 15:45:50,924] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.03, 127.0.0.1:60901]
+[2022-12-08 15:47:11,406] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/?name=%E9%A1%B9%E7%9B%AE1 200 [0.09, 127.0.0.1:60941]
+[2022-12-08 15:47:11,605] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 15:47:11,606] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.03, 127.0.0.1:60941]
+[2022-12-08 15:47:31,394] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/?search=%E9%A1%B9%E7%9B%AE1 200 [0.09, 127.0.0.1:60954]
+[2022-12-08 15:47:31,530] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 15:47:31,534] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.03, 127.0.0.1:60954]
+[2022-12-08 15:47:49,664] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/css/bootstrap.min.css.map 200 [0.10, 127.0.0.1:60965]
+[2022-12-08 15:48:14,979] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/?search=%E8%B4%9F%E8%B4%A3%E4%BA%BA2 200 [0.07, 127.0.0.1:60989]
+[2022-12-08 15:48:15,171] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 15:48:15,174] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.04, 127.0.0.1:60989]
+[2022-12-08 15:55:14,100] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/?search=2 200 [0.11, 127.0.0.1:61212]
+[2022-12-08 15:55:14,321] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 15:55:14,323] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.04, 127.0.0.1:61212]
+[2022-12-08 15:56:57,576] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\myweb\settings.py changed, reloading.
+[2022-12-08 15:57:00,960] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-08 15:57:01,517] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-08 15:57:01,518] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-08 15:57:01,519] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-08 16:00:23,942] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.21, 127.0.0.1:61349]
+[2022-12-08 16:00:24,192] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 16:00:24,194] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.05, 127.0.0.1:61349]
+[2022-12-08 16:00:30,417] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/?s=2 200 [0.08, 127.0.0.1:61357]
+[2022-12-08 16:00:30,585] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 16:00:30,587] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.04, 127.0.0.1:61357]
+[2022-12-08 16:00:47,257] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/?name=%E9%A1%B9%E7%9B%AE1 200 [0.10, 127.0.0.1:61367]
+[2022-12-08 16:00:47,429] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 16:00:47,431] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.05, 127.0.0.1:61367]
+[2022-12-08 16:00:57,553] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\myweb\settings.py changed, reloading.
+[2022-12-08 16:01:01,196] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-08 16:01:01,797] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-08 16:01:01,797] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-08 16:01:01,797] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-08 16:06:17,145] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py changed, reloading.
+[2022-12-08 16:06:20,646] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-08 16:06:21,155] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-08 16:06:21,156] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-08 16:06:21,158] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-08 16:07:44,643] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py changed, reloading.
+[2022-12-08 16:07:48,285] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-08 16:07:48,741] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-08 16:07:48,741] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-08 16:07:48,741] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-08 16:07:51,374] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.35, 127.0.0.1:61657]
+[2022-12-08 16:07:51,549] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 16:07:51,551] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.05, 127.0.0.1:61657]
+[2022-12-08 16:08:02,087] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /projects/ 200 [0.10, 127.0.0.1:61665]
+[2022-12-08 16:09:01,257] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\models.py changed, reloading.
+[2022-12-08 16:09:04,458] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-08 16:09:04,988] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-08 16:09:04,988] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-08 16:09:04,988] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-08 16:09:30,401] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /projects/ 200 [0.18, 127.0.0.1:61727]
+[2022-12-08 16:09:36,210] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /projects/ 200 [0.10, 127.0.0.1:61729]
+[2022-12-08 16:09:39,893] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /projects/ 200 [0.11, 127.0.0.1:61734]
+[2022-12-08 16:09:45,522] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /projects/ 200 [0.07, 127.0.0.1:61738]
+[2022-12-08 16:09:48,728] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /projects/ 200 [0.10, 127.0.0.1:61742]
+[2022-12-08 16:09:52,287] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /projects/ 200 [0.07, 127.0.0.1:61742]
+[2022-12-08 16:09:57,527] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /projects/ 200 [0.08, 127.0.0.1:61745]
+[2022-12-08 16:10:01,974] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /projects/ 200 [0.10, 127.0.0.1:61751]
+[2022-12-08 16:10:04,910] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /projects/ 200 [0.08, 127.0.0.1:61755]
+[2022-12-08 16:10:09,071] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.13, 127.0.0.1:61759]
+[2022-12-08 16:10:09,286] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 16:10:09,288] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.04, 127.0.0.1:61759]
+[2022-12-08 16:10:46,733] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/?page=2 200 [0.08, 127.0.0.1:61797]
+[2022-12-08 16:10:46,904] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 16:10:46,907] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.04, 127.0.0.1:61797]
+[2022-12-08 16:10:48,781] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.06, 127.0.0.1:61800]
+[2022-12-08 16:10:48,959] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 16:10:48,961] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.03, 127.0.0.1:61800]
+[2022-12-08 16:10:57,388] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/?page=2 200 [0.07, 127.0.0.1:61808]
+[2022-12-08 16:10:57,607] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 16:10:57,611] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.04, 127.0.0.1:61808]
+[2022-12-08 16:31:16,367] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py changed, reloading.
+[2022-12-08 16:31:42,004] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-08 16:31:45,464] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-08 16:31:45,464] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-08 16:31:45,466] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-08 16:31:50,757] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.56, 127.0.0.1:62451]
+[2022-12-08 16:31:51,230] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 16:31:51,233] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.18, 127.0.0.1:62451]
+[2022-12-08 16:32:22,976] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/?size=5&page=2 200 [0.16, 127.0.0.1:62464]
+[2022-12-08 16:32:23,202] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 16:32:23,204] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.05, 127.0.0.1:62464]
+[2022-12-08 16:32:35,963] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/?size=5&page=1 200 [0.09, 127.0.0.1:62471]
+[2022-12-08 16:32:36,163] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 16:32:36,166] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.04, 127.0.0.1:62471]
+[2022-12-08 16:32:47,734] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/?size=5&page=3 200 [0.05, 127.0.0.1:62482]
+[2022-12-08 16:32:47,912] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 16:32:47,914] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.04, 127.0.0.1:62482]
+[2022-12-08 16:33:12,286] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/?size=5&page=3&s=2 200 [0.09, 127.0.0.1:62496]
+[2022-12-08 16:33:12,486] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 16:33:12,488] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.03, 127.0.0.1:62496]
+[2022-12-08 16:33:35,222] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/?size=5&page=3&seacher=2 200 [0.06, 127.0.0.1:62511]
+[2022-12-08 16:33:35,409] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 16:33:35,412] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.05, 127.0.0.1:62511]
+[2022-12-08 16:33:45,749] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/?search=2 200 [0.12, 127.0.0.1:62521]
+[2022-12-08 16:33:45,912] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 16:33:45,915] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.03, 127.0.0.1:62521]
+[2022-12-08 16:34:07,323] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/?size=5&page=3&seache=2 200 [0.10, 127.0.0.1:62530]
+[2022-12-08 16:34:07,512] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 16:34:07,514] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.04, 127.0.0.1:62530]
+[2022-12-08 16:34:30,827] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/
+[2022-12-08 16:34:30,829] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/?size=5&page=3&search=2 404 [0.07, 127.0.0.1:62539]
+[2022-12-08 16:34:31,015] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 16:34:31,017] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.04, 127.0.0.1:62539]
+[2022-12-08 16:34:40,075] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/?search=2 200 [0.14, 127.0.0.1:62545]
+[2022-12-08 16:34:40,296] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 16:34:40,298] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.04, 127.0.0.1:62545]
+[2022-12-08 16:35:06,053] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/?search=2&size=5&page=1 200 [0.07, 127.0.0.1:62561]
+[2022-12-08 16:35:06,194] [log.py:241] [log:log_response] [WARNING]- Not Found: /projects/jquery.min.js
+[2022-12-08 16:35:06,195] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /projects/jquery.min.js 404 [0.03, 127.0.0.1:62561]
+[2022-12-08 16:48:47,135] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py changed, reloading.
+[2022-12-08 16:49:00,226] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-08 16:49:02,951] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-08 16:49:02,952] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-08 16:49:02,956] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-08 16:54:24,546] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\models.py changed, reloading.
+[2022-12-08 16:54:27,590] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-08 16:58:14,260] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\models.py changed, reloading.
+[2022-12-08 16:58:20,571] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-08 16:58:23,641] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-08 16:58:23,642] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-08 16:58:23,645] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>接口自动化平台</title>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript">//<![CDATA[
+    $(function () {
+        $(function () {
+            const  socket = new WebSocket("ws://" + window.location.host + "/chat_one_thread/");
+            socket.onopen = function () {
+                console.log('WebSocket open');//成功连接上Websocket
+                socket.send($('#message').val());//发送数据到服务端
+            };
+            socket.onmessage = function (e) {
+                console.log('message: ' + e.data);//打印服务端返回的数据
+<!--                prepend-->
+                $('#messagecontainer').append('<p>' + e.data + '</p>');
+                len=document.getElementsByTagName("p").length
+                document.getElementsByTagName("p")[len-1].scrollIntoView();
+                if(e.data=='接口执行完成'){
+                document.getElementById("report").style.display="block";
+                document.getElementById("report").scrollIntoView();
+
+                };
+
+            };
+
+
+
+
+            
+        });
+    });
+    //]]>
+    function jump(){
+    window.open("/result_one_thread")
+    }
+</script>
+</head>
+<body >
+<br>
+<!--<input type="text" id="message" value="Hello, World!"/>-->
+<!--<button type="button" id="send_message">发送 message</button>-->
+<h1>日志</h1>
+
+<div id="messagecontainer">
+
+</div>
+<button id="report" onclick="jump()" style='background-color:green;color:white;border-radius:4px;width:100px;height:40px; display:none' >
+查看测试报告
+</button>
+</body>
+</html>

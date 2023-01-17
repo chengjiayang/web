@@ -1,0 +1,52 @@
+[2023-01-10 15:07:52,782] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2023-01-10 15:07:52,782] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-10 15:07:52,782] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2023-01-10 15:11:16,871] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-10 15:12:28,413] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-10 15:12:54,672] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-10 15:12:59,918] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-10 15:13:16,407] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-10 15:20:04,691] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-10 15:27:10,594] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-10 15:27:16,475] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-10 15:27:25,883] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-10 15:46:40,158] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2023-01-10 15:46:40,158] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-10 15:46:40,158] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2023-01-10 15:46:47,493] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-10 15:50:02,528] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-10 15:50:06,653] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-10 15:50:17,162] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-10 15:50:30,729] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-10 15:50:37,879] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-10 15:50:54,523] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2023-01-10 15:50:54,523] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-10 15:50:54,523] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2023-01-10 15:51:22,323] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-10 15:54:22,132] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-10 16:46:27,795] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-10 16:47:09,745] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-10 18:39:07,901] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-10 19:10:21,998] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2023-01-10 19:10:21,998] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-10 19:10:21,998] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2023-01-10 19:11:48,774] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-10 19:12:00,639] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-10 19:12:43,104] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-10 19:12:57,087] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-10 19:13:07,089] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-10 19:14:16,097] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-10 19:15:34,787] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-10 19:20:46,198] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-10 19:21:23,237] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-10 19:21:46,389] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-10 19:26:30,766] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2023-01-10 19:26:30,804] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2023-01-10 19:26:30,805] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2023-01-10 19:28:20,583] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-10 19:28:27,667] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-10 19:28:33,484] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-10 19:29:47,984] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-10 19:29:52,037] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-10 19:37:02,492] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2023-01-10 20:19:05,567] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True

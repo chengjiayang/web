@@ -1,0 +1,267 @@
+{% extends "admin/change_form.html" %}
+
+{% block extrahead %}{{ block.super }}
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+<script  type="text/javascript">
+
+
+
+
+$(document).ready(function() {
+      var greet = function(){
+
+      var selects = document.getElementsByClassName("form-row field-dealtype");
+      var interfaceProcess = document.getElementsByClassName("form-row field-interfaceProcess");
+      var sqls = document.getElementsByClassName("form-row field-sqls");
+      var mongodb_type = document.getElementsByClassName("form-row field-m_type");
+      var mongodb_table = document.getElementsByClassName("form-row field-m_table");
+      var mongodb_query = document.getElementsByClassName("form-row field-m_query");
+      var mongodb_order = document.getElementsByClassName("form-row field-m_order");
+      var mongodb_result = document.getElementsByClassName("form-row field-m_result");
+      var interfaceRequest_url = document.getElementsByClassName("form-row field-interfaceRequest_url");
+      var interfaceRequest_body = document.getElementsByClassName("form-row field-interfaceRequest_body");
+      var len= selects.length;
+      for (var i=0;i<len;i++){
+          if (selects[i].firstElementChild.lastElementChild.value==0){
+              interfaceProcess[i].style.display="block";
+              sqls[i].style.display="none";
+              mongodb_type[i].style.display="none";
+              mongodb_table[i].style.display="none";
+              mongodb_query[i].style.display="none";
+              mongodb_order[i].style.display="none";
+              mongodb_result[i].style.display="none";
+              interfaceRequest_url[i].style.display="none";
+              interfaceRequest_body[i].style.display="none";
+          }
+          else if (selects[i].firstElementChild.lastElementChild.value==1){
+              interfaceProcess[i].style.display="none";
+              sqls[i].style.display="block";
+              mongodb_type[i].style.display="none";
+              mongodb_table[i].style.display="none";
+              mongodb_query[i].style.display="none";
+              mongodb_order[i].style.display="none";
+              mongodb_result[i].style.display="none";
+              interfaceRequest_url[i].style.display="none";
+              interfaceRequest_body[i].style.display="none";
+          }
+          else if (selects[i].firstElementChild.lastElementChild.value==2){
+              interfaceProcess[i].style.display="none";
+              sqls[i].style.display="none";
+              mongodb_type[i].style.display="block";
+              mongodb_table[i].style.display="block";
+              mongodb_query[i].style.display="block";
+              mongodb_order[i].style.display="block";
+              mongodb_result[i].style.display="block";
+              interfaceRequest_url[i].style.display="none";
+              interfaceRequest_body[i].style.display="none";
+          }
+          else if (selects[i].firstElementChild.lastElementChild.value==3){
+
+          }
+          else if (selects[i].firstElementChild.lastElementChild.value==4){
+              interfaceProcess[i].style.display="none";
+              sqls[i].style.display="none";
+              mongodb_type[i].style.display="none";
+              mongodb_table[i].style.display="none";
+              mongodb_query[i].style.display="none";
+              mongodb_order[i].style.display="none";
+              mongodb_result[i].style.display="none";
+              interfaceRequest_url[i].style.display="none";
+              interfaceRequest_body[i].style.display="none";
+          }
+          else if (selects[i].firstElementChild.lastElementChild.value==5){
+              interfaceProcess[i].style.display="none";
+              sqls[i].style.display="none";
+              mongodb_type[i].style.display="none";
+              mongodb_table[i].style.display="none";
+              mongodb_query[i].style.display="none";
+              mongodb_order[i].style.display="none";
+              mongodb_result[i].style.display="none";
+              interfaceRequest_url[i].style.display="block";
+              interfaceRequest_body[i].style.display="none";
+          }
+          else if (selects[i].firstElementChild.lastElementChild.value==6){
+              interfaceProcess[i].style.display="none";
+              sqls[i].style.display="none";
+              mongodb_type[i].style.display="none";
+              mongodb_table[i].style.display="none";
+              mongodb_query[i].style.display="none";
+              mongodb_order[i].style.display="none";
+              mongodb_result[i].style.display="none";
+              interfaceRequest_url[i].style.display="none";
+              interfaceRequest_body[i].style.display="block";
+          }
+
+      }
+   };
+
+
+
+   greet();
+
+
+
+<!--    if ($(".field-dealtype select").val()==0){-->
+<!--            $(".field-dealtype select").parents('.field-dealtype').siblings(".field-interfaceProcess").show();-->
+<!--            $(".field-dealtype select").parents('.field-dealtype').siblings(".field-sqls").hide();-->
+<!--            $(".field-dealtype select").parents('.field-dealtype').siblings(".field-m_type").hide();-->
+<!--		    $(".field-dealtype select").parents('.field-dealtype').siblings(".field-m_table").hide();-->
+<!--		    $(".field-dealtype select").parents('.field-dealtype').siblings(".field-m_query").hide();-->
+<!--		    $(".field-dealtype select").parents('.field-dealtype').siblings(".field-m_order").hide();-->
+<!--		    $(".field-dealtype select").parents('.field-dealtype').siblings(".field-m_result").hide();-->
+<!--		    $(".field-dealtype select").parents('.field-dealtype').siblings(".field-interfaceRequest_url").hide();-->
+<!--		    $(".field-dealtype select").parents('.field-dealtype').siblings(".field-interfaceRequest_body").hide();-->
+<!--            }-->
+<!--        else if ($(".field-dealtype select").val()==1){-->
+<!--            $(".field-dealtype select").parents('.field-dealtype').siblings(".field-interfaceProcess").hide();-->
+<!--            $(".field-dealtype select").parents('.field-dealtype').siblings(".field-sqls").show();-->
+<!--            $(".field-dealtype select").parents('.field-dealtype').siblings(".field-m_type").hide();-->
+<!--		    $(".field-dealtype select").parents('.field-dealtype').siblings(".field-m_table").hide();-->
+<!--		    $(".field-dealtype select").parents('.field-dealtype').siblings(".field-m_query").hide();-->
+<!--		    $(".field-dealtype select").parents('.field-dealtype').siblings(".field-m_order").hide();-->
+<!--		    $(".field-dealtype select").parents('.field-dealtype').siblings(".field-m_result").hide();-->
+<!--		    $(".field-dealtype select").parents('.field-dealtype').siblings(".field-interfaceRequest_url").hide();-->
+<!--		    $(".field-dealtype select").parents('.field-dealtype').siblings(".field-interfaceRequest_body").hide();-->
+<!--           }-->
+<!--        else if ($(".field-dealtype select").val()==2){-->
+<!--            $(".field-dealtype select").parents('.field-dealtype').siblings(".field-interfaceProcess").hide();-->
+<!--            $(".field-dealtype select").parents('.field-dealtype').siblings(".field-sqls").hide();-->
+<!--            $(".field-dealtype select").parents('.field-dealtype').siblings(".field-m_type").show();-->
+<!--		    $(".field-dealtype select").parents('.field-dealtype').siblings(".field-m_table").show();-->
+<!--		    $(".field-dealtype select").parents('.field-dealtype').siblings(".field-m_query").show();-->
+<!--		    $(".field-dealtype select").parents('.field-dealtype').siblings(".field-m_order").show();-->
+<!--		    $(".field-dealtype select").parents('.field-dealtype').siblings(".field-m_result").show();-->
+<!--		    $(".field-dealtype select").parents('.field-dealtype').siblings(".field-interfaceRequest_url").hide();-->
+<!--		    $(".field-dealtype select").parents('.field-dealtype').siblings(".field-interfaceRequest_body").hide();-->
+<!--           }-->
+<!--        else if ($(".field-dealtype select").val()==3){-->
+
+
+<!--           }-->
+<!--        else if ($(".field-dealtype select").val()==4){-->
+<!--            $(".field-dealtype select").parents('.field-dealtype').siblings(".field-interfaceProcess").hide();-->
+<!--            $(".field-dealtype select").parents('.field-dealtype').siblings(".field-sqls").hide();-->
+<!--            $(".field-dealtype select").parents('.field-dealtype').siblings(".field-m_type").hide();-->
+<!--		    $(".field-dealtype select").parents('.field-dealtype').siblings(".field-m_table").hide();-->
+<!--		    $(".field-dealtype select").parents('.field-dealtype').siblings(".field-m_query").hide();-->
+<!--		    $(".field-dealtype select").parents('.field-dealtype').siblings(".field-m_order").hide();-->
+<!--		    $(".field-dealtype select").parents('.field-dealtype').siblings(".field-m_result").hide();-->
+<!--		    $(".field-dealtype select").parents('.field-dealtype').siblings(".field-interfaceRequest_url").hide();-->
+<!--		    $(".field-dealtype select").parents('.field-dealtype').siblings(".field-interfaceRequest_body").hide();-->
+<!--           }-->
+
+<!--        else if ($(".field-dealtype select").val()==5){-->
+<!--            $(".field-dealtype select").parents('.field-dealtype').siblings(".field-interfaceProcess").hide();-->
+<!--            $(".field-dealtype select").parents('.field-dealtype').siblings(".field-sqls").hide();-->
+<!--            $(".field-dealtype select").parents('.field-dealtype').siblings(".field-m_type").hide();-->
+<!--		    $(".field-dealtype select").parents('.field-dealtype').siblings(".field-m_table").hide();-->
+<!--		    $(".field-dealtype select").parents('.field-dealtype').siblings(".field-m_query").hide();-->
+<!--		    $(".field-dealtype select").parents('.field-dealtype').siblings(".field-m_order").hide();-->
+<!--		    $(".field-dealtype select").parents('.field-dealtype').siblings(".field-m_result").hide();-->
+<!--		    $(".field-dealtype select").parents('.field-dealtype').siblings(".field-interfaceRequest_url").show();-->
+<!--		    $(".field-dealtype select").parents('.field-dealtype').siblings(".field-interfaceRequest_body").hide();-->
+<!--           }-->
+
+<!--        else if ($(".field-dealtype select").val()==6){-->
+<!--            $(".field-dealtype select").parents('.field-dealtype').siblings(".field-interfaceProcess").hide();-->
+<!--            $(".field-dealtype select").parents('.field-dealtype').siblings(".field-sqls").hide();-->
+<!--            $(".field-dealtype select").parents('.field-dealtype').siblings(".field-m_type").hide();-->
+<!--		    $(".field-dealtype select").parents('.field-dealtype').siblings(".field-m_table").hide();-->
+<!--		    $(".field-dealtype select").parents('.field-dealtype').siblings(".field-m_query").hide();-->
+<!--		    $(".field-dealtype select").parents('.field-dealtype').siblings(".field-m_order").hide();-->
+<!--		    $(".field-dealtype select").parents('.field-dealtype').siblings(".field-m_result").hide();-->
+<!--		    $(".field-dealtype select").parents('.field-dealtype').siblings(".field-interfaceRequest_url").hide();-->
+<!--		    $(".field-dealtype select").parents('.field-dealtype').siblings(".field-interfaceRequest_body").show();-->
+<!--           }-->
+
+
+
+
+
+
+    $('body').on('change',".field-dealtype select",function(){
+        if ($(this).val() == 0) {
+			　　 $(this).parents('.field-dealtype').siblings(".field-interfaceProcess").show();
+			     $(this).parents('.field-dealtype').siblings(".field-sqls").hide();
+        $(this).parents('.field-dealtype').siblings(".field-m_type").hide();
+		$(this).parents('.field-dealtype').siblings(".field-m_table").hide();
+		$(this).parents('.field-dealtype').siblings(".field-m_query").hide();
+		$(this).parents('.field-dealtype').siblings(".field-m_order").hide();
+		$(this).parents('.field-dealtype').siblings(".field-m_result").hide();
+		$(this).parents('.field-dealtype').siblings(".field-interfaceRequest_url").hide();
+		$(this).parents('.field-dealtype').siblings(".field-interfaceRequest_body").hide();
+			　　　　}
+		else if ($(this).val() == 1) {
+		  $(this).parents('.field-dealtype').siblings(".field-interfaceProcess").hide();
+			　　 $(this).parents('.field-dealtype').siblings(".field-sqls").show();
+			     $(this).parents('.field-dealtype').siblings(".field-m_type").hide();
+		$(this).parents('.field-dealtype').siblings(".field-m_table").hide();
+		$(this).parents('.field-dealtype').siblings(".field-m_query").hide();
+		$(this).parents('.field-dealtype').siblings(".field-m_order").hide();
+		$(this).parents('.field-dealtype').siblings(".field-m_result").hide();
+		$(this).parents('.field-dealtype').siblings(".field-interfaceRequest_url").hide();
+		$(this).parents('.field-dealtype').siblings(".field-interfaceRequest_body").hide();
+			　　　　}
+		else if ($(this).val() == 2) {
+		       $(this).parents('.field-dealtype').siblings(".field-interfaceProcess").hide();
+		       $(this).parents('.field-dealtype').siblings(".field-sqls").hide();
+			　　$(this).parents('.field-dealtype').siblings(".field-m_type").show();
+			   $(this).parents('.field-dealtype').siblings(".field-m_table").show();
+			   $(this).parents('.field-dealtype').siblings(".field-m_query").show();
+			   $(this).parents('.field-dealtype').siblings(".field-m_order").show();
+			   $(this).parents('.field-dealtype').siblings(".field-m_result").show();
+			   $(this).parents('.field-dealtype').siblings(".field-interfaceRequest_url").hide();
+		       $(this).parents('.field-dealtype').siblings(".field-interfaceRequest_body").hide();
+			　　　　}
+		else if ($(this).val() == 3) {
+			　　
+			　　　　}
+	    else if ($(this).val() == 4) {
+
+	          $(this).parents('.field-dealtype').siblings(".field-interfaceProcess").hide();
+		       $(this).parents('.field-dealtype').siblings(".field-sqls").hide();
+			　　$(this).parents('.field-dealtype').siblings(".field-m_type").hide();
+			   $(this).parents('.field-dealtype').siblings(".field-m_table").hide();
+			   $(this).parents('.field-dealtype').siblings(".field-m_query").hide();
+			   $(this).parents('.field-dealtype').siblings(".field-m_order").hide();
+			   $(this).parents('.field-dealtype').siblings(".field-m_result").hide();
+			　　$(this).parents('.field-dealtype').siblings(".field-interfaceRequest_url").hide();
+		       $(this).parents('.field-dealtype').siblings(".field-interfaceRequest_body").hide();
+			　　　　}
+		else if ($(this).val() == 5) {
+
+	          $(this).parents('.field-dealtype').siblings(".field-interfaceProcess").hide();
+		       $(this).parents('.field-dealtype').siblings(".field-sqls").hide();
+			　　$(this).parents('.field-dealtype').siblings(".field-m_type").hide();
+			   $(this).parents('.field-dealtype').siblings(".field-m_table").hide();
+			   $(this).parents('.field-dealtype').siblings(".field-m_query").hide();
+			   $(this).parents('.field-dealtype').siblings(".field-m_order").hide();
+			   $(this).parents('.field-dealtype').siblings(".field-m_result").hide();
+			　　$(this).parents('.field-dealtype').siblings(".field-interfaceRequest_url").show();
+		       $(this).parents('.field-dealtype').siblings(".field-interfaceRequest_body").hide();
+			　　　　}
+		else if ($(this).val() == 6) {
+
+	          $(this).parents('.field-dealtype').siblings(".field-interfaceProcess").hide();
+		       $(this).parents('.field-dealtype').siblings(".field-sqls").hide();
+			　　$(this).parents('.field-dealtype').siblings(".field-m_type").hide();
+			   $(this).parents('.field-dealtype').siblings(".field-m_table").hide();
+			   $(this).parents('.field-dealtype').siblings(".field-m_query").hide();
+			   $(this).parents('.field-dealtype').siblings(".field-m_order").hide();
+			   $(this).parents('.field-dealtype').siblings(".field-m_result").hide();
+			　　$(this).parents('.field-dealtype').siblings(".field-interfaceRequest_url").hide();
+		       $(this).parents('.field-dealtype').siblings(".field-interfaceRequest_body").show();
+			　　　　}
+
+
+
+    });
+
+
+
+
+});
+</script>
+
+{% endblock %}

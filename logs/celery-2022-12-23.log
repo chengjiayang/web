@@ -1,0 +1,253 @@
+[2022-12-23 10:44:52,977] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-23 10:45:02,364] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-23 10:45:02,364] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-23 10:45:02,366] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-23 10:46:05,074] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /deleteAuto 301 [0.42, 127.0.0.1:51135]
+[2022-12-23 10:46:11,373] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /deleteAuto/
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\base.py", line 265, in _get_response_async
+    self.check_response(response, callback)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view saas.views.deleteAuto didn't return an HttpResponse object. It returned None instead.
+[2022-12-23 10:46:11,382] [runserver.py:160] [runserver:log_action] [ERROR]- HTTP GET /deleteAuto/ 500 [6.14, 127.0.0.1:51135]
+[2022-12-23 10:46:14,600] [log.py:241] [log:log_response] [WARNING]- Not Found: /deleteAuto/jquery.min.js
+[2022-12-23 10:46:14,601] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /deleteAuto/jquery.min.js 404 [0.07, 127.0.0.1:51144]
+[2022-12-23 10:46:14,748] [log.py:241] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-12-23 10:46:14,748] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /favicon.ico 404 [0.02, 127.0.0.1:51144]
+[2022-12-23 10:47:57,457] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py changed, reloading.
+[2022-12-23 10:48:15,394] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-23 10:48:19,368] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-23 10:48:19,368] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-23 10:48:19,368] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-23 10:48:26,645] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [4.79, 127.0.0.1:51212]
+[2022-12-23 10:48:27,017] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/css/bootstrap.min.css 304 [0.09, 127.0.0.1:51212]
+[2022-12-23 10:48:27,022] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/css/bootstrap-tweaks.css 304 [0.06, 127.0.0.1:51216]
+[2022-12-23 10:48:27,026] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/css/prettify.css 304 [0.03, 127.0.0.1:51217]
+[2022-12-23 10:48:27,065] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/css/default.css 304 [0.00, 127.0.0.1:51218]
+[2022-12-23 10:48:27,117] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/js/jquery-3.5.1.min.js 304 [0.03, 127.0.0.1:51219]
+[2022-12-23 10:48:27,122] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/js/ajax-form.js 304 [0.02, 127.0.0.1:51220]
+[2022-12-23 10:48:27,172] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/js/csrf.js 304 [0.01, 127.0.0.1:51212]
+[2022-12-23 10:48:27,175] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/js/bootstrap.min.js 304 [0.01, 127.0.0.1:51216]
+[2022-12-23 10:48:27,179] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/js/default.js 304 [0.01, 127.0.0.1:51218]
+[2022-12-23 10:48:27,182] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/js/prettify-min.js 304 [0.01, 127.0.0.1:51217]
+[2022-12-23 10:48:27,492] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/img/grid.png 304 [0.01, 127.0.0.1:51217]
+[2022-12-23 10:48:27,755] [runserver.py:151] [runserver:log_action] [INFO]- HTTP GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 304 [0.03, 127.0.0.1:51217]
+[2022-12-23 10:48:28,783] [log.py:241] [log:log_response] [WARNING]- Not Found: /cases/jquery.min.js
+[2022-12-23 10:48:28,787] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /cases/jquery.min.js 404 [0.04, 127.0.0.1:51224]
+[2022-12-23 10:49:02,739] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py changed, reloading.
+[2022-12-23 10:49:05,940] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-23 10:49:06,357] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-23 10:49:06,357] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-23 10:49:06,357] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-23 10:49:16,778] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /deleteAuto/
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\base.py", line 284, in _get_response_async
+    response = await sync_to_async(
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "D:\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "D:\Python310\lib\concurrent\futures\thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "D:\pythonList\web_python310\lib\site-packages\rest_framework\response.py", line 55, in rendered_content
+    assert renderer, ".accepted_renderer not set on Response"
+AssertionError: .accepted_renderer not set on Response
+[2022-12-23 10:49:16,787] [runserver.py:160] [runserver:log_action] [ERROR]- HTTP GET /deleteAuto/ 500 [0.24, 127.0.0.1:51249]
+[2022-12-23 10:49:17,079] [log.py:241] [log:log_response] [WARNING]- Not Found: /deleteAuto/jquery.min.js
+[2022-12-23 10:49:17,081] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /deleteAuto/jquery.min.js 404 [0.07, 127.0.0.1:51249]
+[2022-12-23 10:49:43,476] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py changed, reloading.
+[2022-12-23 10:49:47,269] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-23 10:49:47,692] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-23 10:49:47,692] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-23 10:49:47,708] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-23 10:49:53,210] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /deleteAuto/ 200 [0.03, 127.0.0.1:51272]
+[2022-12-23 10:49:53,326] [log.py:241] [log:log_response] [WARNING]- Not Found: /deleteAuto/jquery.min.js
+[2022-12-23 10:49:53,329] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /deleteAuto/jquery.min.js 404 [0.04, 127.0.0.1:51272]
+[2022-12-23 10:52:20,366] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py changed, reloading.
+[2022-12-23 10:52:23,879] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-23 10:52:24,309] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-23 10:52:24,310] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-23 10:52:24,311] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-23 10:52:32,030] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /deleteAuto/ 200 [0.10, 127.0.0.1:51345]
+[2022-12-23 10:52:32,157] [log.py:241] [log:log_response] [WARNING]- Not Found: /deleteAuto/jquery.min.js
+[2022-12-23 10:52:32,159] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /deleteAuto/jquery.min.js 404 [0.03, 127.0.0.1:51345]
+[2022-12-23 10:59:45,414] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /deleteAuto/ 200 [0.02, 127.0.0.1:51651]
+[2022-12-23 11:01:39,900] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /deleteAuto/ 200 [0.01, 127.0.0.1:51675]
+[2022-12-23 11:02:46,775] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /deleteAuto/ 200 [0.01, 127.0.0.1:51696]
+[2022-12-23 11:05:30,054] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /deleteAuto/ 200 [0.01, 127.0.0.1:51724]
+[2022-12-23 11:06:27,767] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py changed, reloading.
+[2022-12-23 11:06:41,131] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-23 11:07:44,517] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py changed, reloading.
+[2022-12-23 11:07:47,655] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-23 11:08:46,558] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py changed, reloading.
+[2022-12-23 11:08:50,661] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-23 11:21:14,894] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py changed, reloading.
+[2022-12-23 11:21:18,370] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-23 11:21:23,620] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-23 11:21:23,621] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-23 11:21:23,623] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-23 11:21:28,916] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [5.19, 127.0.0.1:51870]
+[2022-12-23 11:21:31,775] [log.py:241] [log:log_response] [WARNING]- Not Found: /cases/jquery.min.js
+[2022-12-23 11:21:31,778] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /cases/jquery.min.js 404 [0.67, 127.0.0.1:51870]
+[2022-12-23 11:21:35,912] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.08, 127.0.0.1:51882]
+[2022-12-23 11:21:47,745] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.18, 127.0.0.1:51897]
+[2022-12-23 11:21:47,853] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.29, 127.0.0.1:51896]
+[2022-12-23 11:21:48,012] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/1 200 [0.18, 127.0.0.1:51902]
+[2022-12-23 11:21:48,222] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project= 200 [0.12, 127.0.0.1:51906]
+[2022-12-23 11:22:01,135] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.07, 127.0.0.1:51919]
+[2022-12-23 11:22:04,068] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/ 200 [0.11, 127.0.0.1:51926]
+[2022-12-23 11:22:04,913] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.19, 127.0.0.1:51929]
+[2022-12-23 11:22:07,022] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/ 200 [0.10, 127.0.0.1:51935]
+[2022-12-23 11:22:09,531] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.07, 127.0.0.1:51938]
+[2022-12-23 11:22:12,332] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.09, 127.0.0.1:51945]
+[2022-12-23 11:22:12,364] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.12, 127.0.0.1:51946]
+[2022-12-23 11:22:15,899] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.10, 127.0.0.1:51953]
+[2022-12-23 11:22:18,118] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.08, 127.0.0.1:51964]
+[2022-12-23 11:22:18,124] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.09, 127.0.0.1:51965]
+[2022-12-23 11:22:19,062] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.09, 127.0.0.1:51969]
+[2022-12-23 11:22:23,338] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.09, 127.0.0.1:51978]
+[2022-12-23 11:22:23,364] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.11, 127.0.0.1:51979]
+[2022-12-23 11:22:23,528] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/1 200 [0.04, 127.0.0.1:51985]
+[2022-12-23 11:22:23,773] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project= 200 [0.03, 127.0.0.1:51989]
+[2022-12-23 11:22:25,626] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.09, 127.0.0.1:51991]
+[2022-12-23 11:26:01,328] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.23, 127.0.0.1:52183]
+[2022-12-23 11:26:01,430] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.09, 127.0.0.1:52185]
+[2022-12-23 11:27:58,463] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.10, 127.0.0.1:52242]
+[2022-12-23 11:28:36,891] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.09, 127.0.0.1:52261]
+[2022-12-23 11:29:08,914] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.07, 127.0.0.1:52276]
+[2022-12-23 11:29:11,822] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.08, 127.0.0.1:52281]
+[2022-12-23 11:30:08,344] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.12, 127.0.0.1:52319]
+[2022-12-23 11:31:07,447] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.06, 127.0.0.1:52360]
+[2022-12-23 11:32:40,030] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.08, 127.0.0.1:52410]
+[2022-12-23 11:32:53,768] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.12, 127.0.0.1:52421]
+[2022-12-23 11:33:08,284] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.04, 127.0.0.1:52435]
+[2022-12-23 11:33:24,788] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.06, 127.0.0.1:52449]
+[2022-12-23 11:34:05,208] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.06, 127.0.0.1:52472]
+[2022-12-23 11:35:35,361] [runserver.py:147] [runserver:log_action] [INFO]- HTTP DELETE /cases/1 200 [1.32, 127.0.0.1:52520]
+[2022-12-23 11:35:39,695] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.02, 127.0.0.1:52529]
+[2022-12-23 11:35:46,457] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.09, 127.0.0.1:52536]
+[2022-12-23 11:35:51,374] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.09, 127.0.0.1:52549]
+[2022-12-23 11:35:51,374] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.09, 127.0.0.1:52548]
+[2022-12-23 11:36:09,932] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project=36 200 [0.09, 127.0.0.1:52561]
+[2022-12-23 11:36:24,044] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /cases/ 200 [0.28, 127.0.0.1:52573]
+[2022-12-23 11:36:26,801] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.06, 127.0.0.1:52577]
+[2022-12-23 11:36:37,494] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.05, 127.0.0.1:52590]
+[2022-12-23 11:36:37,556] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.11, 127.0.0.1:52589]
+[2022-12-23 11:36:37,785] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/2 200 [0.08, 127.0.0.1:52596]
+[2022-12-23 11:36:37,868] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /modules/?project= 200 [0.05, 127.0.0.1:52599]
+[2022-12-23 11:36:41,916] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.09, 127.0.0.1:52610]
+[2022-12-23 11:41:23,025] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /deleteAuto/ 200 [0.01, 127.0.0.1:52729]
+[2022-12-23 11:41:31,929] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.06, 127.0.0.1:52736]
+[2022-12-23 11:45:16,564] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /deleteAuto/ 200 [0.01, 127.0.0.1:52832]
+[2022-12-23 13:05:52,724] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.69, 127.0.0.1:54188]
+[2022-12-23 13:05:52,728] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.71, 127.0.0.1:54187]
+[2022-12-23 15:32:55,380] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.96, 127.0.0.1:54839]
+[2022-12-23 15:37:16,804] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /deleteAuto/ 200 [0.05, 127.0.0.1:54896]
+[2022-12-23 15:37:23,739] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.16, 127.0.0.1:54903]
+[2022-12-23 15:37:25,178] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.10, 127.0.0.1:54909]
+[2022-12-23 15:37:25,477] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.09, 127.0.0.1:54912]
+[2022-12-23 15:56:31,359] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [8.26, 127.0.0.1:55761]
+[2022-12-23 15:57:12,102] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.39, 127.0.0.1:55841]
+[2022-12-23 15:57:18,130] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [2.17, 127.0.0.1:55858]
+[2022-12-23 15:59:13,292] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.29, 127.0.0.1:56024]
+[2022-12-23 16:17:56,224] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /deleteAuto/ 200 [0.19, 127.0.0.1:57016]
+[2022-12-23 16:17:59,732] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.31, 127.0.0.1:57023]
+[2022-12-23 16:18:54,098] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.22, 127.0.0.1:57055]
+[2022-12-23 16:18:55,306] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /deleteAuto/ 200 [0.02, 127.0.0.1:57060]
+[2022-12-23 16:19:18,199] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /deleteAuto/ 200 [0.01, 127.0.0.1:57075]
+[2022-12-23 16:41:24,295] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.31, 127.0.0.1:57714]
+[2022-12-23 16:51:53,495] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.64, 127.0.0.1:58397]
+[2022-12-23 16:55:00,918] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.26, 127.0.0.1:58570]
+[2022-12-23 17:44:07,937] [log.py:241] [log:log_response] [WARNING]- Not Found: /cases/jquery.min.js
+[2022-12-23 17:44:08,088] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /cases/jquery.min.js 404 [6.10, 127.0.0.1:60251]
+[2022-12-23 17:44:08,266] [log.py:241] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-12-23 17:44:08,282] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /favicon.ico 404 [0.14, 127.0.0.1:60251]
+[2022-12-23 18:29:05,444] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /deleteAuto/ 200 [8.78, 127.0.0.1:61464]
+[2022-12-23 18:29:08,938] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /deleteAuto/ 200 [0.78, 127.0.0.1:61473]
+[2022-12-23 18:29:23,996] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [23.05, 127.0.0.1:61469]
+[2022-12-23 18:32:50,706] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /deleteAuto/ 200 [0.00, 127.0.0.1:61663]
+[2022-12-23 18:34:40,607] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /deleteAuto/ 200 [0.06, 127.0.0.1:61713]
+[2022-12-23 18:36:29,756] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.24, 127.0.0.1:61760]
+[2022-12-23 18:36:34,430] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /deleteAuto/ 200 [0.01, 127.0.0.1:61767]
+[2022-12-23 18:44:40,464] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.31, 127.0.0.1:62081]
+[2022-12-23 18:44:49,532] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /deleteAuto/ 200 [0.01, 127.0.0.1:62090]
+[2022-12-23 18:45:17,912] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [1.59, 127.0.0.1:62117]
+[2022-12-23 18:45:20,945] [log.py:241] [log:log_response] [WARNING]- Not Found: /cases/jquery.min.js
+[2022-12-23 18:45:20,987] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /cases/jquery.min.js 404 [2.17, 127.0.0.1:62120]
+[2022-12-23 18:51:59,585] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /deleteAuto/ 200 [0.01, 127.0.0.1:62335]
+[2022-12-23 18:59:01,068] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.49, 127.0.0.1:62507]
+[2022-12-23 19:27:33,347] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py changed, reloading.
+[2022-12-23 19:28:27,865] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-23 19:28:36,024] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-23 19:28:36,024] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-23 19:28:36,024] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-23 19:28:40,675] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py changed, reloading.
+[2022-12-23 19:28:44,701] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-23 19:28:45,247] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-23 19:28:45,247] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-23 19:28:45,247] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-23 19:30:33,102] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py changed, reloading.
+[2022-12-23 19:30:36,737] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-23 19:30:37,283] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-23 19:30:37,283] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-23 19:30:37,283] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-23 19:32:47,986] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\urls.py changed, reloading.
+[2022-12-23 19:33:30,126] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-23 19:34:02,572] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-23 19:34:02,573] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-23 19:34:02,575] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-23 19:38:44,317] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-23 19:38:44,332] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.06, 127.0.0.1:63704]
+[2022-12-23 19:39:48,845] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [10.45, 127.0.0.1:63704]
+[2022-12-23 19:39:58,729] [log.py:241] [log:log_response] [WARNING]- Not Found: /cases/jquery.min.js
+[2022-12-23 19:39:58,730] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /cases/jquery.min.js 404 [0.43, 127.0.0.1:63704]
+[2022-12-23 19:40:17,373] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py changed, reloading.
+[2022-12-23 19:40:32,914] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-23 19:40:36,003] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-23 19:40:36,003] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-23 19:40:36,003] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-23 19:58:13,042] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /deleteAuto/ 200 [3.14, 127.0.0.1:63875]
+[2022-12-23 20:00:14,194] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-23 20:00:15,029] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [4.56, 127.0.0.1:64022]
+[2022-12-23 20:01:10,160] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-23 20:01:10,257] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.20, 127.0.0.1:64106]
+[2022-12-23 20:04:47,164] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /deleteAuto/ 200 [0.02, 127.0.0.1:64429]
+[2022-12-23 20:05:45,212] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-23 20:05:45,218] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.07, 127.0.0.1:64498]
+[2022-12-23 20:06:40,488] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-23 20:06:40,495] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.03, 127.0.0.1:64618]
+[2022-12-23 20:08:32,902] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /deleteAuto/ 200 [0.01, 127.0.0.1:64755]
+[2022-12-23 20:08:58,977] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-23 20:08:58,988] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.05, 127.0.0.1:64779]
+[2022-12-23 20:09:57,058] [log.py:241] [log:log_response] [WARNING]- Not Found: /cases/jquery.min.js
+[2022-12-23 20:09:57,169] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /cases/jquery.min.js 404 [1.69, 127.0.0.1:64813]
+[2022-12-23 20:10:16,157] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [7.40, 127.0.0.1:64831]
+[2022-12-23 20:10:48,529] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.40, 127.0.0.1:64869]
+[2022-12-23 20:10:48,644] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.51, 127.0.0.1:64870]
+[2022-12-23 20:11:13,865] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-23 20:11:13,873] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.02, 127.0.0.1:64904]
+[2022-12-23 20:11:17,938] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-23 20:11:17,946] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.02, 127.0.0.1:64908]
+[2022-12-23 20:12:14,486] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-23 20:12:14,498] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.04, 127.0.0.1:65061]
+[2022-12-23 20:13:23,079] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-23 20:13:23,088] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.03, 127.0.0.1:65128]
+[2022-12-23 20:16:06,164] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /cases/ 200 [0.23, 127.0.0.1:65238]
+[2022-12-23 20:18:55,454] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /deleteAuto/ 200 [0.01, 127.0.0.1:65304]
+[2022-12-23 20:19:36,945] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-23 20:19:36,945] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.00, 127.0.0.1:65332]
+[2022-12-23 20:21:25,090] [fiddlerExe.py:37] [fiddlerExe:getDatas] [INFO]- True
+[2022-12-23 20:21:25,136] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /dealFiddler/ 200 [0.06, 127.0.0.1:65485]

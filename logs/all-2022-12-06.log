@@ -1,0 +1,222 @@
+[2022-12-06 13:47:27,615] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-06 13:47:33,983] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-06 13:47:33,985] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-06 13:47:33,988] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-06 13:50:58,859] [log.py:222] [log:log_response] [WARNING]- Not Found: /htinterface/projects
+[2022-12-06 13:50:58,872] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /htinterface/projects 404 [0.35, 127.0.0.1:54154]
+[2022-12-06 13:51:33,260] [log.py:222] [log:log_response] [WARNING]- Not Found: /htinterface/projects
+[2022-12-06 13:51:33,262] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /htinterface/projects 404 [0.01, 127.0.0.1:54201]
+[2022-12-06 13:51:35,034] [log.py:222] [log:log_response] [WARNING]- Not Found: /
+[2022-12-06 13:51:35,035] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET / 404 [0.01, 127.0.0.1:54205]
+[2022-12-06 13:52:01,255] [log.py:222] [log:log_response] [WARNING]- Not Found: /
+[2022-12-06 13:52:01,256] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET / 404 [0.01, 127.0.0.1:54244]
+[2022-12-06 13:52:06,461] [log.py:222] [log:log_response] [WARNING]- Not Found: /jquery.min.js
+[2022-12-06 13:52:06,462] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /jquery.min.js 404 [0.01, 127.0.0.1:54244]
+[2022-12-06 13:52:06,562] [log.py:222] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-12-06 13:52:06,566] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /favicon.ico 404 [0.02, 127.0.0.1:54250]
+[2022-12-06 13:52:10,344] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.35, 127.0.0.1:54250]
+[2022-12-06 13:52:13,223] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /projects/jquery.min.js
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\fields\__init__.py", line 1768, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'jquery.min.js'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py", line 249, in get
+    pro=Project.objects.filter(id=projectId)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\sql\query.py", line 1337, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\sql\query.py", line 1362, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\sql\query.py", line 1298, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\sql\query.py", line 1155, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\fields\__init__.py", line 1770, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'jquery.min.js'.
+[2022-12-06 13:52:13,232] [runserver.py:160] [runserver:log_action] [ERROR]- HTTP GET /projects/jquery.min.js 500 [2.71, 127.0.0.1:54250]
+[2022-12-06 13:53:54,095] [log.py:222] [log:log_response] [WARNING]- Not Found: /htinterface/projects
+[2022-12-06 13:53:54,096] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /htinterface/projects 404 [0.93, 127.0.0.1:54402]
+[2022-12-06 13:54:19,820] [log.py:222] [log:log_response] [WARNING]- Not Found: /htinterface/projects
+[2022-12-06 13:54:19,822] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /htinterface/projects 404 [0.02, 127.0.0.1:54439]
+[2022-12-06 13:54:43,389] [runserver.py:153] [runserver:log_action] [INFO]- HTTP GET /projects 301 [0.01, 127.0.0.1:54484]
+[2022-12-06 13:58:27,984] [log.py:222] [log:log_response] [WARNING]- Not Found: /htinterface/htinterface/projects
+[2022-12-06 13:58:27,986] [runserver.py:155] [runserver:log_action] [WARNING]- HTTP GET /htinterface/htinterface/projects 404 [0.28, 127.0.0.1:54813]
+[2022-12-06 14:09:45,996] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [4.67, 127.0.0.1:55987]
+[2022-12-06 16:37:49,386] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /projects/jquery.min.js
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\fields\__init__.py", line 1768, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'jquery.min.js'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py", line 249, in get
+    pro=Project.objects.filter(id=projectId)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\sql\query.py", line 1337, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\sql\query.py", line 1362, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\sql\query.py", line 1298, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\sql\query.py", line 1155, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\fields\__init__.py", line 1770, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'jquery.min.js'.
+[2022-12-06 16:37:49,416] [runserver.py:160] [runserver:log_action] [ERROR]- HTTP GET /projects/jquery.min.js 500 [18.43, 127.0.0.1:64658]
+[2022-12-06 16:41:07,745] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.07, 127.0.0.1:64914]
+[2022-12-06 16:42:18,008] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.03, 127.0.0.1:64989]
+[2022-12-06 16:42:22,630] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.14, 127.0.0.1:64994]
+[2022-12-06 16:46:28,738] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.01, 127.0.0.1:65095]
+[2022-12-06 17:13:35,437] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /projects/jquery.min.js
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\fields\__init__.py", line 1768, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'jquery.min.js'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py", line 249, in get
+    pro=Project.objects.filter(id=projectId)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\sql\query.py", line 1337, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\sql\query.py", line 1362, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\sql\query.py", line 1298, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\sql\query.py", line 1155, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\fields\__init__.py", line 1770, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'jquery.min.js'.
+[2022-12-06 17:13:35,440] [runserver.py:160] [runserver:log_action] [ERROR]- HTTP GET /projects/jquery.min.js 500 [3.82, 127.0.0.1:49485]
+[2022-12-06 17:16:06,270] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py changed, reloading.
+[2022-12-06 17:20:12,922] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-06 17:20:21,406] [server.py:111] [server:run] [INFO]- HTTP/2 support enabled
+[2022-12-06 17:20:21,406] [server.py:122] [server:run] [INFO]- Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2022-12-06 17:20:21,406] [server.py:153] [server:listen_success] [INFO]- Listening on TCP address 127.0.0.1:8000
+[2022-12-06 17:20:43,217] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [1.79, 127.0.0.1:49554]
+[2022-12-06 17:21:09,200] [log.py:222] [log:log_response] [ERROR]- Internal Server Error: /projects/jquery.min.js
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\fields\__init__.py", line 1768, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'jquery.min.js'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\pythonList\web_python310\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\myweb\myweb\saas\views.py", line 249, in get
+    pro=Project.objects.filter(id=projectId)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\sql\query.py", line 1337, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\sql\query.py", line 1362, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\sql\query.py", line 1298, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\sql\query.py", line 1155, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "D:\pythonList\web_python310\lib\site-packages\django\db\models\fields\__init__.py", line 1770, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'jquery.min.js'.
+[2022-12-06 17:21:09,210] [runserver.py:160] [runserver:log_action] [ERROR]- HTTP GET /projects/jquery.min.js 500 [11.08, 127.0.0.1:49562]
+[2022-12-06 17:30:13,523] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [16.27, 127.0.0.1:49733]
+[2022-12-06 17:31:46,984] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.18, 127.0.0.1:49765]
+[2022-12-06 17:31:59,604] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.27, 127.0.0.1:49780]
+[2022-12-06 17:33:01,456] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.12, 127.0.0.1:49840]
+[2022-12-06 17:34:07,535] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.04, 127.0.0.1:49912]
+[2022-12-06 17:34:11,106] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.02, 127.0.0.1:49928]
+[2022-12-06 17:34:51,354] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.02, 127.0.0.1:49977]
+[2022-12-06 17:36:50,854] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.08, 127.0.0.1:50106]
+[2022-12-06 17:36:56,624] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.30, 127.0.0.1:50122]
+[2022-12-06 17:37:25,058] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.06, 127.0.0.1:50156]
+[2022-12-06 17:37:26,226] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.03, 127.0.0.1:50166]
+[2022-12-06 17:38:25,600] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.05, 127.0.0.1:50202]
+[2022-12-06 17:38:26,316] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.03, 127.0.0.1:50208]
+[2022-12-06 17:38:51,893] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.03, 127.0.0.1:50227]
+[2022-12-06 17:39:17,720] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /projects/ 200 [0.11, 127.0.0.1:50246]

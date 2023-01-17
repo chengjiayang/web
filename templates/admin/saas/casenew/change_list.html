@@ -1,0 +1,37 @@
+{% extends "admin/change_list.html" %}
+{% load i18n admin_urls %}
+
+{% block extrahead %}
+{{ block.super }}
+{{ media.js }}
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+<script  type="text/javascript">
+$(document).ready(function() {
+$("input#searchbar").attr({"placeholder":"支持id/描述/路径模糊查询"});
+$("button").before('<label id="count" style="display: none;">次数<input type="text" size="2" name="count" id="dumplicate_count"></label>');
+$('body').on('change',"select[name='action']",function(){
+        if ($(this).val() == 'dumplicate_execute') {
+		$("label#count").show();
+		}
+		else{
+		$("label#count").hide();
+		}
+	});
+});
+
+
+</script>
+{% endblock %}
+
+{% block object-tools-items %}
+<li><a href="/admin/saas/casenew/import/" class="import_link">导入</a></li>
+<li><a href="/admin/saas/casenew/export/?" class="export_link">导出</a></li>
+<li>
+    <a href="/admin/saas/casenew/add/" class="addlink">
+      增加 接口用例
+    </a>
+</li>
+
+    <li><a href="/result_last/" target="_black" class="testlog">查看上一次测试报告</a></li>
+{% endblock %}
